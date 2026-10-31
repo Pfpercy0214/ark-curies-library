@@ -24,3 +24,22 @@ for x in json.loads((R/'history/ingestion/paper-001-evidence-assets.json').read_
 assert (R/'investigations/conversions/paper-001/draft.md').read_bytes()==(R/'raw/papers/paper-001-temporal-geometry-conv-01.md').read_bytes(),'Pilot copy changed'
 print(f'Prepared batch verified: {len(prepared)} new paper files; all {len(old["items"])} prior records/bytes unchanged; review records and original pilot evidence present.')
 print('Integrity/provenance gates only; source reviews are recorded separately. Not a merge or scientific validation.')
+
+# Full prepared evidence inventory and eventual-archive-relative links.
+import re
+from urllib.parse import unquote
+assets=json.loads((R/'history/ingestion/prepared-assets.json').read_text())
+for a in assets:
+ b=(R/a['path']).read_bytes()
+ assert hashlib.sha256(b).hexdigest()==a['sha256'] and len(b)==a['size_bytes'], 'Evidence mismatch: '+a['path']
+for x in prepared:
+ p=R/x['path']
+ for target in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',p.read_text()):
+  target=target.split(' "')[0]
+  if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:',target) or target.startswith('#'):continue
+  assert (p.parent/unquote(target.split('#')[0])).resolve().is_file(),'Broken archive-relative link: '+x['path']+' '+target
+coverage=json.loads((R/'history/ingestion/full-source-page-coverage.json').read_text())
+assert len(coverage)==839 and len({(x['source'],x['pdf_page']) for x in coverage})==839
+assert sum(x['paper'] is not None for x in coverage)==830
+assert len(prepared)==25 and {x['paper'] for x in prepared}==set(range(1,26))
+print(f'Final scope verified: 25 papers, 830 paper pages + 9 shared pages; {len(assets)} evidence files hashed; all local raw Markdown links resolve.')

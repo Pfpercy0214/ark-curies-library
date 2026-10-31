@@ -128,6 +128,40 @@
     "independent_verification": "history/ingestion/paper-007/independent-verification.md"
   },
   {
+    "paper": 8,
+    "path": "raw/papers/paper-008-thermodynamic-flow-conv-01.md",
+    "sha256": "39310d04c9b43e9ce0d121d397a6e934d37681bb89ea4c43c1a83e7f8f701045",
+    "size_bytes": 235146,
+    "source": "compiled-volume-2",
+    "pdf_pages": [
+      44,
+      162
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-008/audit.md",
+    "independent_verification": "history/ingestion/paper-008/independent-verification.md"
+  },
+  {
+    "paper": 9,
+    "path": "raw/papers/paper-009-biology-conv-01.md",
+    "sha256": "096fb4c9ad806d0a0611169220bc4fe943c7aaf13c92a2ad3a6a0f6fc89f7b9f",
+    "size_bytes": 45145,
+    "source": "compiled-volume-2",
+    "pdf_pages": [
+      163,
+      192
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-009/audit.md",
+    "independent_verification": "history/ingestion/paper-009/independent-verification.md"
+  },
+  {
     "paper": 10,
     "path": "raw/papers/paper-010-planetary-precession-conv-01.md",
     "sha256": "87d1df879fbca4444290e8da7db099e234ba8a5f1961db62f4e8c833993f494f",
@@ -246,6 +280,40 @@
     "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
     "audit": "history/ingestion/paper-016/audit.md",
     "independent_verification": "history/ingestion/paper-016/independent-verification.md"
+  },
+  {
+    "paper": 17,
+    "path": "raw/papers/paper-017-voyager-anomaly-conv-01.md",
+    "sha256": "b5c5008edf922c500a24ecb8955397ffa626ead620cdb2e91af120f71de38bf4",
+    "size_bytes": 21029,
+    "source": "standalone-XVII",
+    "pdf_pages": [
+      1,
+      15
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-017/audit.md",
+    "independent_verification": "history/ingestion/paper-017/independent-verification.md"
+  },
+  {
+    "paper": 18,
+    "path": "raw/papers/paper-018-recursive-scalar-geometry-conv-01.md",
+    "sha256": "b26b9637d677c1890a3d0b64ec06827ca959aa2c119fdcac725dd6b97b1a7181",
+    "size_bytes": 65686,
+    "source": "standalone-XVIII",
+    "pdf_pages": [
+      1,
+      36
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-018/audit.md",
+    "independent_verification": "history/ingestion/paper-018/independent-verification.md"
   },
   {
     "paper": 19,

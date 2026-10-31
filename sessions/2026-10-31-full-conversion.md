@@ -29,3 +29,11 @@ Prepared Papers 4, 16, 21, 23 with separate verification; [batch record](../hist
 ## Batch 06
 
 Prepared Papers 6, 7, 24, 25 with separate verification; [batch record](../history/ingestion/batches/batch-06.md). Total prepared: 21 papers. Earlier registered bytes and records unchanged.
+
+## Batch 07
+
+Prepared Papers 8, 9, 17, 18 with separate verification; [batch record](../history/ingestion/batches/batch-07.md). Total prepared: 25 papers. Earlier registered bytes and records unchanged.
+
+## Final local verification
+
+All 25 papers and shared material complete; [final report](../history/ingestion/final-conversion-report.md). Independent bundle PASS plus complete 31-file evidence inventory/link validation. GitHub content-tree upload hit size timeout; recovered by uploading immutable blobs then SHA-only trees. Destination/payload authorization was verified against original assignment and full-series owner delegation. No merge.

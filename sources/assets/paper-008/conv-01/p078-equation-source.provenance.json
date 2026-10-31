@@ -1,0 +1,15 @@
+{
+  "source_path": "Complete Aetherwave Unified Theory Part 2.pdf",
+  "source_blob": "c511e7baa47ca1c37e31e4445839e5aadfe6d12a",
+  "source_sha256": "e4568a9894782114023d74befea0e689f3d0d8b07d4514ea40c9b40f47492ec8",
+  "pdf_page": 78,
+  "crop_pdf_points": [
+    68,
+    478,
+    172,
+    501
+  ],
+  "render": "PyMuPDF 4x (288 dpi), no content alteration",
+  "sha256": "19eb487de2ed424414edb1ecc258c9c17a1382f958f564da83159b53092b5e7a",
+  "purpose": "audit evidence: SymbolMT U+F0E0 visible lozenge"
+}

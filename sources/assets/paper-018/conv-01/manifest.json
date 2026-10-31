@@ -1,0 +1,90 @@
+[
+  {
+    "file": "compressed-equation.png",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      72,
+      575.22998046875,
+      540,
+      614.6300048828125
+    ],
+    "sha256": "b3ab9f8f932d49345a427be9f6fea4224a590fe6ec3511b25518890cbb6c57d6"
+  },
+  {
+    "file": "source-p002-evidence.png",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "1f947a35d275ae0625d6da55e424eb73fc12dd6a81ff8af31a47eb307f8a718f"
+  },
+  {
+    "file": "source-p003-evidence.png",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "4230314791966f9462bde124dd01b85dac52b125195af3d61d97d4eb921a0999"
+  },
+  {
+    "file": "source-p007-evidence.png",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "239a4ea5f8a5e615c47ecbf83851321decb2bb9c4ec4d7429edaa5c33b0bc1af"
+  },
+  {
+    "file": "source-p015-evidence.png",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "6c65505e8e70a526ecdfb368bc3d50ff0bf587ced23e668dd159a07f8493587d"
+  },
+  {
+    "file": "source-p016-evidence.png",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "5b2cf46813a7d588c905f45a33da1541c4f5a00ba9388518a77d782d3479844c"
+  },
+  {
+    "file": "source-p030-evidence.png",
+    "pdf_page": 30,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "74a23301aa69d288537e65fb003c79392caf886e5dc620260fc5e6e71e1bdf03"
+  },
+  {
+    "file": "source-p033-evidence.png",
+    "pdf_page": 33,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "bd3f4831547d4d43bd5c540445f49a6ffd106daf02b902a852cbac9469cdb4b1"
+  }
+]

@@ -13,8 +13,8 @@ Status is AI source-checked / import-prepared on an **unmerged** review branch, 
 | 5 | Aetherwave Field Dynamics: Radiation, Curl, and EM Topology | V1 139–271 | [conv-01](../../raw/papers/paper-005-causal-fracture-conv-01.md) |
 | 6 | Particle Identity and Topological Emergence in the Aetheron Framework | V2 1–19 | [conv-01](../../raw/papers/paper-006-particle-identity-conv-01.md) |
 | 7 | Quantum Curvature and the Causal Geometry of Substrat Identity | V2 20–43 | [conv-01](../../raw/papers/paper-007-quantum-curvature-conv-01.md) |
-| 8 | Aetherwave: Thermodynamic Flow and Substrat Equilibrium | V2 44–162 | Independent review pending |
-| 9 | Aetherwave Biology: Causal Geometry of Life and Mind | V2 163–192 | Independent review pending |
+| 8 | Aetherwave: Thermodynamic Flow and Substrat Equilibrium | V2 44–162 | [conv-01](../../raw/papers/paper-008-thermodynamic-flow-conv-01.md) |
+| 9 | Aetherwave Biology: Causal Geometry of Life and Mind | V2 163–192 | [conv-01](../../raw/papers/paper-009-biology-conv-01.md) |
 | 10 | Aetherwave Planetary Precession: Substrat Feedback and Causal Memory in Orbital Dynamics | V2 193–196 | [conv-01](../../raw/papers/paper-010-planetary-precession-conv-01.md) |
 | 11 | Title: Aetherwave Particle Identity Revisited: Quarks, Confinement, and Substrat Resonance | V2 197–203 | [conv-01](../../raw/papers/paper-011-particle-identity-revisited-conv-01.md) |
 | 12 | Causal Slope Dissociation in Neutron-Rich Transmutation: Aetherwave Predictions Aligned with CERN’s Lead-to-Gold Experiment | P12 1–7 | [conv-01](../../raw/papers/paper-012-causal-slope-dissociation-conv-01.md) |
@@ -22,8 +22,8 @@ Status is AI source-checked / import-prepared on an **unmerged** review branch, 
 | 14 | What Is the Substrat? A Mathematical Definition of Causality’s Medium and the Foundations of Physical Identity | P14 1–14 | [conv-01](../../raw/papers/paper-014-substrat-defined-conv-01.md) |
 | 15 | The Aether Reality Kernel: Recursive Scalar Dynamics for Unified Physical Modeling and Comprehensive Retrodictions | P15 1–14 | [conv-01](../../raw/papers/paper-015-aether-reality-kernel-conv-01.md) |
 | 16 | Paper XVI – The Mechanism of the Aether Reality Kernel: Scalar Recursion, Causal Pressure, and Temporal Bifurcation | P16 1–36 | [conv-01](../../raw/papers/paper-016-kernel-mechanism-conv-01.md) |
-| 17 | Predictive Causal Pressure Model and the Voyager Anomaly: A Substrat-Based Analysis | P17 1–15 | Independent review pending |
-| 18 | Paper XVIII: The Recursive Scalar Geometry of Reality | P18 1–36 | Independent review pending |
+| 17 | Predictive Causal Pressure Model and the Voyager Anomaly: A Substrat-Based Analysis | P17 1–15 | [conv-01](../../raw/papers/paper-017-voyager-anomaly-conv-01.md) |
+| 18 | Paper XVIII: The Recursive Scalar Geometry of Reality | P18 1–36 | [conv-01](../../raw/papers/paper-018-recursive-scalar-geometry-conv-01.md) |
 | 19 | XIX- The Aetheron Field and Scalar Foundations of Reality: Empirical Proof, ARK Validation, and Engineering Implications | P19 1–25 | [conv-01](../../raw/papers/paper-019-aetheron-field-conv-01.md) |
 | 20 | XX: Modeling Atomic Structure with ARK: A Deterministic Scalar Approach | P20 1–27 | [conv-01](../../raw/papers/paper-020-atomic-structure-conv-01.md) |
 | 21 | XXI – Quantum Entanglement and Bell’s Theorem in Scalar Geometry | P21 1–17 | [conv-01](../../raw/papers/paper-021-quantum-entanglement-conv-01.md) |

@@ -1,0 +1,157 @@
+[
+  {
+    "path": "sources/assets/compilation-volume-1/conv-01/epilogue-pages-272-274.pdf",
+    "size_bytes": 751082,
+    "sha256": "cf65eaed48bd797602c07025e467423e8affd98d80d7195cc65672b801eeafaf"
+  },
+  {
+    "path": "sources/assets/compilation-volume-1/conv-01/front-matter-pages-001-006.pdf",
+    "size_bytes": 4667006,
+    "sha256": "537d7e532ef6f40f504be915e699e4b0198765f25af63c0085083ede117a4329"
+  },
+  {
+    "path": "sources/assets/paper-001/conv-01/source-pages-007-052.pdf",
+    "size_bytes": 943412,
+    "sha256": "390df22706694ff18e4083333a983db0cfaf29fc45f9462e339294daf91d5bd2"
+  },
+  {
+    "path": "sources/assets/paper-004/conv-01/einstein-tensor-p135.png",
+    "size_bytes": 61703,
+    "sha256": "ea18429d46898e8c829bb4a8010ffc10f8e27a0974683ef6a048fadbfdbb936b"
+  },
+  {
+    "path": "sources/assets/paper-004/conv-01/shield-p122.png",
+    "size_bytes": 938,
+    "sha256": "ea5620fe79d8794c018276f1e8637a75b26101ea002472da5e4e4c8631cedc1e"
+  },
+  {
+    "path": "sources/assets/paper-008/conv-01/p078-equation-source.png",
+    "size_bytes": 5479,
+    "sha256": "19eb487de2ed424414edb1ecc258c9c17a1382f958f564da83159b53092b5e7a"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/figure-01.png",
+    "size_bytes": 43594,
+    "sha256": "9489104c42e0c0fef2295261ba22d8bcde792fb248322243fb61df3c35298189"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/source-p002-odd-notation.png",
+    "size_bytes": 180504,
+    "sha256": "d8f3b3376629e06a3985ba2bbbf282e09ebbf6fb7b9bba738482d81c97e405bf"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/source-p023-table.png",
+    "size_bytes": 147626,
+    "sha256": "08ba92d1d03b27084b6b5a32d0016547aa93622ac15d52acc8ccc5e3dd4e7b2b"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/source-p026-table.png",
+    "size_bytes": 155148,
+    "sha256": "9b55c7abd9ea4194c45a2fe8ec1e2cf18ba6fe7c418ec72391615f30b267aa6e"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/source-p032-table.png",
+    "size_bytes": 121187,
+    "sha256": "a1bed0f024cf8e5187def39f0d9d7890a58a618eab3edbb30761ea7d382d6314"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/source-p035-table.png",
+    "size_bytes": 152658,
+    "sha256": "afce1ac57605f81973dc74a1f25b145fcca352f9ce37a82616b3b0a65f76f066"
+  },
+  {
+    "path": "sources/assets/paper-016/conv-01/source-p036-table.png",
+    "size_bytes": 63109,
+    "sha256": "2969c825fcbf5e528e47437c3df479bf2ee31641be10c0d3ab7bfae5c0ca50ec"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p003-figure.png",
+    "size_bytes": 74542,
+    "sha256": "e8a32b58d419aa859466ee2114bcc801ffab10c22d0513007c3a399660672434"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p004-figure.png",
+    "size_bytes": 74542,
+    "sha256": "e8a32b58d419aa859466ee2114bcc801ffab10c22d0513007c3a399660672434"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p005-figure.png",
+    "size_bytes": 69798,
+    "sha256": "d9c523c48a6a5c2c45555609b1e16be1099c08364d2816b40069c977a5b183d2"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p006-figure.png",
+    "size_bytes": 74307,
+    "sha256": "e04a11e0db92070e2c4bd416039f02231fb65e05b616e2213465258ca1f8b42a"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p007-figure.png",
+    "size_bytes": 63454,
+    "sha256": "993d2d10cb57e722874bf0288d27b9db946bcd6bb2ae3953df350b571ae63b6a"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p008-figure.png",
+    "size_bytes": 69798,
+    "sha256": "d9c523c48a6a5c2c45555609b1e16be1099c08364d2816b40069c977a5b183d2"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p009-figure.png",
+    "size_bytes": 66108,
+    "sha256": "56fe733ea7a770645cbf6c436d2df15ddeec94372542052331ba27230e1190e3"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p010-figure.png",
+    "size_bytes": 97598,
+    "sha256": "8cc8207b6641e1fbbfe1e42d54e00dc93f5f2e7921e58a5d9a3d80de6329c803"
+  },
+  {
+    "path": "sources/assets/paper-017/conv-01/source-p011-figure.png",
+    "size_bytes": 65553,
+    "sha256": "f53407c86697513e180c4dc087fb9df29a5c602a304066e677f5d2b292275718"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/compressed-equation.png",
+    "size_bytes": 49976,
+    "sha256": "b3ab9f8f932d49345a427be9f6fea4224a590fe6ec3511b25518890cbb6c57d6"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p002-evidence.png",
+    "size_bytes": 174221,
+    "sha256": "1f947a35d275ae0625d6da55e424eb73fc12dd6a81ff8af31a47eb307f8a718f"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p003-evidence.png",
+    "size_bytes": 165400,
+    "sha256": "4230314791966f9462bde124dd01b85dac52b125195af3d61d97d4eb921a0999"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p007-evidence.png",
+    "size_bytes": 159902,
+    "sha256": "239a4ea5f8a5e615c47ecbf83851321decb2bb9c4ec4d7429edaa5c33b0bc1af"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p015-evidence.png",
+    "size_bytes": 139322,
+    "sha256": "6c65505e8e70a526ecdfb368bc3d50ff0bf587ced23e668dd159a07f8493587d"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p016-evidence.png",
+    "size_bytes": 122906,
+    "sha256": "5b2cf46813a7d588c905f45a33da1541c4f5a00ba9388518a77d782d3479844c"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p030-evidence.png",
+    "size_bytes": 139628,
+    "sha256": "74a23301aa69d288537e65fb003c79392caf886e5dc620260fc5e6e71e1bdf03"
+  },
+  {
+    "path": "sources/assets/paper-018/conv-01/source-p033-evidence.png",
+    "size_bytes": 116022,
+    "sha256": "bd3f4831547d4d43bd5c540445f49a6ffd106daf02b902a852cbac9469cdb4b1"
+  },
+  {
+    "path": "sources/assets/paper-021/conv-01/entanglement-p09.png",
+    "size_bytes": 255669,
+    "sha256": "d53d73a4138a5dd633053195448aa696cc28e97c2f7768ec10801222ce614c5c"
+  }
+]
