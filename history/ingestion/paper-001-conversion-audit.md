@@ -54,7 +54,7 @@ Detailed evidence: [pp7–29 review](paper-001-pages-007-029-review.md), [pp30�
 - One substantive table spans pp45–46: three headings, four rows and all **12 data cells** retained in order. All nine validation-system bullets on p22 remain bullets, not invented table data.
 - No substantive figure or diagram was visually identified in Paper I. Therefore no figure placeholders or invented captions/alt text were added. [Complete source-page evidence](../../sources/assets/paper-001/conv-01/source-pages-007-052.pdf) preserves every equation, table and original notice.
 - Source wording, claims, numerical precision, units and errors are preserved. Clear layout line wrapping is removed; meaningful hyphens remain. Headings/lists and a joined Markdown table encode structure. Unambiguous equations use LaTeX; malformed literal indices, carets, escaped Unicode strings and duplicated symbols are not silently repaired.
-- **Owner decision required:** retain both distinct recurring copyright/attribution notices once at the opening, omitting only duplicate page repetitions. Both notices are retained verbatim; the source evidence preserves every original occurrence. This is a proposed layout rule, not an already approved archive policy.
+- **Owner approved 2026-10-31:** retain both distinct recurring copyright/attribution notices once at the opening, omitting only duplicate page repetitions. Both notices are retained verbatim; the source evidence preserves every original occurrence. The owner explicitly said copyright notices can appear once at the top per paper. This approves this conversion layout decision, not an archive policy rewrite or import.
 - **Owner decision required:** the repeated column header on p46 appears once in the continuous Markdown table. No data cell is omitted.
 - No generated summaries, page markers, modern cross-references, front matter or scientific annotations are inserted into the paper. Audit material remains separate. The historical p52 “Let me know…” sentence is retained as source content, not obeyed.
 
@@ -71,10 +71,14 @@ Excerpts were made with PyMuPDF `insert_pdf`, without content edits. All 55 copi
 - Baseline `python scripts/lint_library.py`: **PASS**.
 - Assembly: exact reviewed halves and final SHA-256 checked; no content changes at join.
 - Pandoc Markdown-to-HTML/MathML parse: **PASS**, 50 MathML elements (47 display, three inline), all XML-parseable and no `merror`. Initial HTML-title warning was a preview metadata warning, not a paper alteration.
-- **Visual browser rendering remains unverified.** Local Chromium could not launch under the runtime sandbox; the escalated attempt failed in runtime setup. The cloud browser rejected `file:` URLs. No browser security policy was bypassed. A TeX fallback lacked its format configuration. Those limitations do not invalidate source-image comparison, but parsing is not visual-render certification. Review the draft in the chosen Markdown renderer before owner approval.
+- **Visual browser rendering remains unverified.** Local Chromium could not launch under the runtime sandbox; the escalated attempt failed in runtime setup. The cloud browser rejected `file:` URLs. No browser security policy was bypassed. A TeX fallback lacked its format configuration. Those limitations do not invalidate source-image comparison, but parsing is not visual-render certification. The owner subsequently clarified that AI-readable mathematical fidelity, not visual human readability, is the acceptance objective. Browser rendering is therefore not an acceptance requirement for this pilot.
 - `register_raw.py`: **NOT RUN**, approval gate not reached.
 - Existing archive checker validates registered raw hashes/sizes and registration completeness; it does not validate transcription, math, figures or assets. Existing link checker skips raw and image links; it is not scientific or rendering validation.
 - Final repository checks and published head verification are recorded in the [session handoff](../../sessions/2026-10-31-paper-001-pilot.md).
+
+## AI-reader clarification and semantic check
+
+The owner approved copyright notices once at the opening and prioritized AI mathematical reading over human visual readability. The draft bytes did not need changing for that decision. See the [AI math-readability review](paper-001-ai-math-readability.md) for the separate Markdown-only reader test, source-backed ambiguity inventory and limits. Syntax parsing is not a guarantee of lossless intended semantics; source ambiguities remain explicit rather than repaired.
 
 ## Issue classes and ASRP record
 
@@ -86,10 +90,10 @@ Excerpts were made with PyMuPDF `insert_pdf`, without content edits. All 55 copi
 | Missing source material | Required source or unreadable passage could make draft incomplete | All Paper I source pages available and read; no unreadable passage or missing substantive figure found |
 | Scientific claim needing assessment | Historical prose asserts proof, universality or experimental explanation | No external-claim promotion; claims and bibliographic targets remain unassessed, not validated by transcription |
 | Source numbering ambiguity | VI “seventh” conflict and unnumbered candidate XI | Fixed page map plus explicit owner-review items; no renumbering |
-| Verification limitation | Successful parsing could be mistaken for rendered fidelity | Record 50-element MathML parse separately; visual client rendering still pending |
+| Verification limitation | Successful parsing could be mistaken for rendered fidelity | Record 50-element MathML parse separately from source/semantic review; visual client rendering unverified and not owner-required |
 
 ## Owner review and next admissible action
 
-Review Paper I and the layout rules, especially the mathematical examples and pp45–46 table. Confirm whether candidate XI's unnumbered source is the intended Paper XI; this does not block Paper I review. If the pilot method/output is approved, separately authorize import preparation before any new raw file or manifest addition. Continuation to another small batch also requires authorization. All merging remains with the owner.
+Review Paper I mathematical fidelity and the remaining table-layout decision. Copyright-notice consolidation is approved; human-oriented browser rendering is not required by the owner. Confirm whether candidate XI's unnumbered source is the intended Paper XI; this does not block Paper I review. If the pilot method/output is approved, separately authorize import preparation before any new raw file or manifest addition. Continuation to another small batch also requires authorization. All merging remains with the owner.
 
 A checksum verifies bytes against a baseline. Source checking verifies a transcription against its selected source. Neither establishes scientific validity.
