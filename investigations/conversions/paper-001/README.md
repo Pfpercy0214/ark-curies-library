@@ -15,3 +15,7 @@ For a mathematical sample, inspect §6.2.2 against original PDF p21 (excerpt p15
 No raw file, manifest record, policy or original source was changed. Do not run the intake registrar from this staging state. Source-faithful does not mean scientifically validated. No merge or automatic merge is authorized.
 
 Run `python investigations/conversions/paper-001/verify_pilot.py` to check the fixed draft, evidence assets, raw baseline and page accounting. This check does not replace source review or owner approval.
+
+## Later authorization
+
+The [owner delegated the full I–XXV process](../../../history/ingestion/owner-delegation-2026-10-31.md), including routine review and import preparation, without per-step stamps. This supersedes the earlier pending routine gates above. Paper I is now [prepared as a new archive file](../../../raw/papers/paper-001-temporal-geometry-conv-01.md) byte-for-byte; nothing is merged. Use the [current prepared-batch verifier](../verify_prepared_batch.py) after intake preparation; the earlier pilot verifier intentionally describes its original pre-intake path set.

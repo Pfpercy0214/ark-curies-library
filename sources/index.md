@@ -13,3 +13,7 @@ Start from `templates/source-card.md`. Do not fabricate references, or copy full
 - [Papers I–XXV source inventory](../history/ingestion/source-inventory.md).
 - [Paper I source pages](assets/paper-001/conv-01/README.md) and [shared compilation material](assets/compilation-volume-1/conv-01/README.md).
 - These are provenance/fidelity records only. No external experiment or bibliography target was assessed in the archival pilot.
+
+## Authorized full conversion — first reviewed batch
+
+[Owner delegation](../history/ingestion/owner-delegation-2026-10-31.md) supersedes routine pilot/batch stamps for this assignment. [Batch 01](../history/ingestion/batches/batch-01.md) prepares I, II and XII on the unmerged review branch; [ledger](../history/ingestion/prepared-papers.json) records exact identities and reviews. Source-checked is not scientifically validated or merged. XXV is disciplined containment; cognition excluded.

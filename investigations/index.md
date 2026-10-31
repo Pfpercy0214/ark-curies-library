@@ -13,3 +13,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Archival conversion work
 
 - [Paper I pilot](conversions/paper-001/README.md): SOURCE_CHECKED / NEEDS_REVIEW. Inventory complete with explicit VI/XI numbering ambiguities; only Paper I converted. No archive intake or scientific assessment performed.
+
+## Authorized full conversion — first reviewed batch
+
+[Owner delegation](../history/ingestion/owner-delegation-2026-10-31.md) supersedes routine pilot/batch stamps for this assignment. [Batch 01](../history/ingestion/batches/batch-01.md) prepares I, II and XII on the unmerged review branch; [ledger](../history/ingestion/prepared-papers.json) records exact identities and reviews. Source-checked is not scientifically validated or merged. XXV is disciplined containment; cognition excluded.

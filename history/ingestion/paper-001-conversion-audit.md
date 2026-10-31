@@ -97,3 +97,7 @@ The owner approved copyright notices once at the opening and prioritized AI math
 Review Paper I mathematical fidelity and the remaining table-layout decision. Copyright-notice consolidation is approved; human-oriented browser rendering is not required by the owner. Confirm whether candidate XI's unnumbered source is the intended Paper XI; this does not block Paper I review. If the pilot method/output is approved, separately authorize import preparation before any new raw file or manifest addition. Continuation to another small batch also requires authorization. All merging remains with the owner.
 
 A checksum verifies bytes against a baseline. Source checking verifies a transcription against its selected source. Neither establishes scientific validity.
+
+## Later owner delegation and preparation
+
+The [2026-10-31 full-series delegation](owner-delegation-2026-10-31.md) supersedes the routine approval gates above, including proceeding with the reviewed pilot and joined table. Paper I was copied byte-for-byte as a unique new raw file and registered on the unmerged review branch. Status: AI_SOURCE_CHECKED / IMPORT_PREPARED_UNMERGED, not individually human-reviewed or merged. All original archive bytes and pre-existing manifest records remain unchanged. See [batch 01](batches/batch-01.md).

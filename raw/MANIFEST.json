@@ -29,6 +29,27 @@
       "origin": "Ark setup documentation created 2026-10-31",
       "ingested_date": "2026-10-31",
       "locked": true
+    },
+    "raw/papers/paper-001-temporal-geometry-conv-01.md": {
+      "sha256": "b2b53855a34301c8930c2e24e469f0e53a3bf819ee941d9e5bdb714b0e81a8be",
+      "size_bytes": 71441,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-002-black-hole-interior-conv-01.md": {
+      "sha256": "b4f9ecb19d3e8725dae61430ddae329de58b612846459fca85a348ba3279f44e",
+      "size_bytes": 44389,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-012-causal-slope-dissociation-conv-01.md": {
+      "sha256": "57c6bf7c187df55d34450908ab4ff29ce1858cb5de3df7ac7572f5bc558b22af",
+      "size_bytes": 14249,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
     }
   }
 }
