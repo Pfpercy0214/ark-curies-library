@@ -17,3 +17,11 @@ The owner also clarified:
 Resolved exact source: `XXV-Disciplined Containment in a Scalar Medium.pdf`, 79 pages, blob `35d8f091ff634e56a176c7dc84d16406ece885e9`. Cognition is separate and excluded; both XXVI-labeled files remain out of scope. The unnumbered candidate XI stays outside raw until its series designation is resolved; complete text preparation can proceed without inventing a heading.
 
 The existing registrar was inspected: it accepts only new Markdown under raw/papers, rejects changed hashes for existing paths, appends new records, and serializes JSON. It was run only after this superseding delegation, with an origin explicitly saying AI-transcribed/separately source-verified and owner-delegated, not individually human-reviewed. Existing record objects and manifest metadata were compared unchanged; raw baseline bytes remain hash-checked. No registrar/policy code was changed.
+
+## Later volume-order evidence
+
+The owner subsequently recalled:
+
+> The two files that were labeled "the complete" part one and two, part one contained 1 through 5, and I believe part 2 contained 6 through 11. I don't know if that helps.
+
+This qualified recollection matches the independently inspected five and six publication segments. The final V2 segment is now cataloged as XI on the owner-recalled/sequence-supported basis; it is **not** described as explicitly numbered XI in the source. Its heading/text are unchanged. Its separate source review passed, so absence of a printed numeral alone no longer blocks routine intake preparation. VI's contradictory “seventh formal entry” remains verbatim. The earlier outside-raw hold above was the state before this additional evidence.

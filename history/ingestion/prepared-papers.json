@@ -34,6 +34,58 @@
     "independent_verification": "history/ingestion/paper-002/independent-verification.md"
   },
   {
+    "paper": 3,
+    "path": "raw/papers/paper-003-causal-fracture-cosmology-conv-01.md",
+    "sha256": "9810ad3a07881d922fb8311d6bbacd905b54e9e1e3267c27aa28218e34f9eb69",
+    "size_bytes": 34629,
+    "source": "V1",
+    "pdf_pages": [
+      78,
+      101
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-003/audit.md",
+    "independent_verification": "history/ingestion/paper-003/independent-verification.md"
+  },
+  {
+    "paper": 10,
+    "path": "raw/papers/paper-010-planetary-precession-conv-01.md",
+    "sha256": "87d1df879fbca4444290e8da7db099e234ba8a5f1961db62f4e8c833993f494f",
+    "size_bytes": 7298,
+    "source": "V2",
+    "pdf_pages": [
+      193,
+      196
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-010/audit.md",
+    "independent_verification": "history/ingestion/paper-010/independent-verification.md"
+  },
+  {
+    "paper": 11,
+    "path": "raw/papers/paper-011-particle-identity-revisited-conv-01.md",
+    "sha256": "29ab4bb6bf18cc9f551fc5f0783cc7fa350f43f8a891617d09990e738b172335",
+    "size_bytes": 15447,
+    "source": "V2",
+    "pdf_pages": [
+      197,
+      203
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-011/audit.md",
+    "independent_verification": "history/ingestion/paper-011/independent-verification.md",
+    "catalog_designation_basis": "Owner recalled V2 contains VI–XI; sixth bounded segment follows X. Source itself unnumbered; original heading unchanged."
+  },
+  {
     "paper": 12,
     "path": "raw/papers/paper-012-causal-slope-dissociation-conv-01.md",
     "sha256": "57c6bf7c187df55d34450908ab4ff29ce1858cb5de3df7ac7572f5bc558b22af",

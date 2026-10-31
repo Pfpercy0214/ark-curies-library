@@ -72,3 +72,7 @@ Reviewer: archival boundary sub-review, 2026-10-31. Tools: GitHub branch/tree re
 Persisted evidence: [477-page JSON ledger](volume-page-coverage.json), [human-readable page ledger](volume-page-coverage.md), and [edition comparisons](edition-comparisons.json). Boundary PNGs were viewed as working evidence, not added to the repository. Original source PDFs remain retrievable at the recorded commit; exact source pages and locators above make every boundary reproducible. The page ledger is generated audit evidence, not paper content.
 
 ASRP: difficulty = compiled documents may contain shared-page boundaries, numbering conflicts, or non-paper matter; risk = guessed page ranges or silently repaired sequence; check = fixed Git identities, all-page coverage scan, title/closing source-image inspection, explicit ambiguity records; outcome = 477 pages accounted with separate shared front/back matter and unresolved VI/XI numbering preserved. No paper was bulk-converted, no original source changed, and no archive import performed.
+
+## Later owner recollection — catalog update
+
+On 2026-10-31 the owner recalled V1 contains I–V and believed V2 contains VI–XI. This agrees with the five/six bounded segments above. XI may therefore be used as an owner-recalled/sequence-supported catalog designation, with this uncertainty preserved; the source itself is still unnumbered and its heading is not changed. VI's conflicting “seventh formal entry” is retained. This updates the prior catalog hold, not the physical page map or historical paper text.
