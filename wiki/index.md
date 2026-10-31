@@ -25,3 +25,8 @@ This is the **AI-maintained compiled layer**. The source shelf is under `raw/`; 
 
 - Paper imports are pending. Do not invent the contents of not-yet-imported papers.
 - Epistemic charters have been copied to `raw/epistemics/` and are the initial immutable collection.
+
+## Staged archival work
+
+- [Paper I conversion pilot](../investigations/conversions/paper-001/README.md): source-checked draft awaiting owner review; not imported.
+- [Source inventory and boundaries](../history/ingestion/source-inventory.md): individual papers distinguished from compiled PDF containers.

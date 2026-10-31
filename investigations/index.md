@@ -9,3 +9,7 @@ This is a **question ledger**, not a finding ledger. Research must compare again
 5. **Magnetic order and zero net moment:** compare ordinary antiferromagnets, altermagnets and disordered systems; distinguish equilibrium spin structure from actual transport currents.
 
 Each investigation requires: source paths, assumptions, test specification, external measurements, outcomes, alternatives, limitations, next falsifier, and an independent review note.
+
+## Archival conversion work
+
+- [Paper I pilot](conversions/paper-001/README.md): SOURCE_CHECKED / NEEDS_REVIEW. Inventory complete with explicit VI/XI numbering ambiguities; only Paper I converted. No archive intake or scientific assessment performed.
