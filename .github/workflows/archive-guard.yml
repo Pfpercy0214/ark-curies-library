@@ -3,33 +3,70 @@ on:
   pull_request:
   push:
     branches: [main]
+
 jobs:
   archive-guard:
     runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
-      - name: Checkout with history for diff checks
+      - name: Checkout history for archive verification
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Check registered source hashes
+
+      - name: Verify registered archived bytes
         run: python3 scripts/check_archive.py
-      - name: Block modification/deletion of preexisting archive files in PRs
-        if: github.event_name == 'pull_request'
+
+      - name: Detect changes to previously archived files or manifest records
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+          PUSH_BEFORE: ${{ github.event.before }}
+          PUSH_AFTER: ${{ github.sha }}
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin "$BASE_SHA" --depth=1 || true
-          git diff --name-status "$BASE_SHA" "$HEAD_SHA" -- raw/ > /tmp/archive-changes.txt
-          echo 'Archive changes:'
-          cat /tmp/archive-changes.txt
-          if awk '$1 !~ /^A$/ && $2 != "raw/MANIFEST.json" { exit 1 }' /tmp/archive-changes.txt; then
-            echo 'No existing raw files were altered (manifest changes are checked by the checksum verifier).'
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            BASE_SHA="$PR_BASE"
+            HEAD_SHA="$PR_HEAD"
           else
-            echo 'ERROR: modifying/deleting a historical raw file is forbidden; add a versioned copy instead.'
+            BASE_SHA="$PUSH_BEFORE"
+            HEAD_SHA="$PUSH_AFTER"
+          fi
+
+          # GitHub sends all-zero 'before' on the first push of a new branch.
+          if [[ "$BASE_SHA" =~ ^0+$ ]]; then
+            echo "Initial branch push: no previous archive to compare."
+            exit 0
+          fi
+          git fetch --no-tags origin "$BASE_SHA" "$HEAD_SHA" || true
+          git diff --name-status "$BASE_SHA" "$HEAD_SHA" -- raw/ > /tmp/archive-changes.txt
+          echo "Archive changes:"
+          cat /tmp/archive-changes.txt
+
+          # New, registered historical files are allowed. Deletions,
+          # renames and edits to existing historical bytes are forbidden.
+          if ! awk '$1 != "A" && $2 != "raw/MANIFEST.json" { exit 1 }' /tmp/archive-changes.txt; then
+            echo "::error::Existing raw files were modified, renamed or removed."
             exit 1
+          fi
+
+          # Even when a contributor updates the manifest and raw files
+          # together, historical manifest entries must remain unchanged.
+          if git cat-file -e "$BASE_SHA:raw/MANIFEST.json" 2>/dev/null; then
+            git show "$BASE_SHA:raw/MANIFEST.json" > /tmp/base-manifest.json
+            git show "$HEAD_SHA:raw/MANIFEST.json" > /tmp/head-manifest.json
+            python3 - <<'PY'
+          import json,sys
+          old=json.load(open('/tmp/base-manifest.json',encoding='utf-8')).get('items',{})
+          new=json.load(open('/tmp/head-manifest.json',encoding='utf-8')).get('items',{})
+          bad=[p for p,v in old.items() if new.get(p)!=v]
+          if bad:
+              print('ERROR: historical manifest entries were deleted or changed:')
+              print('\n'.join(bad))
+              sys.exit(1)
+          print('Historical manifest entries preserved:',len(old))
+          PY
           fi
