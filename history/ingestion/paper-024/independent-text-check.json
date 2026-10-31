@@ -1,0 +1,13 @@
+{
+  "source_sha256": "fab1c065b272a4e5beeb51f39ddbf3082bc2d5c87dc4679911d6007f9d36c4c0",
+  "draft_sha256": "09911c0471e765e64e549bad14bd60d255434b5a6cc9e4eccf412e5b8822f8c8",
+  "source_chars": 64347,
+  "draft_chars": 64347,
+  "missing_char_multiset": {},
+  "extra_char_multiset": {},
+  "outside_table_ordered_chars": [
+    59528,
+    59528
+  ],
+  "outside_table_diffs": []
+}

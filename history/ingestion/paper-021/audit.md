@@ -1,5 +1,9 @@
 # Paper XXI — drafter source-fidelity audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `b78509b2558e2958d415796e61873c163ae50f8312474f907ffd072fad0e4111`, 31907 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Drafter-checked only; independent verification pending. Complete fixed standalone17pages, not another edition. Source commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `e7c7d0dec538acba0b527083b8e16579bb337f92`; file `XXI – Quantum Entanglement and Bell’s Theorem in Scalar GeometryV1.pdf`; SHA-256 `a109cdb931babb0a479801b1a88d6fcf752b8c3852c608bb92084d18103dbcfe`. Title, author, AI collaborator labels and September1,2025 date retained; filenameV1 not promoted into a publication-edition statement.
 
 All17pages rendered1.6× and actually visually read. Every equation, numeric statement, table cell and figure inspected. Native extraction used only as starting text.

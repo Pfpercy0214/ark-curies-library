@@ -14,7 +14,13 @@
     "status": "IMPORT_PREPARED_UNMERGED",
     "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
     "audit": "history/ingestion/paper-001-conversion-audit.md",
-    "independent_verification": "history/ingestion/paper-001-independent-verification.md"
+    "independent_verification": "history/ingestion/paper-001-math-source-semantics.md",
+    "final_hash_verification": [
+      "history/ingestion/paper-001-math-source-semantics.md",
+      "history/ingestion/paper-001-ai-math-readability.md"
+    ],
+    "review_binding_note": "All-page source-image review plus final-hash source-backed semantics followup and blind Markdown math reading; no content change between reviewed draft and raw copy.",
+    "prior_all_page_verification": "history/ingestion/paper-001-independent-verification.md"
   },
   {
     "paper": 2,
@@ -85,6 +91,41 @@
     "independent_verification": "history/ingestion/paper-005/independent-verification.md",
     "display_title": "Aetherwave Field Dynamics: Radiation, Curl, and EM Topology",
     "filename_note": "Non-authoritative slug causal-fracture is a naming error; content and source title are Paper V. Registered file/record preserved unchanged."
+  },
+  {
+    "paper": 6,
+    "path": "raw/papers/paper-006-particle-identity-conv-01.md",
+    "sha256": "420662ef0f17dfc496881bcaf01f97c88a4151b2ef0a21c8da5b42fd8a99a328",
+    "size_bytes": 35733,
+    "source": "compiled-volume-2",
+    "pdf_pages": [
+      1,
+      19
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-006/audit.md",
+    "independent_verification": "history/ingestion/paper-006/independent-verification.md",
+    "catalog_designation_basis": "Later source citations call title VI, supported by owner volume recollection; conflicting seventh formal entry wording preserved."
+  },
+  {
+    "paper": 7,
+    "path": "raw/papers/paper-007-quantum-curvature-conv-01.md",
+    "sha256": "0a199ccb6a41bf111acf4c5ce71785ec79a59433e7e514ea8c2a345088a44f9a",
+    "size_bytes": 43280,
+    "source": "compiled-volume-2",
+    "pdf_pages": [
+      20,
+      43
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-007/audit.md",
+    "independent_verification": "history/ingestion/paper-007/independent-verification.md"
   },
   {
     "paper": 10,
@@ -290,5 +331,39 @@
     "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
     "audit": "history/ingestion/paper-023/audit.md",
     "independent_verification": "history/ingestion/paper-023/independent-verification.md"
+  },
+  {
+    "paper": 24,
+    "path": "raw/papers/paper-024-quantum-gravity-conv-01.md",
+    "sha256": "09911c0471e765e64e549bad14bd60d255434b5a6cc9e4eccf412e5b8822f8c8",
+    "size_bytes": 81734,
+    "source": "standalone-XXIV",
+    "pdf_pages": [
+      1,
+      46
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-024/audit.md",
+    "independent_verification": "history/ingestion/paper-024/independent-verification.md"
+  },
+  {
+    "paper": 25,
+    "path": "raw/papers/paper-025-disciplined-containment-conv-01.md",
+    "sha256": "1df23477e459905b539ae491573bf584f901e623550452961470425dcfc547f7",
+    "size_bytes": 111693,
+    "source": "standalone-XXV",
+    "pdf_pages": [
+      1,
+      79
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-025/audit.md",
+    "independent_verification": "history/ingestion/paper-025/independent-verification.md"
   }
 ]

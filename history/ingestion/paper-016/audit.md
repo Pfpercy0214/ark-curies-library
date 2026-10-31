@@ -1,5 +1,9 @@
 # Paper XVI conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `5cd665e776968737871da2de038fd8a64f4f72d793d4b6107ae43ff724b370cc`, 57114 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: DRAFTED; drafter source-image checked. Independent verification pending. Not imported.
 
 Source `XVI The Mechanism of the Aether Reality Kernel- Scalar Recursion, Causal Pressure, and Temporal Bifurcation.pdf` at commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `833534cfee6d82967e559868689a2c1fee6f0060`; SHA-256 `13898b831c644ebd37189e4f1922904463d02458d859e309c55ac062e1db0abd`. Complete PDF pages 1–36; no printed folios. Stated Paper XVI, full title, Paul Frederick Percy Jr. & Curie GPTo, 7/21/2025 retained. Edition not stated. Conversion date 2026-10-31.

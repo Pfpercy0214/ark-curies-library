@@ -1,5 +1,9 @@
 # Paper I conversion audit — conv-01 pilot
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `b2b53855a34301c8930c2e24e469f0e53a3bf819ee941d9e5bdb714b0e81a8be`, 71441 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 **Status: SOURCE_CHECKED / NEEDS_REVIEW. Owner approval: pending. Import preparation: not authorized. Nothing is imported or merged.**
 
 ## Task and boundary

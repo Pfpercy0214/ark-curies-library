@@ -1,0 +1,54 @@
+[
+  {
+    "page": 6,
+    "source": "u = ½ kᶜ θᶜ²"
+  },
+  {
+    "page": 7,
+    "source": "d/dt (θᶜ τᶜ kᶜ) = 0 for a closed system"
+  },
+  {
+    "page": 9,
+    "source": "dSₜ dt = kᶜ⁻¹ ∂θᶜ/∂t"
+  },
+  {
+    "page": 10,
+    "source": "ω = ∂θᶜ/∂τᶜ, and sign(dSₜ) defines the arrow of time."
+  },
+  {
+    "page": 13,
+    "source": "T_{μν} ∝ τᶜ kᶜ θᶜ θᶜ"
+  },
+  {
+    "page": 20,
+    "source": "U ∝ kᶜ θᶜ² Z²"
+  },
+  {
+    "page": 21,
+    "source": "q ∝ Z · ω θᶜ, m ∝ Z · kᶜ θᶜ²"
+  },
+  {
+    "page": 25,
+    "source": "ρₑff = ½ kᶜ θᶜ² + τᶜ (∂θᶜ/∂t)²."
+  },
+  {
+    "page": 25,
+    "source": "θᶜₙ(r,t) = Aₙ sin(n π r / L) e^(−i ωₙ t) with ωₙ² = (kᶜ / τᶜ)(n π / L)²."
+  },
+  {
+    "page": 43,
+    "source": "∇²Φ = 4π G ρ with kᶜ₀ ↔ 1/(2G) to leading order."
+  },
+  {
+    "page": 45,
+    "source": "Δω/ω = ½ Δ(kᶜ/τᶜ) / (kᶜ/τᶜ) ≈ − Δ(kᶜ/τᶜ) (up to convention; paper uses linearized sign)"
+  },
+  {
+    "page": 46,
+    "source": "C[δθ] − (1/c²) ∂²δθ/∂t² = (τ₀/k₀) ∂(δdSₜ)/∂t + higher order."
+  },
+  {
+    "page": 46,
+    "source": "d/dt ∫Ω [½ kᶜ θᶜ² + τᶜ (∂θᶜ/∂t)²] dV = − ∫Ω θᶜ ω (∂θᶜ/∂t) dV"
+  }
+]

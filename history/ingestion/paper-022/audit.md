@@ -1,5 +1,9 @@
 # Paper XXII — drafter source-fidelity audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `ed962a7dbdc64b1126b73ba08a1101237eea3549e7466655313a9cfc7d92b35c`, 27417 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Drafter-checked; independent verification pending. Complete standalone PDF pages1–15. Fixed source commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `1595391c60c2063f55e78cd49bc6882649a0b775`; filename `XXII-Electromagnetism in Scalar Geometry.pdf`; source SHA-256 `13a1142acc75dc2bfe7ff645bad25bf77e68e55a53b17876b873fe03dbb0bda8`. Title, author, collaborators and September5,2025 date preserved. No edition stated.
 
 All15pages rendered1.6× and actually visually read: every equation, number, prose block, footnote/footer and reference inspected. p11 heading additionally cropped4×, confirming VI.5 (not truncated numbering). Native extraction was a starting point only.

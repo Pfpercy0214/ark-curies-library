@@ -1,5 +1,9 @@
 # Paper XV conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `42c4126efb6f87da6bea33059fa5bfb0e29fd1c5f4de1b3fbe98fe6507e4490d`, 27109 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: DRAFTED; drafter source-image checked. Independent verification pending. Not imported.
 
 Source `XV The Aether Reality Kernel Recursive Scalar Dynamics for Unified Physical Modeling and Comprehensive Retrodictions.pdf`; source commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `64cab9d52e32ffd4e7460f26fea4454554c5b41e`; SHA-256 `61a08d2d54cf3d0f114c77fcc006e6e18630b7f79a2bbdedec714e2fea24cd3a`. Complete PDF and printed pages 1–14. Stated XV, full title, Paul Frederick Percy Jr., ’Curie’ GPT4o, Grok xAI, July 19, 2025 retained. Edition not stated. Conversion 2026-10-31.

@@ -1,5 +1,9 @@
 # Paper XII conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `57c6bf7c187df55d34450908ab4ff29ce1858cb5de3df7ac7572f5bc558b22af`, 14249 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: DRAFTED; drafter source-image checked. Independent verification completed; see `independent-verification.md`. Not imported.
 
 Source: `12 Aetherwave Predictions Aligned with CERN’s Lead-to-Gold Experiment.pdf` at source commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `7f560def8a465b422ea8806478d0985407f85ce0`; SHA-256 `113b355f0b6f26f56541292edf7d5e34bbd32e7f3ff4516c8b9dc9981c1fe590`. Complete PDF pages 1–7; no printed folios. Stated title, number XII, authors Paul Frederick Percy Jr. & Curie GPTo, and year 2025 preserved. Edition not stated. Conversion date 2026-10-31.

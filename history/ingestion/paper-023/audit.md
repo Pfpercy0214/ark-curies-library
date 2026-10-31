@@ -1,5 +1,9 @@
 # Paper XXIII — drafter source-fidelity audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `f0ccc89ce52c7b8d1f808f1c67bf3e12259390c54b78098cc44ee5c587f09510`, 41669 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Drafter-checked only; independent verification pending. Complete fixed standalone24pages. Source commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `7b7e305dbdaa6f7d9c93f78fa432fc7ce0ca7fcb`; filename `XXIII Scalar Geometry of Thermoelectricity.pdf`; source SHA-256 `f389d4c23dcea6187b8ff8603259064cbbd8014e1e0ce6cbd94003bd3a98e9d2`. Original title/subtitle, author/collaborator labels and September13,2025 date retained. No edition stated.
 
 All24pages rendered1.6× and actually read, including every mathematical/numerical expression, references, copyright and final embedded drafting dialogue. Native extraction was a starting point, not sole evidence.

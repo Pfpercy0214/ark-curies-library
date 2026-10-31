@@ -1,5 +1,9 @@
 # Paper III conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `9810ad3a07881d922fb8311d6bbacd905b54e9e1e3267c27aa28218e34f9eb69`, 34629 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: drafter-checked only; independent verification pending.
 
 ## Source and boundaries

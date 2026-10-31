@@ -148,6 +148,34 @@
       "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
       "ingested_date": "2026-10-31",
       "locked": true
+    },
+    "raw/papers/paper-006-particle-identity-conv-01.md": {
+      "sha256": "420662ef0f17dfc496881bcaf01f97c88a4151b2ef0a21c8da5b42fd8a99a328",
+      "size_bytes": 35733,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-007-quantum-curvature-conv-01.md": {
+      "sha256": "0a199ccb6a41bf111acf4c5ce71785ec79a59433e7e514ea8c2a345088a44f9a",
+      "size_bytes": 43280,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-024-quantum-gravity-conv-01.md": {
+      "sha256": "09911c0471e765e64e549bad14bd60d255434b5a6cc9e4eccf412e5b8822f8c8",
+      "size_bytes": 81734,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-025-disciplined-containment-conv-01.md": {
+      "sha256": "1df23477e459905b539ae491573bf584f901e623550452961470425dcfc547f7",
+      "size_bytes": 111693,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
     }
   }
 }

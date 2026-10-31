@@ -1,5 +1,9 @@
 # Paper XX conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `eadc62b67c1996cd393a1ff86cd1ab055fbc9565ef862679758ca2a9e55fd229`, 54599 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: drafter source-checked; independent verification pending. Not registered.
 
 Source: `XX Modeling Atomic Structure with ARKV2.pdf`; fixed source commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; blob `05ff8bf05575e0859a5e89db233c4538e54f3827`; SHA-256 `cfe6be2001ed70329cace1a53e19b4a591b3f410b888fa28624bcb3bd7311ca0`. Complete PDF pp1–27 including original closing AI dialogue. Title date August16,2025 retained as source; conversion2026-10-31. FilenameV2 is not asserted as in-document edition.

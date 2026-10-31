@@ -1,5 +1,9 @@
 # Paper XIV conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `d1857d3dd10638d537494c125ad03a18fbb325fcc463178f0a85efcfb6499cb4`, 30944 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: DRAFTED; drafter source-image checked. Independent verification pending. Not imported.
 
 Source `14 Substrat Defined.pdf`; commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `2fca66c6e9e0aca643253fce2c6621d9bf3b00a1`. Complete PDF pages 1–14, no printed folios. Stated title “What Is the Substrat?” and subtitle, XIV, authors Paul Frederick Percy Jr. & Curie GPTo, 2025 preserved. Edition not stated. The separate “Author: Paul F. Percy” before conclusion remains in its original position.

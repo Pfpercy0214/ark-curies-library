@@ -1,5 +1,9 @@
 # Drafter audit — paper-011
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `29ab4bb6bf18cc9f551fc5f0783cc7fa350f43f8a891617d09990e738b172335`, 15447 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: drafter checked; independent verification pending. Not imported or registered.
 
 ## Source and identity

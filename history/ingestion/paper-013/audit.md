@@ -1,5 +1,9 @@
 # Paper XIII conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `c302bc5bd6b9acf4d5b73e7a7e960b72daae13e33dc65e6b4b2152ee0c2a97e2`, 15348 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: DRAFTED; drafter source-image checked. Independent verification pending. Not imported.
 
 Source `13 Directed Identity Transference in Entangled Systems.pdf` at commit `110e554d944eeda6b0e14795f45a94b8a27a805e`; Git blob `a7a7c49758f2061c5f74f2cf66240f67c9bf8af3`; SHA-256 `67676c11f0f1ac2d0388087434fbe06320e43f706bab298e7dbcfa8502e9d24b`. Complete PDF pages 1–7, no printed folios. Title, number XIII, Paul Frederick Percy Jr. & Curie GPTo, year 2025 preserved. Edition not stated. Conversion date 2026-10-31.

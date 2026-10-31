@@ -1,0 +1,8 @@
+{
+  "∂²ψ/∂t² + dSₜ ∂ψ/∂t = τᶜ ∇²ψ + kᶜ θᶜ sin(ω ψ)": "\\partial^2\\psi/\\partial t^2 + dS_t\\,\\partial\\psi/\\partial t = \\tau^c\\,\\nabla^2\\psi + k^c\\,\\theta^c\\,\\sin(\\omega\\psi)",
+  "g = -∇ (θᶜ τᶜ) / kᶜ": "g = -\\nabla(\\theta^c\\,\\tau^c)/k^c",
+  "g ≈ - (θᶜ τᶜ / kᶜ) · (M / r²)": "g \\approx -(\\theta^c\\,\\tau^c/k^c)\\cdot(M/r^2)",
+  "g = -G M / r²": "g = -G M/r^2",
+  "Γ ∝ (dSₜ θᶜ) / kᶜ": "\\Gamma \\propto (dS_t\\,\\theta^c)/k^c",
+  "F = −∇(θᶜ·τᶜ / kᶜ)": "F = -\\nabla(\\theta^c\\cdot\\tau^c/k^c)"
+}

@@ -1,5 +1,9 @@
 # Paper XIX conversion audit
 
+<!-- current-intake-binding -->
+**Current intake binding (2026-10-31):** AI-source-checked and independently verified; IMPORT_PREPARED_UNMERGED under owner delegation. Final registered SHA-256 `c1e6a104991acbf27424e4e896386582366cd533276461a64a4cb21dd4fe8abc`, 70260 bytes. Earlier draft-status/fingerprint notes below are historical; the separate final verification and prepared ledger control current status. No individual human review or scientific validation claimed.
+<!-- /current-intake-binding -->
+
 Status: drafter source-checked; separate verification pending. Not imported.
 
 Source: `XIX The Aetheron Field and Scalar Foundations of Realityv2.pdf`, commit `110e554d944eeda6b0e14795f45a94b8a27a805e`, blob `63e2574c49d7b46ea81010f670b1a125187f6423`, SHA-256 `572b40c88333f17820838b4efff419b410af19e7930ecec5a900ac8c626c99d8`. Complete PDF pp1–25; filename v2 is not asserted as in-document edition. Title/authorship/date preserved, including `Paul Fredric Percy Jr` on title and different Frederick in footer. Stated July 30 2025; conversion 2026-10-31.

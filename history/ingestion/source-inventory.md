@@ -1,5 +1,7 @@
 # Source inventory: Papers I–XXV
 
+**Current scope update:** The original pilot-only status below is a historical inventory snapshot, superseded by [owner delegation](owner-delegation-2026-10-31.md). Current per-paper preparation/review status is in the [prepared ledger](prepared-papers.json). In scope: 25 papers, 830 paper pages plus 9 shared compilation pages = 839 source PDF pages. XXV is disciplined containment; cognition and baryonic XXVI works remain excluded.
+
 Inventory date: 2026-10-31. Source repository: `Pfpercy0214/aetherwave-unified-theory`, current `main` commit `110e554d944eeda6b0e14795f45a94b8a27a805e` verified by GitHub branch and recursive-tree reads on this date.
 
 Status: **INVENTORIED** for source identity and document extent only. This is not conversion, source-to-Markdown checking, bibliographic validation, or scientific assessment.

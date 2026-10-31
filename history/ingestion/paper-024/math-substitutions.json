@@ -1,0 +1,172 @@
+[
+  {
+    "page": 1,
+    "source": "∇·(kᶜ ∇θᶜ) − (1 / c²) ∂²θᶜ / ∂t² = (τᶜ / kᶜ) ∂(dSₜ)/∂t + Λ(θᶜ, ω),",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) - ( 1 / c ^{2}) \\partial ^{2}\\theta ^{c} / \\partial t ^{2} = ( \\tau ^{c} / k ^{c}) \\partial ( d S _{t}) / \\partial t + \\Lambda ( \\theta ^{c}, \\omega ) ,"
+  },
+  {
+    "page": 5,
+    "source": "∂θᶜ/∂t = − ω θᶜ + kᶜ dSₜ",
+    "latex": "\\partial \\theta ^{c}/ \\partial t = - \\omega \\theta ^{c} + k ^{c} d S _{t}"
+  },
+  {
+    "page": 5,
+    "source": "∇·(kᶜ ∇θᶜ) = source (dSₜ, τᶜ)",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) = \\operatorname{source} ( d S _{t}, \\tau ^{c})"
+  },
+  {
+    "page": 6,
+    "source": "∂τᶜ/∂t = − θᶜ dSₜ",
+    "latex": "\\partial \\tau ^{c}/ \\partial t = - \\theta ^{c} d S _{t}"
+  },
+  {
+    "page": 6,
+    "source": "dSₜ ∝ ∂(θᶜ τᶜ)/∂t",
+    "latex": "d S _{t} \\propto \\partial ( \\theta ^{c} \\tau ^{c}) / \\partial t"
+  },
+  {
+    "page": 7,
+    "source": "ω = ∂θᶜ/∂τᶜ",
+    "latex": "\\omega = \\partial \\theta ^{c}/ \\partial \\tau ^{c}"
+  },
+  {
+    "page": 9,
+    "source": "dSₜ ∝ ∂(θᶜ τᶜ)/∂t",
+    "latex": "d S _{t} \\propto \\partial ( \\theta ^{c} \\tau ^{c}) / \\partial t"
+  },
+  {
+    "page": 9,
+    "source": "∮ kᶜ ∇θᶜ · dA = ∫Ωᶜ τᶜ dSₜ dV",
+    "latex": "\\oint k ^{c} \\nabla \\theta ^{c} \\cdot d A = \\int \\Omega ^{c} \\tau ^{c} d S _{t} d V"
+  },
+  {
+    "page": 12,
+    "source": "∂θᶜ/∂t = − ω θᶜ + kᶜ dSₜ",
+    "latex": "\\partial \\theta ^{c}/ \\partial t = - \\omega \\theta ^{c} + k ^{c} d S _{t}"
+  },
+  {
+    "page": 12,
+    "source": "∇·(kᶜ ∇θᶜ) = ∂/∂t (ω θᶜ) + source (dSₜ, τᶜ)",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) = \\partial / \\partial t ( \\omega \\theta ^{c}) + \\operatorname{source} ( d S _{t}, \\tau ^{c})"
+  },
+  {
+    "page": 12,
+    "source": "∇·(kᶜ ∇θᶜ) = ρₑff",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) = \\rho _{e}f f"
+  },
+  {
+    "page": 13,
+    "source": "∇·(kᶜ ∇θᶜ) = (8π G/kᶜ) u = 8π G ρₑff",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) = ( 8 \\pi G / k ^{c}) u = 8 \\pi G \\rho _{e}f f"
+  },
+  {
+    "page": 13,
+    "source": "∇² θᶜ = (8π G/kᶜ) ρₑff",
+    "latex": "\\nabla ^{2} \\theta ^{c} = ( 8 \\pi G / k ^{c}) \\rho _{e}f f"
+  },
+  {
+    "page": 13,
+    "source": "∇² Φ = 4π G ρ",
+    "latex": "\\nabla ^{2} \\Phi = 4 \\pi G \\rho"
+  },
+  {
+    "page": 15,
+    "source": "ω = (∂θᶜ / ∂τᶜ)",
+    "latex": "\\omega = ( \\partial \\theta ^{c} / \\partial \\tau ^{c})"
+  },
+  {
+    "page": 16,
+    "source": "Δt = 1 / ω, and ω = ∂θᶜ / ∂τᶜ.",
+    "latex": "\\Delta t = 1 / \\omega , \\quad\\text{and}\\quad \\omega = \\partial \\theta ^{c} / \\partial \\tau ^{c}."
+  },
+  {
+    "page": 17,
+    "source": "∂θᶜ/∂t = − ω θᶜ + kᶜ dSₜ",
+    "latex": "\\partial \\theta ^{c}/ \\partial t = - \\omega \\theta ^{c} + k ^{c} d S _{t}"
+  },
+  {
+    "page": 17,
+    "source": "∇ × E = − ∂B/∂t and ∇ × B = μ₀ ε₀ ∂E/∂t",
+    "latex": "\\nabla \\times E = - \\partial B / \\partial t \\quad\\text{and}\\quad \\nabla \\times B = \\mu _{0} \\epsilon _{0} \\partial E / \\partial t"
+  },
+  {
+    "page": 17,
+    "source": "∇ × (θᶜ τᶜ) = − ∂(kᶜ θᶜ)/∂t",
+    "latex": "\\nabla \\times ( \\theta ^{c} \\tau ^{c}) = - \\partial ( k ^{c} \\theta ^{c}) / \\partial t"
+  },
+  {
+    "page": 18,
+    "source": "∇T ∝ ∇(θᶜ/kᶜ)",
+    "latex": "\\nabla T \\propto \\nabla ( \\theta ^{c}/ k ^{c})"
+  },
+  {
+    "page": 20,
+    "source": "Φᶜ = ∮ₛ kᶜ ∇θᶜ · dA",
+    "latex": "\\Phi ^{c} = \\oint _{s} k ^{c} \\nabla \\theta ^{c} \\cdot d A"
+  },
+  {
+    "page": 20,
+    "source": "Φᶜ = n Φ₀ᶜ, where n ∈ ℤ⁺",
+    "latex": "\\Phi ^{c} = n \\Phi _{0}^{c}, \\quad\\text{where}\\quad n \\in \\mathbb{Z} ^{+}"
+  },
+  {
+    "page": 21,
+    "source": "∮ ω dt = 2π Z",
+    "latex": "\\oint \\omega d t = 2 \\pi Z"
+  },
+  {
+    "page": 22,
+    "source": "θᶜ(measured) = ⟨ θᶜᵢ ⟩ = (1/N) Σ θᶜᵢ",
+    "latex": "\\theta ^{c}( \\text{measured} ) = \\langle \\theta ^{c}_{i} \\rangle = ( 1 / N ) \\Sigma \\theta ^{c}_{i}"
+  },
+  {
+    "page": 23,
+    "source": "∂θᶜ/∂t = − ω θᶜ + kᶜ dSₜ",
+    "latex": "\\partial \\theta ^{c}/ \\partial t = - \\omega \\theta ^{c} + k ^{c} d S _{t}"
+  },
+  {
+    "page": 24,
+    "source": "∂θᶜ / ∂t = − ω θᶜ + kᶜ dSₜ,",
+    "latex": "\\partial \\theta ^{c} / \\partial t = - \\omega \\theta ^{c} + k ^{c} d S _{t},"
+  },
+  {
+    "page": 25,
+    "source": "∇·(kᶜ ∇θᶜ) − (1 / c²) ∂²θᶜ / ∂t² = (τᶜ / kᶜ) ∂(dSₜ) / ∂t.",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) - ( 1 / c ^{2}) \\partial ^{2}\\theta ^{c} / \\partial t ^{2} = ( \\tau ^{c} / k ^{c}) \\partial ( d S _{t}) / \\partial t ."
+  },
+  {
+    "page": 25,
+    "source": "∇·(kᶜ ∇θᶜ) = (8 π G) ρₑff − (τᶜ / kᶜ) ∂(dSₜ)/∂t.",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) = ( 8 \\pi G ) \\rho _{e}f f - ( \\tau ^{c} / k ^{c}) \\partial ( d S _{t}) / \\partial t ."
+  },
+  {
+    "page": 26,
+    "source": "∇·(kᶜ ∇θᶜ) = 8 π G ρₑff,",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) = 8 \\pi G \\rho _{e}f f ,"
+  },
+  {
+    "page": 26,
+    "source": "Δω / ω ≈ − Δ(kᶜ / τᶜ).",
+    "latex": "\\Delta \\omega / \\omega \\approx - \\Delta ( k ^{c} / \\tau ^{c}) ."
+  },
+  {
+    "page": 27,
+    "source": "∇·(kᶜ ∇θᶜ) − (1 / c²) ∂²θᶜ / ∂t² = (τᶜ / kᶜ) ∂(dSₜ)/∂t + Λ(θᶜ, ω),",
+    "latex": "\\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) - ( 1 / c ^{2}) \\partial ^{2}\\theta ^{c} / \\partial t ^{2} = ( \\tau ^{c} / k ^{c}) \\partial ( d S _{t}) / \\partial t + \\Lambda ( \\theta ^{c}, \\omega ) ,"
+  },
+  {
+    "page": 43,
+    "source": "C[θᶜ] = ∇·(kᶜ₀ ∇θᶜ) = ρₑff",
+    "latex": "C [ \\theta ^{c}] = \\nabla \\cdot ( k ^{c}_{0} \\nabla \\theta ^{c}) = \\rho _{e}f f"
+  },
+  {
+    "page": 44,
+    "source": "∇ × E = − ∂B/∂t and ∇ × B = μ₀ ε₀ ∂E/∂t",
+    "latex": "\\nabla \\times E = - \\partial B / \\partial t \\quad\\text{and}\\quad \\nabla \\times B = \\mu _{0} \\epsilon _{0} \\partial E / \\partial t"
+  },
+  {
+    "page": 45,
+    "source": "C[θᶜ] = ∇·(kᶜ ∇θᶜ) ≈ kᶜ ∇·(kᶜ ∇(kᶜ T)).",
+    "latex": "C [ \\theta ^{c}] = \\nabla \\cdot ( k ^{c} \\nabla \\theta ^{c}) \\approx k ^{c} \\nabla \\cdot ( k ^{c} \\nabla ( k ^{c} T ) ) ."
+  }
+]
