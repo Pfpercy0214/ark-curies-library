@@ -1,0 +1,35 @@
+name: Archive integrity and modification guard
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  archive-guard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout with history for diff checks
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check registered source hashes
+        run: python3 scripts/check_archive.py
+      - name: Block modification/deletion of preexisting archive files in PRs
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "$BASE_SHA" --depth=1 || true
+          git diff --name-status "$BASE_SHA" "$HEAD_SHA" -- raw/ > /tmp/archive-changes.txt
+          echo 'Archive changes:'
+          cat /tmp/archive-changes.txt
+          if awk '$1 !~ /^A$/ && $2 != "raw/MANIFEST.json" { exit 1 }' /tmp/archive-changes.txt; then
+            echo 'No existing raw files were altered (manifest changes are checked by the checksum verifier).'
+          else
+            echo 'ERROR: modifying/deleting a historical raw file is forbidden; add a versioned copy instead.'
+            exit 1
+          fi
