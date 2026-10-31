@@ -1,0 +1,13 @@
+# Paper XV — independent source verification
+
+PASS. Reviewer was not the drafter. Exact reviewed draft: 27109 UTF-8 bytes; SHA-256 `42c4126efb6f87da6bea33059fa5bfb0e29fd1c5f4de1b3fbe98fe6507e4490d`.
+
+Source: standalone `XV The Aether Reality Kernel Recursive Scalar Dynamics for Unified Physical Modeling and Comprehensive Retrodictions.pdf`, Git blob `64cab9d52e32ffd4e7460f26fea4454554c5b41e`, commit `110e554d944eeda6b0e14795f45a94b8a27a805e`, source SHA-256 `61a08d2d54cf3d0f114c77fcc006e6e18630b7f79a2bbdedec714e2fea24cd3a`.
+
+Independently rendered and actually read all14 physical/printed pages at1.6×; kernel enlarged4× to inspect recurrence indices, stars, summation parentheses and exponent scope. Compared all draft prose, every mathematical/numerical expression, and all72 table cells against the source pixels. No substantive figures. Single copyright notice retained once at opening; source repeated notice and folios are layout-only omissions.
+
+Coverage: p1 title/authors/date/abstract; p2 derivations including both radicals and absent-looking source relations; p3 stiffness/five kernel recurrences/omega update; p4 table18cells and asymmetric conditions; p5 Higgs update/results/cautions; p6 initial conditions/basins/three retrodictions; p7 remaining five retrodictions/CERN; p8 complete inputs/ejections/flight table30cells and thresholds; p9 all rupture steps and comparison table24cells; p10 literal dollars/underscores and equation1; p11 antimatter/equation2; p12 equations3–4 and conclusions; p13 margin/optimization/discussion/references1–4; p14 references5–6 and complete URLs.
+
+Independent mechanical comparison: freshly extracted native PDF blocks (not drafter block JSON), excluding repeated rights and bottom folios, compared to draft after explicit known typography/LaTeX normalization. Exact normalized stream match, 20913 characters. Native radical extraction artifacts (`p`, `q` and delimiter control characters), sum extraction (`P`), math stars and equation tags were independently reconciled against pixels before comparison. This permissive typography comparison is omission detection only; visual inspection separately checked signs, indices and grouping.
+
+All three tables checked cell-by-cell: p4 3×6, p8 5×6, p9 4×6, headers included. Numerical signs and significant digits retained. Source malformed `$dS_t$`, literal baseline underscores in display equations, absent relation signs in prose, and incomplete “within 0.00000” phrase remain faithful. Whitespace-separated source multiplication stars remain visible in prose; no change needed. Bibliography claims and source physics not repaired or evaluated. No draft edits made. No unresolved conversion defects found.

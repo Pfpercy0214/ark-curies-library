@@ -1,0 +1,34 @@
+{
+  "manifest_version": 1,
+  "policy": "Historical raw contents are add-only and never modified by AI. This manifest is human-curated.",
+  "items": {
+    "raw/epistemics/ARK_AI_Onboarding_Brief_v1.0.md": {
+      "sha256": "6b8c476f84e661e397b3860b840b526ed7043d16bdad23e1c227f8a3d9a98a45",
+      "size_bytes": 3757,
+      "origin": "Owner historical Library copy; original source provenance to be recorded",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/epistemics/ARK_Epistemic_Charter_v1.0.md": {
+      "sha256": "dc7745de3517c2a44f31f7f0d066778d6a8937214513bbd5b12ed4bb484b8439",
+      "size_bytes": 85087,
+      "origin": "Owner historical Library copy; original source provenance to be recorded",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/epistemics/ARK_Epistemic_Charter_v1.1.md": {
+      "sha256": "27f54bb4a9f01e9280605b51dc5f283d520e8397ecf3746652a2f2e94b2f621b",
+      "size_bytes": 108191,
+      "origin": "https://github.com/Pfpercy0214/aetherwave-unified-theory/blob/main/00_START_HERE/ARK_Epistemic_Charter.md",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/README_FOR_HUMAN_CURATOR.md": {
+      "sha256": "463933359474e56c24354e18b5628ec9ab8b905898804ecb16355fa095525873",
+      "size_bytes": 1113,
+      "origin": "Ark setup documentation created 2026-10-31",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    }
+  }
+}

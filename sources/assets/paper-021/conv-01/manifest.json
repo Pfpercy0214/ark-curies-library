@@ -1,0 +1,16 @@
+[
+  {
+    "file": "entanglement-p09.png",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      72,
+      214.77001953125,
+      540,
+      682.77001953125
+    ],
+    "render_scale": 2,
+    "sha256": "d53d73a4138a5dd633053195448aa696cc28e97c2f7768ec10801222ce614c5c",
+    "bytes": 255669,
+    "source_blob": "e7c7d0dec538acba0b527083b8e16579bb337f92"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "shield-p122.png",
+    "pdf_page": 122,
+    "crop_pdf_points": [
+      72,
+      627,
+      86.5,
+      640.5
+    ],
+    "render_scale": 3,
+    "sha256": "ea5620fe79d8794c018276f1e8637a75b26101ea002472da5e4e4c8631cedc1e",
+    "bytes": 938,
+    "source_blob": "c39edcd393d3d27aa6a93313e0e9b8f602c47dbf"
+  },
+  {
+    "file": "einstein-tensor-p135.png",
+    "pdf_page": 135,
+    "crop_pdf_points": [
+      72,
+      246.77,
+      422.55,
+      295.87
+    ],
+    "render_scale": 3,
+    "sha256": "ea18429d46898e8c829bb4a8010ffc10f8e27a0974683ef6a048fadbfdbb936b",
+    "bytes": 61703,
+    "source_blob": "c39edcd393d3d27aa6a93313e0e9b8f602c47dbf"
+  }
+]

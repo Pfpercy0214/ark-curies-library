@@ -29,6 +29,181 @@
       "origin": "Ark setup documentation created 2026-10-31",
       "ingested_date": "2026-10-31",
       "locked": true
+    },
+    "raw/papers/paper-001-temporal-geometry-conv-01.md": {
+      "sha256": "b2b53855a34301c8930c2e24e469f0e53a3bf819ee941d9e5bdb714b0e81a8be",
+      "size_bytes": 71441,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-002-black-hole-interior-conv-01.md": {
+      "sha256": "b4f9ecb19d3e8725dae61430ddae329de58b612846459fca85a348ba3279f44e",
+      "size_bytes": 44389,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-012-causal-slope-dissociation-conv-01.md": {
+      "sha256": "57c6bf7c187df55d34450908ab4ff29ce1858cb5de3df7ac7572f5bc558b22af",
+      "size_bytes": 14249,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-003-causal-fracture-cosmology-conv-01.md": {
+      "sha256": "9810ad3a07881d922fb8311d6bbacd905b54e9e1e3267c27aa28218e34f9eb69",
+      "size_bytes": 34629,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-010-planetary-precession-conv-01.md": {
+      "sha256": "87d1df879fbca4444290e8da7db099e234ba8a5f1961db62f4e8c833993f494f",
+      "size_bytes": 7298,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-011-particle-identity-revisited-conv-01.md": {
+      "sha256": "29ab4bb6bf18cc9f551fc5f0783cc7fa350f43f8a891617d09990e738b172335",
+      "size_bytes": 15447,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-013-directed-identity-transference-conv-01.md": {
+      "sha256": "c302bc5bd6b9acf4d5b73e7a7e960b72daae13e33dc65e6b4b2152ee0c2a97e2",
+      "size_bytes": 15348,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-014-substrat-defined-conv-01.md": {
+      "sha256": "d1857d3dd10638d537494c125ad03a18fbb325fcc463178f0a85efcfb6499cb4",
+      "size_bytes": 30944,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-015-aether-reality-kernel-conv-01.md": {
+      "sha256": "42c4126efb6f87da6bea33059fa5bfb0e29fd1c5f4de1b3fbe98fe6507e4490d",
+      "size_bytes": 27109,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-005-causal-fracture-conv-01.md": {
+      "sha256": "784397f49f6105a9b850de3440a16e0cd7db80d069df8b76c53c13dd55198066",
+      "size_bytes": 200575,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-019-aetheron-field-conv-01.md": {
+      "sha256": "c1e6a104991acbf27424e4e896386582366cd533276461a64a4cb21dd4fe8abc",
+      "size_bytes": 70260,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-020-atomic-structure-conv-01.md": {
+      "sha256": "eadc62b67c1996cd393a1ff86cd1ab055fbc9565ef862679758ca2a9e55fd229",
+      "size_bytes": 54599,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-022-electromagnetism-conv-01.md": {
+      "sha256": "ed962a7dbdc64b1126b73ba08a1101237eea3549e7466655313a9cfc7d92b35c",
+      "size_bytes": 27417,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-004-quantum-causality-conv-01.md": {
+      "sha256": "3f9bd13c268c2c7b0ab7d7baae519f3a4323f4ef0713d7b8d26ac01558406f43",
+      "size_bytes": 51801,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-016-kernel-mechanism-conv-01.md": {
+      "sha256": "5cd665e776968737871da2de038fd8a64f4f72d793d4b6107ae43ff724b370cc",
+      "size_bytes": 57114,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-021-quantum-entanglement-conv-01.md": {
+      "sha256": "b78509b2558e2958d415796e61873c163ae50f8312474f907ffd072fad0e4111",
+      "size_bytes": 31907,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-023-thermoelectricity-conv-01.md": {
+      "sha256": "f0ccc89ce52c7b8d1f808f1c67bf3e12259390c54b78098cc44ee5c587f09510",
+      "size_bytes": 41669,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-006-particle-identity-conv-01.md": {
+      "sha256": "420662ef0f17dfc496881bcaf01f97c88a4151b2ef0a21c8da5b42fd8a99a328",
+      "size_bytes": 35733,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-007-quantum-curvature-conv-01.md": {
+      "sha256": "0a199ccb6a41bf111acf4c5ce71785ec79a59433e7e514ea8c2a345088a44f9a",
+      "size_bytes": 43280,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-024-quantum-gravity-conv-01.md": {
+      "sha256": "09911c0471e765e64e549bad14bd60d255434b5a6cc9e4eccf412e5b8822f8c8",
+      "size_bytes": 81734,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-025-disciplined-containment-conv-01.md": {
+      "sha256": "1df23477e459905b539ae491573bf584f901e623550452961470425dcfc547f7",
+      "size_bytes": 111693,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-008-thermodynamic-flow-conv-01.md": {
+      "sha256": "39310d04c9b43e9ce0d121d397a6e934d37681bb89ea4c43c1a83e7f8f701045",
+      "size_bytes": 235146,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-009-biology-conv-01.md": {
+      "sha256": "096fb4c9ad806d0a0611169220bc4fe943c7aaf13c92a2ad3a6a0f6fc89f7b9f",
+      "size_bytes": 45145,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-017-voyager-anomaly-conv-01.md": {
+      "sha256": "b5c5008edf922c500a24ecb8955397ffa626ead620cdb2e91af120f71de38bf4",
+      "size_bytes": 21029,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-018-recursive-scalar-geometry-conv-01.md": {
+      "sha256": "b26b9637d677c1890a3d0b64ec06827ca959aa2c119fdcac725dd6b97b1a7181",
+      "size_bytes": 65686,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
     }
   }
 }

@@ -1,0 +1,371 @@
+[
+  {
+    "path": "sources/assets/paper-001/conv-01/source-pages-007-052.pdf",
+    "sha256": "390df22706694ff18e4083333a983db0cfaf29fc45f9462e339294daf91d5bd2",
+    "size_bytes": 943412,
+    "source_pdf_pages": [
+      7,
+      52
+    ],
+    "source_sha256": "f8cb4138423587ce313dd6c44a0d141946570a2f9006eadfaac18d18cc761b6c",
+    "method": "PyMuPDF insert_pdf, no content edits; all extracted page text and render dimensions equal originals; render channel differences measured, not exact pixel identity",
+    "checks": [
+      {
+        "source_page": 7,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 91452
+      },
+      {
+        "source_page": 8,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 83223
+      },
+      {
+        "source_page": 9,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 95595
+      },
+      {
+        "source_page": 10,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 99642
+      },
+      {
+        "source_page": 11,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 93573
+      },
+      {
+        "source_page": 12,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 92013
+      },
+      {
+        "source_page": 13,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 69348
+      },
+      {
+        "source_page": 14,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 78219
+      },
+      {
+        "source_page": 15,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 81531
+      },
+      {
+        "source_page": 16,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 84261
+      },
+      {
+        "source_page": 17,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 64911
+      },
+      {
+        "source_page": 18,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 109125
+      },
+      {
+        "source_page": 19,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 88752
+      },
+      {
+        "source_page": 20,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 63381
+      },
+      {
+        "source_page": 21,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 51282
+      },
+      {
+        "source_page": 22,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 61800
+      },
+      {
+        "source_page": 23,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 73653
+      },
+      {
+        "source_page": 24,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 63567
+      },
+      {
+        "source_page": 25,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 55836
+      },
+      {
+        "source_page": 26,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 97092
+      },
+      {
+        "source_page": 27,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 80088
+      },
+      {
+        "source_page": 28,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 79107
+      },
+      {
+        "source_page": 29,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 75270
+      },
+      {
+        "source_page": 30,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 72900
+      },
+      {
+        "source_page": 31,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 67476
+      },
+      {
+        "source_page": 32,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 66339
+      },
+      {
+        "source_page": 33,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 85809
+      },
+      {
+        "source_page": 34,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 90849
+      },
+      {
+        "source_page": 35,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 71532
+      },
+      {
+        "source_page": 36,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 63093
+      },
+      {
+        "source_page": 37,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 69798
+      },
+      {
+        "source_page": 38,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 72231
+      },
+      {
+        "source_page": 39,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 68808
+      },
+      {
+        "source_page": 40,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 82419
+      },
+      {
+        "source_page": 41,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 67686
+      },
+      {
+        "source_page": 42,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 60849
+      },
+      {
+        "source_page": 43,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 50580
+      },
+      {
+        "source_page": 44,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 52314
+      },
+      {
+        "source_page": 45,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 68994
+      },
+      {
+        "source_page": 46,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 56037
+      },
+      {
+        "source_page": 47,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 37398
+      },
+      {
+        "source_page": 48,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 29595
+      },
+      {
+        "source_page": 49,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 37770
+      },
+      {
+        "source_page": 50,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 34716
+      },
+      {
+        "source_page": 51,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 36984
+      },
+      {
+        "source_page": 52,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 27237
+      }
+    ]
+  },
+  {
+    "path": "sources/assets/compilation-volume-1/conv-01/front-matter-pages-001-006.pdf",
+    "sha256": "537d7e532ef6f40f504be915e699e4b0198765f25af63c0085083ede117a4329",
+    "size_bytes": 4667006,
+    "source_pdf_pages": [
+      1,
+      6
+    ],
+    "source_sha256": "f8cb4138423587ce313dd6c44a0d141946570a2f9006eadfaac18d18cc761b6c",
+    "method": "PyMuPDF insert_pdf, no content edits; all extracted page text and render dimensions equal originals; render channel differences measured, not exact pixel identity",
+    "checks": [
+      {
+        "source_page": 1,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 60057
+      },
+      {
+        "source_page": 2,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 47289
+      },
+      {
+        "source_page": 3,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 37368
+      },
+      {
+        "source_page": 4,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 54039
+      },
+      {
+        "source_page": 5,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 79143
+      },
+      {
+        "source_page": 6,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 44265
+      }
+    ]
+  },
+  {
+    "path": "sources/assets/compilation-volume-1/conv-01/epilogue-pages-272-274.pdf",
+    "sha256": "cf65eaed48bd797602c07025e467423e8affd98d80d7195cc65672b801eeafaf",
+    "size_bytes": 751082,
+    "source_pdf_pages": [
+      272,
+      274
+    ],
+    "source_sha256": "f8cb4138423587ce313dd6c44a0d141946570a2f9006eadfaac18d18cc761b6c",
+    "method": "PyMuPDF insert_pdf, no content edits; all extracted page text and render dimensions equal originals; render channel differences measured, not exact pixel identity",
+    "checks": [
+      {
+        "source_page": 272,
+        "text_exact": true,
+        "max_channel_difference": 2,
+        "different_channels": 71808
+      },
+      {
+        "source_page": 273,
+        "text_exact": true,
+        "max_channel_difference": 4,
+        "different_channels": 25221
+      },
+      {
+        "source_page": 274,
+        "text_exact": true,
+        "max_channel_difference": 3,
+        "different_channels": 52884
+      }
+    ]
+  }
+]
