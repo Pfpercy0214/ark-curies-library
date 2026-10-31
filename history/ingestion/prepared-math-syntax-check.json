@@ -1,0 +1,86 @@
+{
+  "scope": "Syntax only; literal source expressions not necessarily dollar math. Not scientific or intended-semantics validation.",
+  "results": [
+    {
+      "paper": 1,
+      "sha256": "b2b53855a34301c8930c2e24e469f0e53a3bf819ee941d9e5bdb714b0e81a8be",
+      "pandoc_exit": 0,
+      "mathml_elements": 50,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 2,
+      "sha256": "b4f9ecb19d3e8725dae61430ddae329de58b612846459fca85a348ba3279f44e",
+      "pandoc_exit": 0,
+      "mathml_elements": 27,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 3,
+      "sha256": "9810ad3a07881d922fb8311d6bbacd905b54e9e1e3267c27aa28218e34f9eb69",
+      "pandoc_exit": 0,
+      "mathml_elements": 16,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 10,
+      "sha256": "87d1df879fbca4444290e8da7db099e234ba8a5f1961db62f4e8c833993f494f",
+      "pandoc_exit": 0,
+      "mathml_elements": 5,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 11,
+      "sha256": "29ab4bb6bf18cc9f551fc5f0783cc7fa350f43f8a891617d09990e738b172335",
+      "pandoc_exit": 0,
+      "mathml_elements": 0,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 12,
+      "sha256": "57c6bf7c187df55d34450908ab4ff29ce1858cb5de3df7ac7572f5bc558b22af",
+      "pandoc_exit": 0,
+      "mathml_elements": 7,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 13,
+      "sha256": "c302bc5bd6b9acf4d5b73e7a7e960b72daae13e33dc65e6b4b2152ee0c2a97e2",
+      "pandoc_exit": 0,
+      "mathml_elements": 0,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 14,
+      "sha256": "d1857d3dd10638d537494c125ad03a18fbb325fcc463178f0a85efcfb6499cb4",
+      "pandoc_exit": 0,
+      "mathml_elements": 17,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    },
+    {
+      "paper": 15,
+      "sha256": "42c4126efb6f87da6bea33059fa5bfb0e29fd1c5f4de1b3fbe98fe6507e4490d",
+      "pandoc_exit": 0,
+      "mathml_elements": 78,
+      "merror_count": 0,
+      "xml_errors": [],
+      "stderr": ""
+    }
+  ]
+}

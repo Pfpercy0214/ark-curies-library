@@ -101,5 +101,56 @@
     "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
     "audit": "history/ingestion/paper-012/audit.md",
     "independent_verification": "history/ingestion/paper-012/independent-verification.md"
+  },
+  {
+    "paper": 13,
+    "path": "raw/papers/paper-013-directed-identity-transference-conv-01.md",
+    "sha256": "c302bc5bd6b9acf4d5b73e7a7e960b72daae13e33dc65e6b4b2152ee0c2a97e2",
+    "size_bytes": 15348,
+    "source": "standalone-XIII",
+    "pdf_pages": [
+      1,
+      7
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-013/audit.md",
+    "independent_verification": "history/ingestion/paper-013/independent-verification.md"
+  },
+  {
+    "paper": 14,
+    "path": "raw/papers/paper-014-substrat-defined-conv-01.md",
+    "sha256": "d1857d3dd10638d537494c125ad03a18fbb325fcc463178f0a85efcfb6499cb4",
+    "size_bytes": 30944,
+    "source": "standalone-XIV",
+    "pdf_pages": [
+      1,
+      14
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-014/audit.md",
+    "independent_verification": "history/ingestion/paper-014/independent-verification.md"
+  },
+  {
+    "paper": 15,
+    "path": "raw/papers/paper-015-aether-reality-kernel-conv-01.md",
+    "sha256": "42c4126efb6f87da6bea33059fa5bfb0e29fd1c5f4de1b3fbe98fe6507e4490d",
+    "size_bytes": 27109,
+    "source": "standalone-XV",
+    "pdf_pages": [
+      1,
+      14
+    ],
+    "source_commit": "110e554d944eeda6b0e14795f45a94b8a27a805e",
+    "conversion_revision": "conv-01",
+    "status": "IMPORT_PREPARED_UNMERGED",
+    "review": "AI drafter plus separate source verifier; owner-delegated process, not individual human review",
+    "audit": "history/ingestion/paper-015/audit.md",
+    "independent_verification": "history/ingestion/paper-015/independent-verification.md"
   }
 ]

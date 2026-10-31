@@ -71,6 +71,27 @@
       "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
       "ingested_date": "2026-10-31",
       "locked": true
+    },
+    "raw/papers/paper-013-directed-identity-transference-conv-01.md": {
+      "sha256": "c302bc5bd6b9acf4d5b73e7a7e960b72daae13e33dc65e6b4b2152ee0c2a97e2",
+      "size_bytes": 15348,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-014-substrat-defined-conv-01.md": {
+      "sha256": "d1857d3dd10638d537494c125ad03a18fbb325fcc463178f0a85efcfb6499cb4",
+      "size_bytes": 30944,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-015-aether-reality-kernel-conv-01.md": {
+      "sha256": "42c4126efb6f87da6bea33059fa5bfb0e29fd1c5f4de1b3fbe98fe6507e4490d",
+      "size_bytes": 27109,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
     }
   }
 }

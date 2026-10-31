@@ -13,3 +13,7 @@ Remaining papers are being transcribed and independently checked in parallel, th
 ## Batch 02
 
 Prepared Papers 3, 10, 11 with separate verification; [batch record](../history/ingestion/batches/batch-02.md). Total prepared: 6 papers. Earlier registered bytes and records unchanged.
+
+## Batch 03
+
+Prepared Papers 13, 14, 15 with separate verification; [batch record](../history/ingestion/batches/batch-03.md). Total prepared: 9 papers. Earlier registered bytes and records unchanged.
