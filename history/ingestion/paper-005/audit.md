@@ -385,3 +385,8 @@ Restored independent equation boundaries identified by the independent reviewer:
 Current corrected draft: 200573 bytes; SHA256 `699ebc5af2ebf6a23229d47b5cfdb52b46d78f10237a0f2e12eb4dacac4792e9`. Prior hash above superseded. Reviewer recheck pending.
 
 Reviewer label placement follow-up: (6.17.2) moved from E expression to standalone label preceding B, matching source; (6.17.1) remains before E. Current draft 200575 bytes; SHA256 `784397f49f6105a9b850de3440a16e0cd7db80d069df8b76c53c13dd55198066`.
+
+
+## Filename catalog correction
+
+The registered path’s `causal-fracture` slug is a conversion filename naming error, not the source title or paper identity. This is Paper V, **Aetherwave Field Dynamics: Radiation, Curl, and EM Topology**. Original heading/content are correct. Registered bytes and manifest record remain immutable; the filename slug is non-authoritative. No duplicate conversion is created for this cosmetic naming issue.

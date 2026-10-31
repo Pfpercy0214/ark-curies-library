@@ -1,0 +1,79 @@
+[
+  {
+    "file": "figure-01.png",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      72,
+      198.76998901367188,
+      305.75,
+      445.6199951171875
+    ],
+    "sha256": "9489104c42e0c0fef2295261ba22d8bcde792fb248322243fb61df3c35298189"
+  },
+  {
+    "file": "source-p002-odd-notation.png",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "d8f3b3376629e06a3985ba2bbbf282e09ebbf6fb7b9bba738482d81c97e405bf"
+  },
+  {
+    "file": "source-p023-table.png",
+    "pdf_page": 23,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "08ba92d1d03b27084b6b5a32d0016547aa93622ac15d52acc8ccc5e3dd4e7b2b"
+  },
+  {
+    "file": "source-p026-table.png",
+    "pdf_page": 26,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "9b55c7abd9ea4194c45a2fe8ec1e2cf18ba6fe7c418ec72391615f30b267aa6e"
+  },
+  {
+    "file": "source-p032-table.png",
+    "pdf_page": 32,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "a1bed0f024cf8e5187def39f0d9d7890a58a618eab3edbb30761ea7d382d6314"
+  },
+  {
+    "file": "source-p035-table.png",
+    "pdf_page": 35,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "afce1ac57605f81973dc74a1f25b145fcca352f9ce37a82616b3b0a65f76f066"
+  },
+  {
+    "file": "source-p036-table.png",
+    "pdf_page": 36,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "sha256": "2969c825fcbf5e528e47437c3df479bf2ee31641be10c0d3ab7bfae5c0ca50ec"
+  }
+]

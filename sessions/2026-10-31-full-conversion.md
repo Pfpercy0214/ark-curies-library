@@ -21,3 +21,7 @@ Prepared Papers 13, 14, 15 with separate verification; [batch record](../history
 ## Batch 04
 
 Prepared Papers 5, 19, 20, 22 with separate verification; [batch record](../history/ingestion/batches/batch-04.md). Total prepared: 13 papers. Earlier registered bytes and records unchanged.
+
+## Batch 05
+
+Prepared Papers 4, 16, 21, 23 with separate verification; [batch record](../history/ingestion/batches/batch-05.md). Total prepared: 17 papers. Earlier registered bytes and records unchanged.

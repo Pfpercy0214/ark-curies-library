@@ -23,6 +23,13 @@
       "status": "PASS_SYNTAX_ONLY"
     },
     {
+      "paper": 4,
+      "path": "raw/papers/paper-004-quantum-causality-conv-01.md",
+      "sha256": "3f9bd13c268c2c7b0ab7d7baae519f3a4323f4ef0713d7b8d26ac01558406f43",
+      "mathml_nodes": 18,
+      "status": "PASS_SYNTAX_ONLY"
+    },
+    {
       "paper": 5,
       "path": "raw/papers/paper-005-causal-fracture-conv-01.md",
       "sha256": "784397f49f6105a9b850de3440a16e0cd7db80d069df8b76c53c13dd55198066",
@@ -72,6 +79,13 @@
       "status": "PASS_SYNTAX_ONLY"
     },
     {
+      "paper": 16,
+      "path": "raw/papers/paper-016-kernel-mechanism-conv-01.md",
+      "sha256": "5cd665e776968737871da2de038fd8a64f4f72d793d4b6107ae43ff724b370cc",
+      "mathml_nodes": 23,
+      "status": "PASS_SYNTAX_ONLY"
+    },
+    {
       "paper": 19,
       "path": "raw/papers/paper-019-aetheron-field-conv-01.md",
       "sha256": "c1e6a104991acbf27424e4e896386582366cd533276461a64a4cb21dd4fe8abc",
@@ -86,10 +100,24 @@
       "status": "PASS_SYNTAX_ONLY"
     },
     {
+      "paper": 21,
+      "path": "raw/papers/paper-021-quantum-entanglement-conv-01.md",
+      "sha256": "b78509b2558e2958d415796e61873c163ae50f8312474f907ffd072fad0e4111",
+      "mathml_nodes": 36,
+      "status": "PASS_SYNTAX_ONLY"
+    },
+    {
       "paper": 22,
       "path": "raw/papers/paper-022-electromagnetism-conv-01.md",
       "sha256": "ed962a7dbdc64b1126b73ba08a1101237eea3549e7466655313a9cfc7d92b35c",
       "mathml_nodes": 58,
+      "status": "PASS_SYNTAX_ONLY"
+    },
+    {
+      "paper": 23,
+      "path": "raw/papers/paper-023-thermoelectricity-conv-01.md",
+      "sha256": "f0ccc89ce52c7b8d1f808f1c67bf3e12259390c54b78098cc44ee5c587f09510",
+      "mathml_nodes": 32,
       "status": "PASS_SYNTAX_ONLY"
     }
   ]

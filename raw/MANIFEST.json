@@ -120,6 +120,34 @@
       "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
       "ingested_date": "2026-10-31",
       "locked": true
+    },
+    "raw/papers/paper-004-quantum-causality-conv-01.md": {
+      "sha256": "3f9bd13c268c2c7b0ab7d7baae519f3a4323f4ef0713d7b8d26ac01558406f43",
+      "size_bytes": 51801,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-016-kernel-mechanism-conv-01.md": {
+      "sha256": "5cd665e776968737871da2de038fd8a64f4f72d793d4b6107ae43ff724b370cc",
+      "size_bytes": 57114,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-021-quantum-entanglement-conv-01.md": {
+      "sha256": "b78509b2558e2958d415796e61873c163ae50f8312474f907ffd072fad0e4111",
+      "size_bytes": 31907,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
+    },
+    "raw/papers/paper-023-thermoelectricity-conv-01.md": {
+      "sha256": "f0ccc89ce52c7b8d1f808f1c67bf3e12259390c54b78098cc44ee5c587f09510",
+      "size_bytes": 41669,
+      "origin": "AI-transcribed and separately source-verified; owner-delegated import preparation 2026-10-31; unmerged review branch, not individual human review. Fixed source provenance and checks in history/ingestion/.",
+      "ingested_date": "2026-10-31",
+      "locked": true
     }
   }
 }
