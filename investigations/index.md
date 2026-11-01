@@ -8,6 +8,7 @@ Papers I–XXV were merged in PR #1 at `2db757753005e6ac66c55797890b2960bffe9307
 
 - [IC-01: Identity closure and the environmental baseline](identity-containment-01/README.md): initial versioned scalar-route map, conditional baseline/partition analysis, constructive additional-anchor tests, and a recorded XXII inversion discrepancy. Twelve local symbolic/manufactured-example checks passed; empirical evaluation and independent review remain pending. Proposed on a research branch, not approved physics.
 - [IC-02: Recovering identity through a controlled change](identity-containment-02/README.md): proposed common-regime combination of a product bridge, tangent law and clock relation. Recovers relative trajectories and calibrates their scale from one corrected clock change, leaving another for evaluation. Twenty local constructed/symbolic checks passed; physical tau mapping and cross-version compatibility remain unverified. [Session handoff](../sessions/2026-10-31-identity-containment-02.md).
+- [IC-03: Boundary work, restoring response, and retained state](identity-containment-03/README.md): a mode-specific virtual-work measurement candidate and conventional electrical/material-memory benchmarks. Thirty-six local checks passed; held-shape relaxation limits the memory-free tangent inference. No physical tau/clock identification or medium validation. [Owner's boundary hypothesis](../history/mechanistic-notes/2026-10-31-boundary-identity-charge.md); [handoff](../sessions/2026-10-31-identity-containment-03.md).
 
 ## Research questions
 
