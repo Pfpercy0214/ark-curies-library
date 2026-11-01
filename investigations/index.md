@@ -42,7 +42,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 
 ## Conservation and environmental exchange — 2026-11-01
 
-- [IC-07: Conservation, exchange, and the stability of a closed configuration](identity-containment-07/README.md): finite-cell conserved-field spherical profile, constrained versus open radial stability, weak-exchange growth, finite-environment restoring threshold and capillary response criterion. Ten numerical/symbolic check groups pass; IC-06 rerun passes 20/20. No empirical identification or unrestricted 3D stability claim. Sources and access limits are included in the study. [Handoff](../sessions/2026-11-01-identity-containment-07.md).
+- [IC-07: Conservation, exchange, and the stability of a closed configuration](identity-containment-07/README.md): finite-cell conserved-field spherical profile, constrained versus open radial stability, weak-exchange growth, finite-reservoir restoring threshold and capillary response criterion. Ten numerical/symbolic check groups pass; IC-06 rerun passes 20/20. No empirical identification or unrestricted 3D stability claim. Sources and access limits are included in the study. [Handoff](../sessions/2026-11-01-identity-containment-07.md).
 
 ## Amount, topology and the weak-link comparison — 2026-11-01
 
@@ -55,3 +55,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Apparatus-aware inference — 2026-11-01
 
 - [IC-10: Decay, transport, and detection](identity-containment-10/README.md): conditional channel-resolved rate recovery, efficiency and hidden-channel degeneracies, explicit post-decay charge-exchange response, calibrated synthetic transfer, and primary experimental constraints on the archived neutron hypothesis. Fifteen local check groups pass; unchanged IC-09 rerun passes 12/12. No empirical fit or physical epsilon/rate-law identification. [Owner clarification](../history/mechanistic-notes/2026-11-01-apparatus-perturbations.md); [handoff](../sessions/2026-11-01-identity-containment-10.md).
+
+## Published response benchmark — 2026-11-01
+
+- [IC-11: Published detector-response benchmark and the contrast test](identity-containment-11/README.md): source-specific simulation tables, signed recording bias, conditional rate/composition separation, practical sensitivity and acquisition-threshold limits. Four source-rounding flags remain unresolved. Fourteen local check groups pass; unchanged IC-10 rerun passes 15/15. Event-data retrieval failed, so no measured-data validation or ARK coupling fit is claimed. [Source record](../sources/identity-containment-11-published-response.md); [handoff](../sessions/2026-11-01-identity-containment-11.md).

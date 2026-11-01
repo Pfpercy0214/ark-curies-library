@@ -1,0 +1,472 @@
+{
+  "study": "IC-11",
+  "utc": "2026-11-01T12:29:52.719549+00:00",
+  "code_sha256": "655f2b7ebba6345e3dda5dd91bb7b9801bac0944291c6ea2755652ee990ad366",
+  "table_sha256": "3e040ca478f90bec96ae82ec5800f0a052521488cbd21f9416d32e21f7fa982b",
+  "bl1_table_sha256": "689b44dbcfd4f97ace86a2b80f58d8d4ccf128858a4134f43e30be4d63551cff",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Published simulation-response benchmark plus constructed inference tests. Event files inaccessible. No measured-data fit, ARK validation or independent review.",
+  "input_consistency_status": "Four HTML table rows unresolved under nearest-rounding audit; both representations preserved.",
+  "passed": 14,
+  "total": 14,
+  "checks": [
+    {
+      "name": "source_schema_and_half_energy_pairing",
+      "status": "PASS",
+      "detail": {
+        "rows": 30,
+        "threshold_kev": 6.0,
+        "half_energy_pairing": "checked",
+        "provenance": "Published SRIM+Monte Carlo point estimates; not experimental observations"
+      }
+    },
+    {
+      "name": "source_rounding_consistency_flags",
+      "status": "PASS",
+      "detail": {
+        "unresolved_flags": [
+          {
+            "au_ug_cm2": 0.0,
+            "voltage_kv": 30.0,
+            "species": "h2",
+            "component_sum_eff_pct": 99.844,
+            "component_rounding_interval_pct": [
+              99.842,
+              99.846
+            ],
+            "printed_eff_pct": 99.9,
+            "printed_rounding_interval_pct": [
+              99.85000000000001,
+              99.95
+            ]
+          },
+          {
+            "au_ug_cm2": 0.0,
+            "voltage_kv": 32.5,
+            "species": "h2",
+            "component_sum_eff_pct": 99.947,
+            "component_rounding_interval_pct": [
+              99.945,
+              99.949
+            ],
+            "printed_eff_pct": 100.0,
+            "printed_rounding_interval_pct": [
+              99.95,
+              100.0
+            ]
+          },
+          {
+            "au_ug_cm2": 100.0,
+            "voltage_kv": 27.5,
+            "species": "h2",
+            "component_sum_eff_pct": 81.446,
+            "component_rounding_interval_pct": [
+              81.444,
+              81.44800000000001
+            ],
+            "printed_eff_pct": 81.5,
+            "printed_rounding_interval_pct": [
+              81.45,
+              81.55
+            ]
+          },
+          {
+            "au_ug_cm2": 100.0,
+            "voltage_kv": 32.5,
+            "species": "h2",
+            "component_sum_eff_pct": 92.547,
+            "component_rounding_interval_pct": [
+              92.545,
+              92.549
+            ],
+            "printed_eff_pct": 92.6,
+            "printed_rounding_interval_pct": [
+              92.55,
+              92.64999999999999
+            ]
+          }
+        ],
+        "decision": "Retain both columns; use printed efficiencies as primary, components as sensitivity branch. No error adjudication without source check."
+      }
+    },
+    {
+      "name": "signed_response_benchmark",
+      "status": "PASS",
+      "detail": {
+        "examples": [
+          {
+            "au_ug_cm2": 0,
+            "voltage_kv": 25,
+            "eta_p": 0.995,
+            "eta_h2": 0.981,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": 0.0007040128733784012
+          },
+          {
+            "au_ug_cm2": 20,
+            "voltage_kv": 25,
+            "eta_p": 0.992,
+            "eta_h2": 0.9990000000000001,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": -0.0003526981407768748
+          },
+          {
+            "au_ug_cm2": 40,
+            "voltage_kv": 25,
+            "eta_p": 0.98,
+            "eta_h2": 0.992,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": -0.0006118702834998491
+          },
+          {
+            "au_ug_cm2": 60,
+            "voltage_kv": 25,
+            "eta_p": 0.963,
+            "eta_h2": 0.963,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": 0.0
+          },
+          {
+            "au_ug_cm2": 80,
+            "voltage_kv": 25,
+            "eta_p": 0.938,
+            "eta_h2": 0.8759999999999999,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": 0.003315862659107882
+          },
+          {
+            "au_ug_cm2": 100,
+            "voltage_kv": 25,
+            "eta_p": 0.905,
+            "eta_h2": 0.68,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": 0.012587412587412583
+          },
+          {
+            "au_ug_cm2": 100,
+            "voltage_kv": 35,
+            "eta_p": 0.9590000000000001,
+            "eta_h2": 0.9490000000000001,
+            "imposed_f": 0.05,
+            "relative_lifetime_bias": 0.0005216484089725082
+          }
+        ],
+        "required_fraction_for_one_percent": [
+          {
+            "voltage_kv": 25,
+            "imposed_upward_bias": 0.01,
+            "required_f": 0.03982398239823987
+          },
+          {
+            "voltage_kv": 35,
+            "imposed_upward_bias": 0.01,
+            "required_f": 0.9495049504950515
+          }
+        ],
+        "scope": "Hypothetical matched admixture; not an estimate or correction of any published neutron lifetime"
+      }
+    },
+    {
+      "name": "detected_vs_trapped_fraction",
+      "status": "PASS",
+      "detail": {
+        "cases": [
+          {
+            "au": 20,
+            "voltage": 25,
+            "trapped_fraction": 0.05,
+            "detected_fraction": 0.050335063233738105
+          },
+          {
+            "au": 100,
+            "voltage": 25,
+            "trapped_fraction": 0.05,
+            "detected_fraction": 0.03804195804195804
+          },
+          {
+            "au": 100,
+            "voltage": 35,
+            "trapped_fraction": 0.05,
+            "detected_fraction": 0.04950443401147627
+          }
+        ],
+        "scope": "A fitted detected admixture requires an efficiency map before interpreting it as a trapped fraction"
+      }
+    },
+    {
+      "name": "conditional_rate_fraction_rank",
+      "status": "PASS",
+      "detail": {
+        "injected_Gamma": 0.001,
+        "injected_fraction": 0.04,
+        "recovered": [
+          0.001,
+          0.039999999999999945
+        ],
+        "designs": [
+          {
+            "au": 20,
+            "contrasts": [
+              0.007056451612903247,
+              0.004016064257028162
+            ],
+            "separation": -0.003040387355875085,
+            "design_condition_number": 657.8310808261623
+          },
+          {
+            "au": 100,
+            "contrasts": [
+              -0.24861878453038666,
+              -0.010427528675703845
+            ],
+            "separation": 0.23819125585468282,
+            "design_condition_number": 8.539469876220071
+          }
+        ],
+        "input_contract": "Absolute exposure and each efficiency characterized; upstream fraction/rate invariant across readout settings"
+      }
+    },
+    {
+      "name": "synthetic_unused_setting_transfer",
+      "status": "PASS",
+      "detail": {
+        "voltage_calibration": [
+          25,
+          35
+        ],
+        "unused_voltage": 30,
+        "predicted_yield": 0.00093692,
+        "independently_evaluated_generation": 0.0009369199999999999,
+        "deliberately_added_midpoint_recording_change": 0.01,
+        "relative_residual": 0.009999999999999912,
+        "warning": "Synthetic transfer with known coefficients, not a blind holdout or validation on measured events"
+      }
+    },
+    {
+      "name": "synthetic_covariance_and_calibration",
+      "status": "PASS",
+      "detail": {
+        "replicas": 40000,
+        "seed": 1101,
+        "assumed_independent_relative_sigma": 0.001,
+        "delta_standard_deviations": [
+          1.0442424874618735e-06,
+          0.005875805772490994
+        ],
+        "simulation_standard_deviations": [
+          1.0389708415627006e-06,
+          0.005842101769391823
+        ],
+        "approximate_95percent_coverage": [
+          0.9495,
+          0.95105
+        ],
+        "common_gain_reconstruction": [
+          0.001002,
+          0.04
+        ],
+        "opposed_gain_reconstruction": [
+          0.0009989133147901802,
+          0.031681315995801686
+        ],
+        "warning": "Invented measurement errors for design verification; excludes real response-model calibration uncertainty"
+      }
+    },
+    {
+      "name": "practical_weak_identifiability",
+      "status": "PASS",
+      "detail": {
+        "designs": [
+          {
+            "au": 20,
+            "sigma_fraction": 0.4653485944308552
+          },
+          {
+            "au": 100,
+            "sigma_fraction": 0.005875805772490994
+          }
+        ],
+        "warning": "Full rank does not imply useful precision; no clipping of unphysical noisy inversions"
+      }
+    },
+    {
+      "name": "coefficient_rounding_sensitivity",
+      "status": "PASS",
+      "detail": {
+        "printed_efficiency_rounding_halfwidth": 0.0005,
+        "tested_rounding_vertex_Gamma_range": [
+          0.0009994319349263328,
+          0.0010005687112036106
+        ],
+        "tested_rounding_vertex_fraction_range": [
+          0.035514330632483555,
+          0.044485669367516356
+        ],
+        "component_branch_reconstruction": [
+          0.0010004349851211256,
+          0.04039676636518711
+        ],
+        "scope": "Sensitivity at 16 rounding vertices only; not a total systematic confidence interval or global physical bound"
+      }
+    },
+    {
+      "name": "unresolved_loss_and_backaction_aliases",
+      "status": "PASS",
+      "detail": {
+        "common_missing_fraction": 0.02,
+        "indistinguishable_rate": 0.00098,
+        "alternative_fraction": 0.01,
+        "indistinguishable_setting_dependent_rates": [
+          0.0009925228468568264,
+          0.0009964281848684924,
+          0.0009983377376182763,
+          0.0009992419137466308,
+          0.0009996871415163208
+        ],
+        "scope": "More readout settings cannot rule out a perfectly common loss or unconstrained upstream changes"
+      }
+    },
+    {
+      "name": "reaction_residence_time_ODE",
+      "status": "PASS",
+      "detail": {
+        "imposed_reaction_rate_s_inverse": 8.0,
+        "cases": [
+          {
+            "T_seconds": 0.002,
+            "f": 0.007957503455319648,
+            "recovered_reaction_rate": 7.999999999999875
+          },
+          {
+            "T_seconds": 0.01,
+            "f": 0.03895432983294733,
+            "recovered_reaction_rate": 7.999999999999988
+          },
+          {
+            "T_seconds": 0.05,
+            "f": 0.1758001150890982,
+            "recovered_reaction_rate": 8.0
+          }
+        ],
+        "warning": "Independent uniform production and reaction assumptions required; a measured gas pressure is not ARK epsilon"
+      }
+    },
+    {
+      "name": "bl1_configuration_and_difference_audit",
+      "status": "PASS",
+      "detail": {
+        "settings": 13,
+        "threshold_range_kev": [
+          8.43,
+          11.93
+        ],
+        "hypothetical_individual_series_biases": [
+          {
+            "series": 121,
+            "threshold_kev": 8.43,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -5.03499320274603e-05
+          },
+          {
+            "series": 125,
+            "threshold_kev": 8.43,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -5.03499320274603e-05
+          },
+          {
+            "series": 130,
+            "threshold_kev": 9.91,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -3.018017564859754e-05
+          },
+          {
+            "series": 134,
+            "threshold_kev": 9.91,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -3.018017564859754e-05
+          },
+          {
+            "series": 140,
+            "threshold_kev": 10.31,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -4.019938896926423e-05
+          },
+          {
+            "series": 142,
+            "threshold_kev": 10.31,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -4.019938896926423e-05
+          },
+          {
+            "series": 143,
+            "threshold_kev": 10.31,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": -4.019938896926423e-05
+          },
+          {
+            "series": 149,
+            "threshold_kev": 10.66,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": 0.0011802952808896983
+          },
+          {
+            "series": 151,
+            "threshold_kev": 10.66,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": 0.00025568908207618257
+          },
+          {
+            "series": 154,
+            "threshold_kev": 11.22,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": 0.0006027727546713546
+          },
+          {
+            "series": 155,
+            "threshold_kev": 11.93,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": 0.0004214413293464059
+          },
+          {
+            "series": 166,
+            "threshold_kev": 9.89,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": 0.00020350020350012876
+          },
+          {
+            "series": 170,
+            "threshold_kev": 10.4,
+            "imposed_f": 0.01,
+            "relative_lifetime_bias": 0.0008457851705667707
+          }
+        ],
+        "warning": "No averaging: original event weights, covariance and backscatter extrapolation not analyzed. Not a reproduction of the authors lifetime correction."
+      }
+    },
+    {
+      "name": "threshold_transfer_counterexample",
+      "status": "PASS",
+      "detail": {
+        "series": 149,
+        "generic_threshold_kev": 6.0,
+        "series_threshold_kev": 10.66,
+        "generic_contrast": 0.008247422680412342,
+        "series_contrast": -0.1178903826266805,
+        "imposed_f": 0.01,
+        "generic_bias": -8.246742536699436e-05,
+        "series_bias": 0.0011802952808896983,
+        "scope": "Source-specific response differs; cannot attribute entire difference to threshold alone without rerunning detector simulation"
+      }
+    },
+    {
+      "name": "invalid_inputs",
+      "status": "PASS",
+      "detail": {
+        "rejected": 6
+      }
+    }
+  ]
+}
