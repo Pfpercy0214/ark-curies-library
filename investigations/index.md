@@ -51,3 +51,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Permeable configuration — 2026-11-01
 
 - [IC-09: Throughflow without loss of configuration](identity-containment-09/README.md): a known gray-soliton GP comparison with nonzero transport through its stationary profile, full gradient-stress balance, moving-boundary accounting and a distinction between crossing time and identity lifetime. Twelve local check groups pass; unchanged IC-08 rerun passes 12/12. No trap manufactured to fit this profile; its branch still requires preparation and a background. No ARK phase/density mapping, closed particle, full stability proof or experimental validation. [Owner clarification](../history/mechanistic-notes/2026-11-01-permeable-identity-boundaries.md); [handoff](../sessions/2026-11-01-identity-containment-09.md).
+
+## Apparatus-aware inference — 2026-11-01
+
+- [IC-10: Decay, transport, and detection](identity-containment-10/README.md): conditional channel-resolved rate recovery, efficiency and hidden-channel degeneracies, explicit post-decay charge-exchange response, calibrated synthetic transfer, and primary experimental constraints on the archived neutron hypothesis. Fifteen local check groups pass; unchanged IC-09 rerun passes 12/12. No empirical fit or physical epsilon/rate-law identification. [Owner clarification](../history/mechanistic-notes/2026-11-01-apparatus-perturbations.md); [handoff](../sessions/2026-11-01-identity-containment-10.md).
