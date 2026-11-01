@@ -35,3 +35,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Clock and boundary bridge — 2026-11-01
 
 - [IC-05: Clock-defined geometry and the boundary-work bridge](identity-containment-05/README.md): static acceleration-to-clock reconstruction with an explicit reference, a bounded radial coordinate map, force/work normalization and retained-state compatibility tests. Fourteen grouped symbolic/generated-data checks passed; no physical ARK scalar identification or experimental fit. [Handoff](../sessions/2026-11-01-identity-containment-05.md).
+
+## Field energy and boundary-rate reconstruction — 2026-11-01
+
+- [IC-06: Field energy, boundaries, and the missing rate law](identity-containment-06/README.md): XXV E13–E16 source audit, dimensioned first variation, a conditional planar boundary/rate relation, explicit kinetic and retained-state requirements, and phase/closed-bubble counterexamples. Twenty symbolic/manufactured checks pass; no empirical fit, universal clock law, physical scalar identification or independent second review. [Sources](../sources/identity-containment-06-primary-sources.md); [handoff](../sessions/2026-11-01-identity-containment-06.md).
