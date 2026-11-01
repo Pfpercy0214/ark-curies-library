@@ -1,0 +1,262 @@
+{
+  "study": "IC-08",
+  "utc": "2026-11-01T09:23:34.997283+00:00",
+  "code_sha256": "0a77e07b35b51d36dabbd78848ce29b82033ef03f19494579b84cfd4bd19c31f",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Analytic and generated-data checks only; no experimental fit, independent reviewer, or physical ARK mapping",
+  "passed": 12,
+  "total": 12,
+  "checks": [
+    {
+      "name": "reciprocal_and_source_balance",
+      "status": "PASS",
+      "detail": {
+        "reciprocal_rate": 0.0,
+        "directed_rate": 0.20000000000000018,
+        "local_reaction_rate": 0.816
+      }
+    },
+    {
+      "name": "real_scalar_vs_phase_topology",
+      "status": "PASS",
+      "detail": {
+        "real_interval_winding": 0,
+        "complex_projection_identical_for_opposite_windings": true,
+        "integer_cosine_rotation": "2pi periodic; not a minus sign"
+      }
+    },
+    {
+      "name": "action_current_and_dispersion",
+      "status": "PASS",
+      "detail": {
+        "current": "hbar*n*grad(phi)/m",
+        "quantum_response": "-h**2*(nxx/(2*n) - nx**2/(4*n**2))/(2*m)",
+        "dispersion": "Omega^2=g*n0*k^2/m+hbar^2*k^4/(4*m^2)"
+      }
+    },
+    {
+      "name": "local_continuity_and_sink",
+      "status": "PASS",
+      "detail": {
+        "local_residual": 8.407163853973998e-14,
+        "closed_amount_rate": 0.0,
+        "sink_rate": -0.6404450783608152
+      }
+    },
+    {
+      "name": "Hamiltonian_evolution_and_refinement",
+      "status": "PASS",
+      "detail": {
+        "plane_error": 3.322129068280017e-14,
+        "dt": [
+          0.004,
+          0.002,
+          0.001
+        ],
+        "L2_errors": [
+          1.497111338481065e-06,
+          3.7316727679106897e-07,
+          9.21934651939517e-08
+        ],
+        "energy_drifts": [
+          3.1129996926893e-06,
+          7.781878466062153e-07,
+          1.945435563754927e-07
+        ],
+        "grid_128_256_difference": 1.942422119078422e-13
+      }
+    },
+    {
+      "name": "conserved_amount_during_sector_change",
+      "status": "PASS",
+      "detail": {
+        "path": "externally accessible configuration path, NOT a computed dynamical solution or minimum barrier",
+        "states": [
+          {
+            "path_parameter": 0,
+            "norm": 6.283185307179586,
+            "minimum_density": 0.9999999999999996,
+            "winding": 1.0000000000000002,
+            "energy": 15.707963267948966
+          },
+          {
+            "path_parameter": 0.25,
+            "norm": 6.283185307179586,
+            "minimum_density": 0.4,
+            "winding": 1.0,
+            "energy": 17.65575071317464
+          },
+          {
+            "path_parameter": 0.49,
+            "norm": 6.2831853071795845,
+            "minimum_density": 0.0007996801279488219,
+            "winding": 1.0,
+            "energy": 20.473113919876088
+          },
+          {
+            "path_parameter": 0.5,
+            "norm": 6.2831853071795845,
+            "minimum_density": 7.498798913309285e-33,
+            "winding": null,
+            "energy": 20.420352248333646
+          },
+          {
+            "path_parameter": 0.51,
+            "norm": 6.283185307179585,
+            "minimum_density": 0.0007996801279488219,
+            "winding": -3.533949646070574e-17,
+            "energy": 20.347500459116798
+          },
+          {
+            "path_parameter": 0.75,
+            "norm": 6.283185307179586,
+            "minimum_density": 0.4,
+            "winding": -4.417437057588218e-17,
+            "energy": 15.142476590302804
+          },
+          {
+            "path_parameter": 1,
+            "norm": 6.283185307179586,
+            "minimum_density": 1.0,
+            "winding": 0.0,
+            "energy": 12.566370614359172
+          }
+        ]
+      }
+    },
+    {
+      "name": "weak_link_inverse_density_response",
+      "status": "PASS",
+      "detail": {
+        "number": "2*pi for every profile",
+        "rows": [
+          {
+            "depletion": 0,
+            "current": 1.0,
+            "max_velocity": 1.0,
+            "local_sound_speed_min": 2.0,
+            "ratio": 0.5,
+            "flow_energy": 3.141592653589793
+          },
+          {
+            "depletion": 0.5,
+            "current": 0.8660254037844387,
+            "max_velocity": 1.7320508075688774,
+            "local_sound_speed_min": 1.4142135623730951,
+            "ratio": 1.224744871391589,
+            "flow_energy": 2.720699046351327
+          },
+          {
+            "depletion": 0.8,
+            "current": 0.6000000000000001,
+            "max_velocity": 3.0000000000000013,
+            "local_sound_speed_min": 0.8944271909999157,
+            "ratio": 3.3541019662496865,
+            "flow_energy": 1.884955592153876
+          },
+          {
+            "depletion": 0.95,
+            "current": 0.31224989991992,
+            "max_velocity": 6.244997998398395,
+            "local_sound_speed_min": 0.44721359549995815,
+            "ratio": 13.964240043768926,
+            "flow_energy": 0.9809619916725689
+          }
+        ],
+        "warning": "local sound ratio is diagnostic; not a phase-slip threshold prediction"
+      }
+    },
+    {
+      "name": "manufactured_stationary_ring",
+      "status": "PASS",
+      "detail": {
+        "refinement": [
+          {
+            "grid": 32,
+            "residual": 0.000145651383818864
+          },
+          {
+            "grid": 64,
+            "residual": 4.579594112661182e-09
+          },
+          {
+            "grid": 128,
+            "residual": 2.458166033706736e-13
+          },
+          {
+            "grid": 256,
+            "residual": 9.786780659524523e-13
+          }
+        ],
+        "time_evolution_error": 1.6152303234305364e-09,
+        "provenance": "density and winding prescribed; potential manufactured from equation, NOT an independent prediction of apparatus response"
+      }
+    },
+    {
+      "name": "phase_energy_variation",
+      "status": "PASS",
+      "detail": {
+        "base": 1.8849555921538752,
+        "varied": 2.1362830044410583,
+        "increase": 0.25132741228718314,
+        "scope": "minimization over phase ONLY at prescribed positive density and winding"
+      }
+    },
+    {
+      "name": "energetic_vs_dynamical_stability",
+      "status": "PASS",
+      "detail": {
+        "cases": [
+          {
+            "winding": 1,
+            "lowest_curvature": 0.7169578096907814,
+            "energy_second_difference": 2.252402708791123,
+            "analytic_second_difference": 2.2523893878583876,
+            "frequencies": [
+              -1.0615528128088303,
+              3.0615528128088303
+            ]
+          },
+          {
+            "winding": 3,
+            "lowest_curvature": -0.7868360159890452,
+            "energy_second_difference": -2.471836069162236,
+            "analytic_second_difference": -2.4719182474110455,
+            "frequencies": [
+              0.9384471871911697,
+              5.061552812808831
+            ]
+          }
+        ],
+        "caveat": "negative energy direction is not exponential dynamical growth in this lossless model"
+      }
+    },
+    {
+      "name": "coefficient_scale_degeneracy",
+      "status": "PASS",
+      "detail": {
+        "observables_before": [
+          0.75,
+          1.5811388300841898,
+          1.2874781551544867
+        ],
+        "observables_after": [
+          0.75,
+          1.5811388300841898,
+          1.2874781551544867
+        ],
+        "result": "velocity and dispersion alone do not determine hbar,m,g separately; energy or another independent anchor is required"
+      }
+    },
+    {
+      "name": "invalid_inputs",
+      "status": "PASS",
+      "detail": {
+        "valid_domain": "positive density, integer winding, resolved phase; zeros handled as singular events"
+      }
+    }
+  ]
+}

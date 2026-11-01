@@ -43,3 +43,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Conservation and environmental exchange — 2026-11-01
 
 - [IC-07: Conservation, exchange, and the stability of a closed configuration](identity-containment-07/README.md): finite-cell conserved-field spherical profile, constrained versus open radial stability, weak-exchange growth, finite-environment restoring threshold and capillary response criterion. Ten numerical/symbolic check groups pass; IC-06 rerun passes 20/20. No empirical identification or unrestricted 3D stability claim. Sources and access limits are included in the study. [Handoff](../sessions/2026-11-01-identity-containment-07.md).
+
+## Amount, topology and the weak-link comparison — 2026-11-01
+
+- [IC-08: Conserved amount, phase winding, and the weak-link test](identity-containment-08/README.md): source-level distinction between real angle and periodic phase; explicit density/current balance; fixed-amount topology-change path; conditional inverse-density current; and energetic-versus-dynamical stability. Twelve local check groups pass; unchanged IC-07 rerun passes 10/10. Conventional comparator with additional state structure, not an ARK identification, self-bound particle or clock-rate derivation. Sources and access limits are included. [Handoff](../sessions/2026-11-01-identity-containment-08.md).
