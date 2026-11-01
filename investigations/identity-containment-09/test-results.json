@@ -1,0 +1,245 @@
+{
+  "study": "IC-09",
+  "utc": "2026-11-01T10:19:23.134584+00:00",
+  "code_sha256": "977b67594b3e8a896f731d0942ec220ca2e6aea88a50f3fa79e39563e2003ca7",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Known GP gray-soliton comparator; exact and generated-data checks, no empirical fit, no ARK variable identification or independent reviewer",
+  "passed": 12,
+  "total": 12,
+  "checks": [
+    {
+      "name": "exact_GP_branch_and_current",
+      "status": "PASS",
+      "detail": {
+        "equation": "i*f_t=-f_xx/2-i*u*f_x+(|f|^2-1)*f",
+        "center_velocity": "V=u+b",
+        "relative_current": "j-V*n=-b"
+      }
+    },
+    {
+      "name": "pointwise_PDE_and_flux",
+      "status": "PASS",
+      "detail": [
+        {
+          "b": 0.2,
+          "u": -0.2,
+          "pde_max": 5.1514348341381e-16,
+          "relative_flux_error": 1.1102230246251565e-16
+        },
+        {
+          "b": 0.6,
+          "u": -0.6,
+          "pde_max": 3.9079847078805907e-16,
+          "relative_flux_error": 3.3306690738754696e-16
+        },
+        {
+          "b": 0.8,
+          "u": 0.3,
+          "pde_max": 4.3964863962489788e-16,
+          "relative_flux_error": 4.440892098500626e-16
+        },
+        {
+          "b": -0.6,
+          "u": 0.6,
+          "pde_max": 3.9079847078805907e-16,
+          "relative_flux_error": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "name": "moving_and_fixed_control_volumes",
+      "status": "PASS",
+      "detail": {
+        "moving_window_lab_flux": -0.03548665557511099,
+        "boundary_motion_correction": 0.03548665557511104,
+        "fixed_window_derivative": -0.10438616615537909,
+        "fixed_window_flux_prediction": -0.10438616616850835,
+        "no_internal_source": true
+      }
+    },
+    {
+      "name": "momentum_flux_and_gradient_stress",
+      "status": "PASS",
+      "detail": {
+        "full_flux": 0.86,
+        "center_advective": 1.0,
+        "center_interaction_pressure": 0.0648,
+        "center_gradient_stress": -0.20480000000000004,
+        "pressure_only_not_constant": true,
+        "note": "No external wall or localized potential is used"
+      }
+    },
+    {
+      "name": "phase_deficit_energy_and_inverse_route",
+      "status": "PASS",
+      "detail": {
+        "rows": [
+          {
+            "b": 0.2,
+            "min_density": 0.04000000000000001,
+            "width_parameter": 1.0206207261596576,
+            "current": -0.2,
+            "phase_drop": -2.738876812009132,
+            "deficit": 1.959591794226547,
+            "excitation_energy": 1.2541387483049875,
+            "sign_not_determined_by_density": true
+          },
+          {
+            "b": 0.6,
+            "min_density": 0.36,
+            "width_parameter": 1.25,
+            "current": -0.6,
+            "phase_drop": -1.8545904360032246,
+            "deficit": 1.599999999999998,
+            "excitation_energy": 0.6826666666666665,
+            "sign_not_determined_by_density": true
+          },
+          {
+            "b": 0.9,
+            "min_density": 0.81,
+            "width_parameter": 2.294157338705618,
+            "current": -0.9,
+            "phase_drop": -0.9020536235925247,
+            "deficit": 0.8717797887081373,
+            "excitation_energy": 0.11042543990303037,
+            "sign_not_determined_by_density": true
+          }
+        ],
+        "interpretation": "conditional branch identities, not withheld experimental tests"
+      }
+    },
+    {
+      "name": "throughflow_not_lifetime",
+      "status": "PASS",
+      "detail": {
+        "window": [
+          -3.75,
+          3.75
+        ],
+        "window_amount": 5.907912394101231,
+        "relative_flux": -0.6,
+        "advective_crossing_time": 9.846520656835386,
+        "ode_crossing_time": 9.846520656800257,
+        "transported_inventory_equivalents_over_30": 3.0467614953079094,
+        "note": "A hydrodynamic characteristic, not tracking distinguishable atoms"
+      }
+    },
+    {
+      "name": "orientation_and_limits",
+      "status": "PASS",
+      "detail": {
+        "opposite_current_same_density": true,
+        "black_case_flux": 0,
+        "shallow_limit_deficit": 0.0028284264176956296,
+        "shallow_limit_phase_magnitude": 0.0028284273604891703,
+        "note": "Gray profile has no discrete knot invariant in this calculation"
+      }
+    },
+    {
+      "name": "wrong_width_and_branch_nonuniqueness",
+      "status": "PASS",
+      "detail": {
+        "wrong_width_pde_residual": 0.10225741579392772,
+        "uniform_solution_also_exists": true,
+        "implication": "asymptotic density/current do not uniquely select the localized branch"
+      }
+    },
+    {
+      "name": "actual_sink_vs_conservative_energy_flow",
+      "status": "PASS",
+      "detail": {
+        "sink_initial_rate": -0.017438411655904575,
+        "constant_energy_flux": -0.708,
+        "chemical_frequency_same_at_both_ends": true,
+        "note": "Conservative throughflow is not assigned irreversible entropy production"
+      }
+    },
+    {
+      "name": "spatial_temporal_checks",
+      "status": "PASS",
+      "detail": {
+        "spatial_refinement": [
+          {
+            "grid": 128,
+            "duration": 2,
+            "domain_half_length": 15.0,
+            "spacing": 0.23255813953488372,
+            "complex_max_error": 5.4371352258199394e-05,
+            "density_max_error": 6.532293106498166e-05,
+            "nfev": 209,
+            "seconds": 0.007322434999991856
+          },
+          {
+            "grid": 256,
+            "duration": 2,
+            "domain_half_length": 15.0,
+            "spacing": 0.11673151750972763,
+            "complex_max_error": 3.5935453591338726e-06,
+            "density_max_error": 4.320176497041306e-06,
+            "nfev": 821,
+            "seconds": 0.027897130000042125
+          },
+          {
+            "grid": 512,
+            "duration": 2,
+            "domain_half_length": 15.0,
+            "spacing": 0.05847953216374269,
+            "complex_max_error": 2.2877967839704178e-07,
+            "density_max_error": 2.745765289580149e-07,
+            "nfev": 3197,
+            "seconds": 0.13513763100002052
+          }
+        ],
+        "time_tolerance_difference": 3.014617390339236e-09,
+        "method": "FD4 method of lines; adaptive DOP853; analytic exterior ghost values"
+      }
+    },
+    {
+      "name": "sustained_and_moving_evolution",
+      "status": "PASS",
+      "detail": {
+        "stationary_30_time_units": {
+          "grid": 256,
+          "duration": 30,
+          "domain_half_length": 15.0,
+          "spacing": 0.11673151750972763,
+          "complex_max_error": 2.5264877990212544e-05,
+          "density_max_error": 1.7688093896794932e-05,
+          "nfev": 11993,
+          "seconds": 0.40409252000000606
+        },
+        "moving_case": {
+          "grid": 256,
+          "duration": 2,
+          "domain_half_length": 15.0,
+          "spacing": 0.11673151750972763,
+          "complex_max_error": 6.116748201008396e-06,
+          "density_max_error": 7.180309745447033e-06,
+          "nfev": 821,
+          "seconds": 0.02818397300001152
+        },
+        "wider_domain": {
+          "grid": 342,
+          "duration": 2,
+          "domain_half_length": 20,
+          "spacing": 0.11661807580174927,
+          "complex_max_error": 3.5796863002303524e-06,
+          "density_max_error": 4.303497532831546e-06,
+          "nfev": 821,
+          "seconds": 0.029789795999988655
+        },
+        "limits": "unperturbed persistence with numerical truncation errors only; no full spectral/nonlinear or 3D stability proof"
+      }
+    },
+    {
+      "name": "invalid_inputs",
+      "status": "PASS",
+      "detail": {
+        "valid_branch": "|b|<1; b=0 has a node, so nonzero-density transport formula excludes it"
+      }
+    }
+  ]
+}

@@ -47,3 +47,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Amount, topology and the weak-link comparison — 2026-11-01
 
 - [IC-08: Conserved amount, phase winding, and the weak-link test](identity-containment-08/README.md): source-level distinction between real angle and periodic phase; explicit density/current balance; fixed-amount topology-change path; conditional inverse-density current; and energetic-versus-dynamical stability. Twelve local check groups pass; unchanged IC-07 rerun passes 10/10. Conventional comparator with additional state structure, not an ARK identification, self-bound particle or clock-rate derivation. Sources and access limits are included. [Handoff](../sessions/2026-11-01-identity-containment-08.md).
+
+## Permeable configuration — 2026-11-01
+
+- [IC-09: Throughflow without loss of configuration](identity-containment-09/README.md): a known gray-soliton GP comparison with nonzero transport through its stationary profile, full gradient-stress balance, moving-boundary accounting and a distinction between crossing time and identity lifetime. Twelve local check groups pass; unchanged IC-08 rerun passes 12/12. No trap manufactured to fit this profile; its branch still requires preparation and a background. No ARK phase/density mapping, closed particle, full stability proof or experimental validation. [Owner clarification](../history/mechanistic-notes/2026-11-01-permeable-identity-boundaries.md); [handoff](../sessions/2026-11-01-identity-containment-09.md).
