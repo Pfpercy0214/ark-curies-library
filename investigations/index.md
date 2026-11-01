@@ -31,3 +31,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Authorized full conversion — first reviewed batch (historical snapshot)
 
 [Owner delegation](../history/ingestion/owner-delegation-2026-10-31.md) supersedes routine pilot/batch stamps for this assignment. [Batch 01](../history/ingestion/batches/batch-01.md) prepares I, II and XII on the unmerged review branch; [ledger](../history/ingestion/prepared-papers.json) records exact identities and reviews. Source-checked is not scientifically validated or merged. XXV is disciplined containment; cognition excluded.
+
+## Clock and boundary bridge — 2026-11-01
+
+- [IC-05: Clock-defined geometry and the boundary-work bridge](identity-containment-05/README.md): static acceleration-to-clock reconstruction with an explicit reference, a bounded radial coordinate map, force/work normalization and retained-state compatibility tests. Fourteen grouped symbolic/generated-data checks passed; no physical ARK scalar identification or experimental fit. [Handoff](../sessions/2026-11-01-identity-containment-05.md).

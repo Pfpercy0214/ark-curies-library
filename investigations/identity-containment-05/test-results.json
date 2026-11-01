@@ -1,0 +1,162 @@
+{
+  "study": "IC-05",
+  "utc": "2026-11-01T05:58:18.486562+00:00",
+  "scope": "Symbolic identities and constructed numerical examples; no experimental fit",
+  "script_sha256": "4ddd37773eb95b17ffc4a34c8219eb85440ea8d2a9b9b9d3b168965d6aa1ee1a",
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "static_clock_and_proper_acceleration",
+      "status": "PASS",
+      "details": {
+        "metric": "ds^2=-N^2 c^2 dt^2 + dr^2/N^2 + r^2 dOmega^2",
+        "acceleration": "a_support=c^2*N*d(log N)/dr"
+      }
+    },
+    {
+      "name": "profile_integration_with_independent_quadrature",
+      "status": "PASS",
+      "details": {
+        "exact_log_clock_ratio": 0.2938933324510595,
+        "panels": [
+          32,
+          64,
+          128,
+          256
+        ],
+        "absolute_errors": [
+          5.3390443031819945e-05,
+          3.6748341455949962e-06,
+          2.3611640892484687e-07,
+          1.4864105779555103e-08
+        ]
+      }
+    },
+    {
+      "name": "reference_normalization_and_relative_ratio_domain",
+      "status": "PASS",
+      "details": {
+        "valid_upper_to_lower_clock_ratio": 1.3416407864998736,
+        "angle_at_N1": 0.7853981633974483,
+        "angle_after_unfixed_time_rescaling": 0.8809792366629781
+      }
+    },
+    {
+      "name": "clock_angle_is_not_a_local_gradient",
+      "status": "PASS",
+      "details": {
+        "exact_static_relation": "a_support/c^2=-tan(theta)*grad(theta)",
+        "literal_gradient_route": "Needs different potential units or an explicit length/integral map"
+      }
+    },
+    {
+      "name": "physically_declared_radial_coordinate_mapping",
+      "status": "PASS",
+      "details": {
+        "scope": "Radial log deformation of a test boundary in fixed spherical background"
+      }
+    },
+    {
+      "name": "work_invariance_and_preload_aware_tangent",
+      "status": "PASS",
+      "details": {
+        "tau_W": "-2*T*cot(theta)",
+        "kappa_W": "4*K_s*cot(theta)^2+2*T*csc(theta)^2"
+      }
+    },
+    {
+      "name": "reject_silent_relabeling_and_missing_preload",
+      "status": "PASS",
+      "details": {
+        "direct_tangent_fixture": 208.57097555894404,
+        "omitted_preload_fixture": 111.88554192511332
+      }
+    },
+    {
+      "name": "history_evolution_requires_its_own_term",
+      "status": "PASS",
+      "details": {
+        "fixed_theta_dot": 0,
+        "z_dot_fixture": 0.5931010831250193,
+        "nonzero_tau_dot_fixture": 8.416895874940653,
+        "meaning": "Candidate stress response is not the universal XVIII path accumulator"
+      }
+    },
+    {
+      "name": "stiffness_does_not_fix_memory_baseline",
+      "status": "PASS",
+      "details": {
+        "unfixed_quantity": "Integrating stiffness leaves a history-dependent response reference"
+      }
+    },
+    {
+      "name": "joint_observability_survives_coordinate_change",
+      "status": "PASS",
+      "details": {
+        "determinant": "-K_m",
+        "clock_only_history_rank": 0,
+        "joint_shape_and_load_state_rank": 2
+      }
+    },
+    {
+      "name": "weak_signal_precision_and_domain_guards",
+      "status": "PASS",
+      "details": {
+        "stable_weak_angle": 1.414213562373095e-10,
+        "naive_rounded_angle": 0.0
+      }
+    },
+    {
+      "name": "boundary_force_to_generalized_work_units",
+      "status": "PASS",
+      "details": {
+        "radial_log_mode_work_coefficient": "T=R*F_radial (asymptotic energy convention)",
+        "required_boundary_map": "Mode contraction, length scale, orientation and reference energy"
+      }
+    },
+    {
+      "name": "environment_change_and_clock_systematic_negative_controls",
+      "status": "PASS",
+      "details": {
+        "same_shape_ratio_background_A": 0.9703961256672198,
+        "same_shape_ratio_background_B": 0.9641792137980624,
+        "clock_systematic_log_residual": 9.999950000398841e-06
+      }
+    },
+    {
+      "name": "direct_energy_crosscheck_and_refinement",
+      "status": "PASS",
+      "details": {
+        "steps": [
+          0.001,
+          0.0005,
+          0.00025
+        ],
+        "tau_and_kappa_errors": [
+          [
+            0.00023219793003903533,
+            0.0009958550514852504
+          ],
+          [
+            5.804927676678062e-05,
+            0.00024896716661260143
+          ],
+          [
+            1.4512300076319207e-05,
+            6.227206279163511e-05
+          ]
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Fixed static spherical background for the explicit mode mapping",
+    "No selection of a universal physical ARK tau or kappa",
+    "Source gradient definition needs its potential units specified",
+    "No new charge, clock-shift, neutron-lifetime or medium prediction",
+    "No independent second reviewer; prior IC code not rerun"
+  ]
+}
