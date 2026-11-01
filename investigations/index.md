@@ -39,3 +39,7 @@ Each investigation requires: source paths, assumptions, test specification, exte
 ## Field energy and boundary-rate reconstruction — 2026-11-01
 
 - [IC-06: Field energy, boundaries, and the missing rate law](identity-containment-06/README.md): XXV E13–E16 source audit, dimensioned first variation, a conditional planar boundary/rate relation, explicit kinetic and retained-state requirements, and phase/closed-bubble counterexamples. Twenty symbolic/manufactured checks pass; no empirical fit, universal clock law, physical scalar identification or independent second review. [Sources](../sources/identity-containment-06-primary-sources.md); [handoff](../sessions/2026-11-01-identity-containment-06.md).
+
+## Conservation and environmental exchange — 2026-11-01
+
+- [IC-07: Conservation, exchange, and the stability of a closed configuration](identity-containment-07/README.md): finite-cell conserved-field spherical profile, constrained versus open radial stability, weak-exchange growth, finite-environment restoring threshold and capillary response criterion. Ten numerical/symbolic check groups pass; IC-06 rerun passes 20/20. No empirical identification or unrestricted 3D stability claim. Sources and access limits are included in the study. [Handoff](../sessions/2026-11-01-identity-containment-07.md).

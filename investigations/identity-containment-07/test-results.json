@@ -1,0 +1,229 @@
+{
+  "study": "IC-07",
+  "utc": "2026-11-01T08:28:30.761592+00:00",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "script_sha256": "7e61f4e639ff912e628eb5576cc2dc0daddcf80d2e5a307a014ab741326bc4b2",
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "name": "source_reciprocity_and_conservation",
+      "status": "PASS",
+      "detail": {
+        "reciprocal_sum": 1.1102230246251565e-16,
+        "asymmetric_sum": 0.2100000000000002,
+        "limitation": "Source E1 conservation needs reciprocal weights, common eta, no drive and closed links"
+      }
+    },
+    {
+      "name": "spherical_stationary_grid_and_radial_stability",
+      "status": "PASS",
+      "detail": {
+        "grids": [
+          {
+            "cells": 100,
+            "mean": -0.7499999999999999,
+            "mu": 0.10251739457134358,
+            "residual": 1.2850831510036187e-14,
+            "iterations": 6,
+            "radius": 9.093947931251032,
+            "energy": 1080.3593165662883,
+            "uniform_energy": 1603.5212502697902,
+            "radial_free_lowest": -0.024330443065965476,
+            "radial_constrained_lowest": 0.20879916704086215,
+            "angular_lowest": {
+              "1": 6.501334693909423e-05,
+              "2": 0.04877595818928948
+            }
+          },
+          {
+            "cells": 200,
+            "mean": -0.75,
+            "mu": 0.10257498148083037,
+            "residual": 6.562805854315457e-14,
+            "iterations": 6,
+            "radius": 9.093515462408373,
+            "energy": 1080.8509370832362,
+            "uniform_energy": 1603.5212502697905,
+            "radial_free_lowest": -0.0243829349048407,
+            "radial_constrained_lowest": 0.20906352734276723,
+            "angular_lowest": {
+              "1": 1.6207444261225944e-05,
+              "2": 0.04873424751786222
+            }
+          },
+          {
+            "cells": 400,
+            "mean": -0.7499999999999999,
+            "mu": 0.10258934419390688,
+            "residual": 2.593619763402444e-13,
+            "iterations": 6,
+            "radius": 9.093315456613949,
+            "energy": 1080.9735461427208,
+            "uniform_energy": 1603.52125026979,
+            "radial_free_lowest": -0.024396011734530747,
+            "radial_constrained_lowest": 0.2091292100341943,
+            "angular_lowest": {
+              "1": 4.049010617898085e-06,
+              "2": 0.04872385689263288
+            }
+          },
+          {
+            "cells": 800,
+            "mean": -0.75,
+            "mu": 0.1025929327614855,
+            "residual": 1.0474121570069883e-12,
+            "iterations": 6,
+            "radius": 9.093265460627755,
+            "energy": 1081.0041800306833,
+            "uniform_energy": 1603.52125026979,
+            "radial_free_lowest": -0.024399278091729964,
+            "radial_constrained_lowest": 0.20914560555027534,
+            "angular_lowest": {
+              "1": 1.012051591834488e-06,
+              "2": 0.04872126152477144
+            }
+          }
+        ],
+        "energy_refinement_ratios": [
+          4.009658984535888,
+          4.00239955289758
+        ],
+        "limit": "Radial constrained local stability only; no continuum translation pinning or global 3D minimum claimed"
+      }
+    },
+    {
+      "name": "independent_energy_variations",
+      "status": "PASS",
+      "detail": {
+        "first_variation_errors": [
+          7.880320306519195e-06,
+          1.9700798317145995e-06,
+          4.925204235561864e-07
+        ],
+        "hessian_quadratic": 0.27027970207848523,
+        "energy_second_difference": 0.270279745109292
+      }
+    },
+    {
+      "name": "continuous_boundary_value_cross_check",
+      "status": "PASS",
+      "detail": {
+        "method": "independent continuous radial boundary-value collocation",
+        "mu": 0.1025941287569019,
+        "energy": 1081.014389698139,
+        "nodes": 1352,
+        "max_rms_residual": 9.9606473202629e-09,
+        "mu_difference": 1.1959954163975883e-06,
+        "energy_difference": 0.010209667455683302
+      }
+    },
+    {
+      "name": "content_and_grand_energy_budgets",
+      "status": "PASS",
+      "detail": {
+        "content_balance_error": -4.141131881851834e-13,
+        "grand_energy_rate": -71.85532898152026,
+        "dissipation": -71.85532898152027,
+        "closed_content_rate": -7.428802689131613e-13
+      }
+    },
+    {
+      "name": "conserved_radial_dynamic_spectrum",
+      "status": "PASS",
+      "detail": {
+        "slowest_radial_growth_exponent": -0.02053321923123264,
+        "limitation": "Overdamped relaxation exponent; not omega, a clock frequency, or a universal speed"
+      }
+    },
+    {
+      "name": "weak_exchange_and_susceptibility",
+      "status": "PASS",
+      "detail": {
+        "dC_dmu": -170113.4229400307,
+        "independent_branch_difference": -170113.42293402052,
+        "weak_exchange_limit_rate_over_g": 5.878430888740187e-06,
+        "rates": [
+          {
+            "conductance": 10.0,
+            "growth_rate": 5.6208586588923886e-05,
+            "rate_over_g": 5.620858658892389e-06
+          },
+          {
+            "conductance": 1.0,
+            "growth_rate": 5.851556104563769e-06,
+            "rate_over_g": 5.851556104563769e-06
+          },
+          {
+            "conductance": 0.1,
+            "growth_rate": 5.875845896766317e-07,
+            "rate_over_g": 5.875845896766317e-06
+          }
+        ],
+        "interpretation": "An e-folding rate in declared units, not a stochastic or measured particle lifetime"
+      }
+    },
+    {
+      "name": "finite_environment_restoring_response",
+      "status": "PASS",
+      "detail": {
+        "beta_threshold": 5.878430888740187e-06,
+        "cases": [
+          {
+            "beta_over_threshold": 0.0,
+            "lowest_radial_curvature": -0.024382934904877807
+          },
+          {
+            "beta_over_threshold": 0.9,
+            "lowest_radial_curvature": -0.002233335478739434
+          },
+          {
+            "beta_over_threshold": 1.0,
+            "lowest_radial_curvature": -2.8346506586589025e-14
+          },
+          {
+            "beta_over_threshold": 1.1,
+            "lowest_radial_curvature": 0.0021917997912071887
+          },
+          {
+            "beta_over_threshold": 2.0,
+            "lowest_radial_curvature": 0.02020637366364523
+          }
+        ],
+        "provenance": "Quadratic Taylor response of finite reservoir; additional measurable/derivable input, not a fitted rescue"
+      }
+    },
+    {
+      "name": "nonlinear_relaxation_and_exchange_growth",
+      "status": "PASS",
+      "detail": {
+        "closed_mass_max_drift": 3.637978807091713e-12,
+        "closed_initial_distance": 0.05256925092021896,
+        "closed_final_distance": 0.00649987609029248,
+        "open_time": 740.7563274893914,
+        "open_rate": 0.00040499147812449345,
+        "open_measured_amplification": 1.3498912570787782,
+        "linear_expected_amplification": 1.3498588075760032,
+        "open_amount_change": 0.0097188479247648
+      }
+    },
+    {
+      "name": "capillary_pressure_response_limit",
+      "status": "PASS",
+      "detail": {
+        "criterion": "3B > 2 sigma/R for radial minimum at fixed N and constant sigma",
+        "limit": "Thin interface, specified fixed temperature/entropy path, homogeneous interior; separate coarse comparator"
+      }
+    }
+  ],
+  "limitations": [
+    "No empirical data or ARK scalar identification",
+    "Finite-cell spherical/radial calculation",
+    "No claim of global or unrestricted three-dimensional stability",
+    "Conserved integral and reservoir mobility require physical derivation",
+    "No independent second reviewer; alternative solvers are implementation checks"
+  ]
+}
