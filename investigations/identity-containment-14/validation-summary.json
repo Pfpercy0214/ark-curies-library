@@ -1,0 +1,115 @@
+{
+  "study": "IC-14",
+  "parent_commit": "5df5dcf8e26fe02cfa046977763a7a897e7ce931",
+  "status": "ORIGINAL_COORDINATE_GATE_FAILED; CANDIDATE_MAPPING_UNCONFIRMED; APPARATUS_MODEL_NOT_VALIDATED",
+  "input_time_formats": {
+    "index_like_series": [
+      537,
+      538,
+      954,
+      978,
+      1030
+    ],
+    "index_range": [
+      0,
+      2047
+    ],
+    "other_series_range": [
+      -53.6,
+      151.1
+    ],
+    "candidate_map": "t_us=0.1*stored_value-53.6 for five index-like series only"
+  },
+  "conditional_shift_us": 0.3101802929699809,
+  "calibration_early_deviance": 2215.595571808231,
+  "zero_shift_calibration_early_deviance": 13607.209921717593,
+  "tail_comparisons": {
+    "527": {
+      "early_count": 14321,
+      "baseline_count": 1062,
+      "tail_observed": 3057,
+      "tail_predicted": 3083.3985979760687,
+      "signed_tail_fractional_residual": -0.008561526230632856,
+      "tail_quadratic_form_fixed_shift": 60.93929340361171,
+      "tail_bins": 36
+    },
+    "531": {
+      "early_count": 12053,
+      "baseline_count": 825,
+      "tail_observed": 2099,
+      "tail_predicted": 2015.8349782656837,
+      "signed_tail_fractional_residual": 0.04125586798075455,
+      "tail_quadratic_form_fixed_shift": 135.84402873640158,
+      "tail_bins": 36
+    }
+  },
+  "sensitivity_relative_tail_residual": {
+    "zero_shift": {
+      "shift_us": 0.0,
+      "527": 0.05555079442891318,
+      "531": 0.12915091056560402
+    },
+    "late_baseline_40_to_60": {
+      "shift_us": 0.31019377716382407,
+      "527": 0.005939651352647343,
+      "531": 0.04090816433735385
+    },
+    "coarse_1p2us": {
+      "shift_us": 0.29613067812720256,
+      "527": -0.00579646506527175,
+      "531": 0.04498386904048269
+    }
+  },
+  "bootstrap": {
+    "replicates": 200,
+    "seed": 1401,
+    "success": 200,
+    "failed": 0,
+    "sd": [
+      0.00248686215974564,
+      62.14138155208358,
+      50.541791067484155
+    ],
+    "scope": "Poisson plug-in resampling of observed histograms. Estimates counting variation conditional on this model/data; not a null-distribution goodness-of-fit test. No template/systematic/cycle covariance."
+  },
+  "missing_energy_527": {
+    "member_sha256": "f053c3845be94fae4b9a678166fe557c81dc475d801785f730ce36ec02bce198",
+    "rows": 22717,
+    "in_range": 18616,
+    "before_range": 1306,
+    "after_range": 2795,
+    "missing_energy": 1061,
+    "missing_energy_times_in_range": 897,
+    "role": "evaluation",
+    "missing_energy_timing_counts": {
+      "early": 704,
+      "tail": 147,
+      "late": 40,
+      "before_zero": 6
+    }
+  },
+  "verification": {
+    "software_checks_passed": 10,
+    "ic13_parser_checks_rerun_passed": 13,
+    "ic13_actual_intake_rerun": true,
+    "prior_IC01_to_IC12_rerun": false,
+    "full_candidate_run_repeated_identically_except_timestamp": true,
+    "independent_review": false,
+    "local_complete_archive_verification": false
+  },
+  "fingerprints": {
+    "analyze_timing_candidate.py": "6fec27cde0238f83a0ba02c8acfcf6b9bf939b21b11f4818c994e7a109a4a5fc",
+    "analysis-contract.json": "8a730f3541b8df137350d2f45111125b02a857b44fba24fe4b48ece461450fe8",
+    "candidate-coordinate-contract.json": "8b281076b1283585fb6508ba1cdd9aa27bcc1befa4039bca6a24c27f3d92f90e",
+    "time-coordinate-audit.json": "003c0009a23e257e625a461ff8ad2cba4377e7b04b16221c783c9185d9c1ccac",
+    "results.json": "8afaf02dd03fa5b58107b8a950811e33c043205e8448e309acaf6839b847fa5a",
+    "timing-comparison.csv": "538c2a12d941a0e48e0f8d5d9474e5b774619f8898aa760f3c82cccdeb111ecf"
+  },
+  "limits": [
+    "No energy calibration or selection; times of missing-energy rows retained.",
+    "Evaluation-run early/late totals are normalization inputs; only tail excluded.",
+    "Released templates already incorporate source-adjusted voltage and fixed 3% mixture; retrospective, not blind.",
+    "Count-only diagnostics omit template, calibration, selection and acquisition-cycle uncertainty.",
+    "No absolute lifetime, epsilon, new-physics residual or ARK coupling inferred."
+  ]
+}

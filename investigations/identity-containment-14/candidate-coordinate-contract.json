@@ -1,0 +1,20 @@
+{
+  "study": "IC-14 conditional extension",
+  "decision_time_utc": "2026-11-01T14:45:56.768038+00:00",
+  "reason": "Initial direct-unit primary model rejected before transfer metrics: calibration files have a distinct 0..2047 integer coordinate; other files share -53.6..151.1 in 0.1 steps. Thesis section4.2 documents waveform bins0..2047, but no file-specific conversion established.",
+  "primary_contract_sha256": "8a730f3541b8df137350d2f45111125b02a857b44fba24fe4b48ece461450fe8",
+  "raw_index_like_series": [
+    537,
+    538,
+    954,
+    978,
+    1030
+  ],
+  "candidate_map": "t_us = 0.1 * stored_value - 53.6 for these five IDs only; others unchanged",
+  "source_of_coefficients": "endpoints/grid of the other ten uploaded series, not peak alignment or evaluation tail. Hypothesis, NOT independently confirmed instrument calibration.",
+  "primary_remains": "FAILED_TIMING_COORDINATE_GATE; no claim of successful original protocol",
+  "change": "same windows, calibration groups, tests, fixed released templates, and metrics. Candidate mapping and rounding to1e-9 on analysis coordinates only. No original bytes changed.",
+  "status": "FROZEN_BEFORE_CANDIDATE_CALIBRATION_AND_EVALUATION",
+  "prior_access": "All input values scanned for coordinate ranges/integrality; calibration-run broad distributions inspected to diagnose initial failure. Evaluation histograms computed by aborted initial script but not scored or used in calibration. Published trends known. Not wholly blind.",
+  "inference_limit": "Even successful shape transfer would not independently verify clock calibration, rate, mixture or ARK mechanism; numerical discrepancy cannot be attributed to new physics."
+}
