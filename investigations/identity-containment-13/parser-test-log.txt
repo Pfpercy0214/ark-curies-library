@@ -1,0 +1,18 @@
+test_blank_row_blocks_default_input (test_audit.AuditTests.test_blank_row_blocks_default_input) ... ok
+test_bom_interpretation_preserves_hash (test_audit.AuditTests.test_bom_interpretation_preserves_hash) ... ok
+test_finite_header_and_units (test_audit.AuditTests.test_finite_header_and_units) ... ok
+test_fractional_histogram (test_audit.AuditTests.test_fractional_histogram) ... ok
+test_line_ranges (test_audit.AuditTests.test_line_ranges) ... ok
+test_missing_header_rejected (test_audit.AuditTests.test_missing_header_rejected) ... ok
+test_missing_preserved_and_blocked (test_audit.AuditTests.test_missing_preserved_and_blocked) ... ok
+test_negative_rga_values_kept (test_audit.AuditTests.test_negative_rga_values_kept) ... ok
+test_nonfinite_and_nonnumeric (test_audit.AuditTests.test_nonfinite_and_nonnumeric) ... ok
+test_symlink_and_regular (test_audit.AuditTests.test_symlink_and_regular) ... ok
+test_unsafe_paths (test_audit.AuditTests.test_unsafe_paths) ... ok
+test_wrong_width (test_audit.AuditTests.test_wrong_width) ... ok
+test_zero_is_not_missing (test_audit.AuditTests.test_zero_is_not_missing) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK

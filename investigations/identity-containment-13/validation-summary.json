@@ -1,0 +1,95 @@
+{
+  "study": "IC-13",
+  "date_utc": "2026-11-01",
+  "parent_commit": "ed7252ee5efe00c37f9967f5c455b3bb08996260",
+  "status": "ACQUIRED_HASH_MATCHED; SCHEMA_ISSUE_RECORDED; NO_PHYSICS_FIT",
+  "summary": {
+    "distributions_hash_matched": 5,
+    "members_hash_matched": 33,
+    "bl2_series": 15,
+    "bl2_listed_rows": 2157334,
+    "bl2_complete_finite_pairs": 2156273,
+    "members_with_numeric_issues": 1,
+    "rows_with_numeric_issues": 1061,
+    "prior_test_suites_rerun": false,
+    "experimental_fit": false
+  },
+  "integrity_scope": "Receipt hashes independently recomputed against supplied acquisition manifest; not publisher authentication.",
+  "distributions": [
+    {
+      "filename": "README.txt",
+      "size_bytes": 8006,
+      "sha256": "6c667af5717fc3ecf3d680b7298d244baaeca103937a7a2cbf7f81a3e7d5df3c"
+    },
+    {
+      "filename": "BL2data.zip",
+      "size_bytes": 11464800,
+      "sha256": "ac95e2e141a62c1ea507c764cd6ce6f3db3e0236e509dc3b56d1714f4de8b6f9"
+    },
+    {
+      "filename": "BL2Simulations.zip",
+      "size_bytes": 175739,
+      "sha256": "1eeca6f030754fd5d9dc53da58ccc0fe1dcd78d11af20f03d84a811dd3ed7895"
+    },
+    {
+      "filename": "BL1simanddata.zip",
+      "size_bytes": 3340642,
+      "sha256": "3f0ebc619d44efc354773cc74723b62947bd979b53929585bfbcdc0491a8f37a"
+    },
+    {
+      "filename": "RGA_data.txt",
+      "size_bytes": 41815,
+      "sha256": "1d8f7b8b7888e25081dabb78a9a3d29528e1982d7cb8d29107600ca134a396f7"
+    }
+  ],
+  "full_audit_report_sha256": "7157a8178fbc93c0c5cf7d5a5dc01ff74f65d4e1c4f22597a95b593d9071728e",
+  "supplied_manifest_sha256": "83455fa656744e3dd5c0602d94f24c4601dd7cfc7d3f8319c3e56f9d5debb8d2",
+  "supplied_acquisition_notes_sha256": "b1725d7993100ddf03c60fa68efc7e3d30038f6a1d641d38e7d6dda96faaa0c8",
+  "numeric_issue": {
+    "member": "Series_527.txt",
+    "listed_rows": 22717,
+    "complete_energy_time_pairs": 21656,
+    "missing_energy_time_present_rows": 1061,
+    "source_lines_1based_inclusive": [
+      21664,
+      22724
+    ],
+    "treatment": "Retain original bytes; default joint model blocked for affected file; no silent dropping, zero fill or imputation; missingness mechanism unknown"
+  },
+  "bom": {
+    "member": "Series_911.txt",
+    "treatment": "UTF-8 BOM decoded for header interpretation only; original bytes/hash preserved"
+  },
+  "schema_limits": [
+    "BL2 energy arbitrary units; no keV mapping supplied in headers",
+    "Trap duration is not exposure",
+    "BL1 series 134 data and simulation are fractional-valued histograms; do not assume integer Poisson counts",
+    "RGA negative currents retained; not converted into pressure or epsilon",
+    "Measured and simulated ramp voltages differ; alignment is not an independently verified calibration"
+  ],
+  "test_execution": {
+    "parser_and_safety_unit_tests": 13,
+    "passed": 13,
+    "data_distribution_hashes_matched": 5,
+    "zip_CRC_checks_passed": 3,
+    "member_hashes_matched": 33,
+    "all_member_row_counts_matched": true,
+    "initial_exploratory_failures": [
+      "numpy.loadtxt rejected empty energy in Series_527",
+      "strict decoded-header comparison encountered UTF-8 BOM in Series_911"
+    ],
+    "prior_suites_rerun": false,
+    "experimental_fit": false,
+    "independent_review": false
+  },
+  "access_scope": "Every numeric row read for schema/finite-value validation and issue masks. No spectrum, timing trend, calibration, holdout evaluation or fit computed.",
+  "runtime_python": "3.13.5",
+  "not_performed": [
+    "No spectrum fitting",
+    "No detector-energy calibration",
+    "No holdout evaluation",
+    "No absolute lifetime estimate",
+    "No ARK coupling fit",
+    "No archive source modification"
+  ]
+}
