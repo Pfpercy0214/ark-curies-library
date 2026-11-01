@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "groups_passed": 17,
+  "groups": [
+    {
+      "name": "work balance and nonnegative-dissipation identity",
+      "passed": true
+    },
+    {
+      "name": "voltage and required mechanical load derivatives",
+      "passed": true
+    },
+    {
+      "name": "frozen-state mixed-response reciprocity",
+      "passed": true
+    },
+    {
+      "name": "matched loads but different fixed-charge/fixed-voltage tangents",
+      "passed": true
+    },
+    {
+      "name": "electrical-only memory blindness and joint-channel local rank",
+      "passed": true
+    },
+    {
+      "name": "same geometry and voltage distinguishable through load history",
+      "passed": true
+    },
+    {
+      "name": "charge reversal leaves mechanical state unchanged",
+      "passed": true
+    },
+    {
+      "name": "zero and inconsistent-sign inputs rejected",
+      "passed": true
+    },
+    {
+      "name": "zero excess memory does not imply zero restoring stiffness",
+      "passed": true
+    },
+    {
+      "name": "adapted internal configuration remains visible on rapid unloading",
+      "passed": true
+    },
+    {
+      "name": "initial-state reconstruction transfers to a new imposed trajectory",
+      "passed": true
+    },
+    {
+      "name": "permittivity-drift alias is detected, not called identity change",
+      "passed": true
+    },
+    {
+      "name": "unknown load offset aliases retained response",
+      "passed": true
+    },
+    {
+      "name": "joint measurement uncertainty Jacobian includes shared channels",
+      "passed": true
+    },
+    {
+      "name": "correlated covariance remains positive and changes uncertainty",
+      "passed": true
+    },
+    {
+      "name": "coordinate transformation retains work and preload term",
+      "passed": true
+    },
+    {
+      "name": "geometry response cannot be relabeled clock product unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "Exact/constructed comparator verification only; no experimental fit, ARK scalar identification, clock prediction, independent reviewer, or charge-origin derivation.",
+  "example": {
+    "shape": 0.1,
+    "capacitance": 1.4918246976412703,
+    "voltage": 0.13406400920712785,
+    "memories": [
+      0.30000000000000004,
+      0.0
+    ],
+    "loads": [
+      0.44637439631714887,
+      0.14637439631714888
+    ],
+    "trajectory_max_absolute_error_J": {
+      "32": 2.925120701213757e-09,
+      "64": 1.7695661602701307e-10,
+      "128": 1.0882295065073322e-11
+    },
+    "one_percent_permittivity_logshape_bias": 0.002487582713292023,
+    "coordinate_product_difference": 1.3546600777482447
+  },
+  "runtime": {
+    "utc": "2026-11-01T05:36:33.645174+00:00",
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "sympy": "1.14.0"
+  },
+  "script_sha256": "1afd5dbfbf3c045d6cde6e62764e1c2f1686684ce514d7b5e03d77ae150502ab"
+}

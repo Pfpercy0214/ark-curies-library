@@ -10,6 +10,10 @@ Papers I–XXV were merged in PR #1 at `2db757753005e6ac66c55797890b2960bffe9307
 - [IC-02: Recovering identity through a controlled change](identity-containment-02/README.md): proposed common-regime combination of a product bridge, tangent law and clock relation. Recovers relative trajectories and calibrates their scale from one corrected clock change, leaving another for evaluation. Twenty local constructed/symbolic checks passed; physical tau mapping and cross-version compatibility remain unverified. [Session handoff](../sessions/2026-10-31-identity-containment-02.md).
 - [IC-03: Boundary work, restoring response, and retained state](identity-containment-03/README.md): a mode-specific virtual-work measurement candidate and conventional electrical/material-memory benchmarks. Thirty-six local checks passed; held-shape relaxation limits the memory-free tangent inference. No physical tau/clock identification or medium validation. [Owner's boundary hypothesis](../history/mechanistic-notes/2026-10-31-boundary-identity-charge.md); [handoff](../sessions/2026-10-31-identity-containment-03.md).
 
+## Latest addition — 2026-11-01
+
+- [IC-04: Reading boundary memory through electromechanical measurements](identity-containment-04/README.md): conditional joint-channel reconstruction for a declared dielectric comparator; electrical-only memory blindness, retained-configuration versus excess-stress distinction, positive dissipation, control-dependent tangents and coordinate-mapping requirements. Seventeen grouped local verification checks passed; no experimental fit or physical ARK scalar identification. [Handoff](../sessions/2026-11-01-identity-containment-04.md).
+
 ## Research questions
 
 1. **Neutron decay:** map historically asserted equations and assumptions to measurable weak-decay observables; identify what is independently predicted and what is supplied as input. Relevant historical papers are now imported; model reconstruction and empirical assessment remain separate work.
