@@ -1,0 +1,44 @@
+{
+  "study": "IC-15",
+  "date": "2026-11-04",
+  "scope": "Source-based structural reconstruction and exact algebra; no data fitting, no numerical PDE solve, no empirical validation.",
+  "code_sha256": "bf4af8d1a80e48fac194cc902a5830b2948ce2193b399bc880b8ba281934c764",
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "passed": 6,
+  "total": 6,
+  "checks": [
+    {
+      "name": "matching_stationary_sources",
+      "status": "PASS",
+      "scope": "Necessary matching at a shared equilibrium; no global forcing law inferred."
+    },
+    {
+      "name": "optional_gradient_evolution",
+      "status": "PASS",
+      "scope": "Checks the declared extension, not its physical status or uniqueness."
+    },
+    {
+      "name": "fixed_coefficient_first_variation",
+      "status": "PASS",
+      "scope": "Bulk Euler derivative; boundary term remains k*dq/dn*delta(q)."
+    },
+    {
+      "name": "coupled_variation_chain_terms",
+      "status": "PASS",
+      "scope": "General K(q) variation plus a symbolic polynomial check of tau/omega chain terms; local substitutions only, not history closure."
+    },
+    {
+      "name": "conditional_bulk_energy_decay",
+      "status": "PASS",
+      "scope": "Nonpositive only for D>0; not a total physical energy balance, nor proof of stability of every stationary state."
+    },
+    {
+      "name": "no_flux_is_not_reaction_conservation",
+      "status": "PASS",
+      "scope": "Uniform illustrative U=q^2/2, drive=0, unit volume. Not proposed as ARK microphysics."
+    }
+  ],
+  "prior_IC_suites_rerun": false,
+  "independent_second_review": false
+}
