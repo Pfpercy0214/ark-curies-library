@@ -8,6 +8,10 @@ This is the **AI-maintained compiled layer**. The source shelf is under `raw/`; 
 
 Papers I–XXV are archived on main through PR #1 at `2db757753005e6ac66c55797890b2960bffe9307`. Research in PR #2 remains draft and unmerged. The setup/intake statements below are retained historical snapshots, not the current import status. Mathematical consistency and archive integrity do not establish scientific validity.
 
+## Latest core candidate — 2026-11-05
+
+[IC-16: Coupled geometry and retained history](../investigations/identity-containment-16/README.md) supplies a versioned [state/normalization contract](../investigations/identity-containment-16/core-contract.json), a source-linked tangent/history candidate with explicit energy accounting, and tests of its constrained and relaxed reductions. Eleven new consistency check groups pass; IC-15 rerun passes 6/6. Constitutive functions, physical scalar mappings and empirical validation remain open. This is a proposed completion, not recovered source canon. The detector track remains paused. [Latest handoff](../sessions/2026-11-05-coupled-core.md).
+
 ## Domains
 
 - [Nuclear physics](domains/nuclear.md)

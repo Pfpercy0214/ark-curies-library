@@ -1,0 +1,77 @@
+{
+  "version": "IC16-candidate-core-0.1",
+  "date_utc": "2026-11-05",
+  "parent_commit": "8f76c310c5beb5e36a3a974dad9e9ec451f0d4b1",
+  "status": "NEW_CANDIDATE_CONSISTENCY_CHECKED_NOT_EMPIRICALLY_VALIDATED",
+  "primary_purpose": "Resolve source-level state, normalization and feedback structure; NIST track remains paused.",
+  "independent_fields": [
+    "q=theta^c/theta0",
+    "r=(tau^c-tau_ref)/tau0"
+  ],
+  "inertial_initial_data": "q_dot profile also required when chi>0",
+  "prescribed_or_resolved_environment": "E(x,t), boundary geometry and input work; needs own law when not prescribed",
+  "dependent_maps": {
+    "kappa": "K(q,r,E), not yet physically fixed",
+    "omega": "W(q,r,E), dependent pressure/balance descriptor, not independent frequency",
+    "gradient_coefficient": "Kg=Cg(kappa,scales,regime)",
+    "tangent_coefficient": "b=Ct(kappa,scales,regime)"
+  },
+  "physical_normalizations": {
+    "L0": null,
+    "T0": null,
+    "E0": null,
+    "theta0": null,
+    "tau0": null,
+    "tau_ref": null,
+    "kappa_mapping": null,
+    "observable_map": null
+  },
+  "source_conditions": {
+    "XVI_tension_integral": "Printed dimensional assignments do not close directly; conversion dimension L^2 T needed if other assignments retained. Not silently repaired.",
+    "XVIII_normalized_branch": "d r=d q/q on q>0, giving r-r0=log(q/q0); restricted path-independent branch, not general history",
+    "XXV_A4": "omega does not propagate independently",
+    "XXV_E13": "Functional class supplied, detailed U and kinetic law not fixed",
+    "XXV_D1": "Matching combined source to candidate dynamics remains unproved; cannot define epsilon from residual"
+  },
+  "candidate_energy": "A=integral[Kg(q,r,E)|grad q|^2/2+U(q,r,W(q,r,E))-P(E)q] dxi",
+  "candidate_dynamics": [
+    "chi*q_ddot+zeta*q_dot=-gq-b*gr",
+    "r_dot=b*q_dot-L*gr"
+  ],
+  "added_assumptions": [
+    "Quadratic positive rate potential",
+    "Constant chi>0 in energy derivation; or chi=0,zeta>0",
+    "zeta,L>=0; L=0 interpreted as tangent constraint",
+    "Sufficient smoothness and specified boundary conditions",
+    "No independent spatial gradient of r in this first candidate"
+  ],
+  "candidate_energy_budget": "H_dot=-integral(zeta*q_dot^2+L*gr^2)+environment_work+boundary_work",
+  "not_derived": [
+    "Constitutive functions from microphysics",
+    "Unique physical units across versions",
+    "Universal clock field",
+    "Particle or electric charge",
+    "Generalized mass/charge continuity",
+    "Unrestricted stability",
+    "Neutron lifetime"
+  ],
+  "numerical_witness": {
+    "dimensionless": true,
+    "site_count": 24,
+    "domain": "periodic one-dimensional lattice",
+    "Kg": "1+0.2*q^2+0.1*r^2",
+    "b": "0.7*Kg",
+    "W": "q^2*Kg-E",
+    "U": "0.5*(q-0.6)^2+0.3*(q-0.6)*r+r^2+0.1*W^2",
+    "P": "0.05*E",
+    "E": "0.4+0.05*sin(0.7*t)",
+    "chi": 0.5,
+    "zeta": 0.4,
+    "L": 0.25,
+    "source": "Chosen implementation witness, not empirical values or recovered canonical ARK functions"
+  },
+  "next_gate": "Recover energy/stress normalization and constitutive dependence from archived definitions before any cross-domain test or additional detector fitting.",
+  "independent_review": false,
+  "empirical_fit": false,
+  "merge_authorized": false
+}
