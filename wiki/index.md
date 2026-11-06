@@ -20,6 +20,10 @@ Papers I–XXV are archived on main through PR #1 at `2db757753005e6ac66c5579789
 
 [IC-18](../investigations/identity-containment-18/README.md) separates a reference offset from a physical background, derives conditional environment feedback and finite-rate/spatial response, and tests which environmental combinations remain identifiable. Its [environment contract](../investigations/identity-containment-18/environment-contract.json) keeps physical normalization and coupling open. Thirteen generated/symbolic groups pass; unchanged IC-17 rerun passes 13/13. No entropy calibration, gravity derivation, empirical fit or independent review. Detector work remains paused. [Owner context](../history/mechanistic-notes/2026-11-05-environment-background-and-anchors.md); [handoff](../sessions/2026-11-05-responsive-environment.md).
 
+## Pressure-work coupling and source compatibility — IC-19
+
+[IC-19](../investigations/identity-containment-19/README.md) derives a conditional pressure-to-generalized-load map, tests what the archived quadratic energy and squared-slope pressure would require of geometry, and compares two distinct compatible completions. Finite-environment stiffness and pressure-response predictions are explicit; physical normalization and the work-volume/clock mapping remain open. Thirteen new check groups and the unchanged IC-18 rerun pass 13/13 each. No empirical fit or universal entropy identification; detector work remains paused. [Contract](../investigations/identity-containment-19/pressure-contract.json); [handoff](../sessions/identity-containment-19.md).
+
 ## Domains
 
 - [Nuclear physics](domains/nuclear.md)

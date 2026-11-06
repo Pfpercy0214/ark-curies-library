@@ -1,0 +1,15 @@
+# IC-19 session handoff — pressure-work coupling
+
+Parent/source head: 61d2c129fb6d6e4032cf98748e54b45cd3f17c00. Owner authorized continuing the structure-first research, not merging. Execution timestamps are in UTC in the results. NIST track remains paused; no measurement files were read.
+
+[Study](../investigations/identity-containment-19/README.md), [code](../investigations/identity-containment-19/check_pressure_work.py), [results](../investigations/identity-containment-19/results.json), [contract](../investigations/identity-containment-19/pressure-contract.json), [sources](../sources/identity-containment-19-pressure-work.md).
+
+New conditional connection: uniform measured mechanical pressure enters a specified geometry mode through -p*dV, not by renaming pressure as entropy. Normalized mode drive is -p*V_i/E_*. Nonlinear geometry produces pressure-dependent stiffness, and a retained-coordinate load is required if that same volume depends on retained state. The source's linear Pi form is a special constant-load/affine-volume case, not automatically universal.
+
+Source-law compatibility: holding retained state and positive k fixed, quadratic recoverable energy plus P_int proportional to k*q^2 requires a logarithmic work-volume map on the positive-q branch. Affine work-volume plus the same pressure law instead requires a cubic energy. Both recover the same equilibrium q(P), but differ in work/deformation. They can be deliberately matched at one reference state before diverging under changed pressure. No claim that three anchors fail inside an already specified law; this concerns selecting the law from one state.
+
+A finite complementary reservoir supplies a physically dimensioned extra Hessian term (K_e/V_e) grad(V) outer grad(V), alongside preload. This is a different control condition from IC-18's independently relaxed environment and its Schur softening. Under a fixed law, independent H and grad(V) give the pressure sensitivity dx/dp=-H^-1 grad(V). Thermal controls and material exchange require their own terms. No impermeable-medium, gravitational, absolute-entropy, or unique-state claim.
+
+13/13 new groups pass on first execution, repeated identically except timestamp. Includes numerical surface integration, exact variations, alternative compatibility branches, minimization/quadrature and second-order refinement. Unchanged IC-18 code Git-hash matched and reran 13/13. IC-01–17 not rerun. No empirical fit, independent reviewer, PDF audit or local whole-archive audit. Publication hashes and GitHub preservation checks are separate.
+
+Next gate: independently establish a deformation/work-volume map and energy normalization for a declared regime, or specify the nonmechanical meaning and coupling of causal pressure. Do not choose volume from the identity answer and then call its inversion a prediction. Do not drop temperature/history/reference conditions or absorb their differences into epsilon. Keep both completions as alternatives until evidence or source-based derivation selects among them. No Ada delegation, external contact, background task or merge initiated.
