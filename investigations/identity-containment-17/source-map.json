@@ -1,0 +1,123 @@
+{
+  "study": "IC-17",
+  "version": "energy-stress-map-0.1",
+  "parent_commit": "fd5663bf5cae6f8c99b63b63fdc349ca99ee07ae",
+  "status": "CONDITIONAL_STRUCTURAL_RECONSTRUCTION_NOT_PHYSICAL_VALIDATION",
+  "detector_track": "PAUSED",
+  "identifications_not_assumed": [
+    "tau equals mechanical generalized force",
+    "kappa gradient equals kappa tangent equals kappa energy coefficient",
+    "clock angle equals material displacement",
+    "same surface values fix entire interior",
+    "finite-state mathematical consistency identifies microscopic medium"
+  ],
+  "source_records": [
+    {
+      "path": "raw/papers/paper-001-temporal-geometry-conv-01.md",
+      "blob": "2f4eeda07f45a49769e326a54fa88928d461d8fd",
+      "sections": [
+        "3",
+        "5"
+      ],
+      "role": "quadratic whole-configuration energy and clock-angle mapping"
+    },
+    {
+      "path": "raw/papers/paper-018-recursive-scalar-geometry-conv-01.md",
+      "blob": "3dc7c4b0e1ea9634af2496efbf43baedef4ad7e5",
+      "sections": [
+        "2.2",
+        "2.3",
+        "3 expanded update"
+      ],
+      "role": "integrated tension, restricted inverse-slope approximation, physical-anchor cautions"
+    },
+    {
+      "path": "raw/papers/paper-025-disciplined-containment-conv-01.md",
+      "blob": "3bbf2a40a7c4bdde67f4bbeb2a29147f10a036f5",
+      "sections": [
+        "A.2",
+        "A.3",
+        "A.4",
+        "E13-E16"
+      ],
+      "role": "response proxies, boundary-stress definition, dependent balance, spatial energy-like functional"
+    }
+  ],
+  "conditional_bridges": [
+    {
+      "id": "C17-1",
+      "claim": "fixed-state quadratic field sector plus specified spatial mode gives lumped quadratic energy",
+      "requirements": [
+        "mode shape and normalization",
+        "volume and boundary conditions",
+        "fixed retained state/environment",
+        "applicable quadratic regime"
+      ],
+      "type": "conditional derivation"
+    },
+    {
+      "id": "C17-2",
+      "claim": "tangent law integrates to force and energy up to reference functions",
+      "requirements": [
+        "reversible smooth work law",
+        "fixed r,E",
+        "non-singular integration interval",
+        "reference force and energy"
+      ],
+      "type": "conditional derivation"
+    },
+    {
+      "id": "C17-3",
+      "claim": "retained state and measured response can be alternative coordinates",
+      "requirements": [
+        "nonzero response derivative with respect to retained state",
+        "transformed energy gradients and kinetics",
+        "specified chart/domain"
+      ],
+      "type": "conditional derivation; generated example"
+    },
+    {
+      "id": "C17-4",
+      "claim": "ordinary boundary traction becomes a generalized load only after a deformation map is supplied",
+      "requirements": [
+        "stress definition",
+        "orientation",
+        "displacement-per-mode mapping",
+        "account for other work/transport terms"
+      ],
+      "type": "conventional virtual-work constraint"
+    },
+    {
+      "id": "C17-5",
+      "claim": "physical stress from an energy requires a material/deformation/transport contract",
+      "requirements": [
+        "state transformation under displacement",
+        "energy volume measure",
+        "matched exterior reference"
+      ],
+      "type": "conditional shape variation"
+    }
+  ],
+  "candidate_log_energy": {
+    "domain": "q>0,q0>0",
+    "hypothesis": "normalized source integrated tension is the reversible work-conjugate response",
+    "Kt": "1/q",
+    "T": "T0+log(q/q0)",
+    "U": "U0+T0*(q-q0)+q*log(q/q0)-q+q0",
+    "not_claimed": "canonical replacement for historical quadratic energy"
+  },
+  "remaining_inputs": {
+    "physical_tau_chart": null,
+    "physical_energy_scale": null,
+    "field_to_clock_geometry_map": null,
+    "material_transport_rule": null,
+    "joint_constitutive_potential": null,
+    "reference_functions": null
+  },
+  "scientific_status": {
+    "empirical_fit": false,
+    "independent_review": false,
+    "physical_ARK_mapping": false,
+    "merge_authorized": false
+  }
+}

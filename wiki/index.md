@@ -12,6 +12,10 @@ Papers I–XXV are archived on main through PR #1 at `2db757753005e6ac66c5579789
 
 [IC-16: Coupled geometry and retained history](../investigations/identity-containment-16/README.md) supplies a versioned [state/normalization contract](../investigations/identity-containment-16/core-contract.json), a source-linked tangent/history candidate with explicit energy accounting, and tests of its constrained and relaxed reductions. Eleven new consistency check groups pass; IC-15 rerun passes 6/6. Constitutive functions, physical scalar mappings and empirical validation remain open. This is a proposed completion, not recovered source canon. The detector track remains paused. [Latest handoff](../sessions/2026-11-05-coupled-core.md).
 
+## Energy–stress compatibility map — 2026-11-05
+
+[IC-17](../investigations/identity-containment-17/README.md) connects a declared spatial field energy to whole-configuration stiffness, distinguishes energy/secant/tangent responses, and specifies the state-coordinate and deformation maps needed for a boundary-stress interpretation. Thirteen conditional consistency groups pass; unchanged IC-16 rerun passes 11/11. Physical constitutive functions and normalization remain unselected; no empirical validation or detector work. [Handoff](../sessions/2026-11-05-energy-stress-map.md).
+
 ## Domains
 
 - [Nuclear physics](domains/nuclear.md)

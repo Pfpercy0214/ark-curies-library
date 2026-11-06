@@ -1,0 +1,13 @@
+# Session handoff — IC-17 energy/stress mapping
+
+Local date: 2026-11-05 America/Chicago. Execution UTC: 2026-11-06. Parent `fd5663bf5cae6f8c99b63b63fdc349ca99ee07ae`. Continued owner-authorized structure-first work, not merge authorization. Detector track stays paused. No original-paper, policy, manifest, previous-study or source-repository edits.
+
+[Study](../investigations/identity-containment-17/README.md), [source map](../investigations/identity-containment-17/source-map.json), [external/source access record](../sources/identity-containment-17-energy-stress.md).
+
+Substantive step: derive a whole-configuration quadratic energy from the XXV functional's quadratic sector and a specified spatial mode. Its stiffness depends on the mode, geometry and field coefficients, not a silent equality between global and gradient stiffness. Separate energy, secant and tangent coefficients. Reconstruct a conditional energy family from a tangent surface plus reference functions. The XVIII reciprocal-slope tangent branch admits a convex logarithmic-work energy with a positive reference; it is not the same as pointwise substituting reciprocal slope into the flat-reference quadratic energy. Do not rewrite either source.
+
+IC-16's retained coordinate need not equal work-conjugate response. A locally invertible map to measured response can preserve the same state dimension, but gradients and kinetics must transform. This was checked explicitly for an overdamped sector. Retaining the old mobility after renaming the coordinate changes the dynamics. A boundary traction integral needs a deformation-mode projection to define generalized work. Physical stress additionally requires material/metric/transport coupling; a scalar functional alone does not choose that coupling.
+
+13/13 new groups pass on first run and repeat substantive output matches. Independent quadratures, finite-difference refinement and matrix-exponential comparisons are implementation checks, not independent scientific review. Unchanged IC-16 code matched remote blob ad80d1b2b9e1f03fb0bdf68ef222bb4cad8ac2d9 and reran 11/11. IC-01–15 not rerun. No empirical fit, NIST read, PDF audit, local whole-archive verification, autonomous task or Ada delegation. Publication hashes and archive-preservation CI are separate.
+
+Next core deliverable: a chosen constitutive specification with declared retained-state/observable coordinates, energy measure, physical transport/deformation rule and reference conditions. Test the archived governing relations against its derived responses. Do not let a further example or detector residual substitute for those decisions; preserve alternative source readings when the evidence does not identify one.
