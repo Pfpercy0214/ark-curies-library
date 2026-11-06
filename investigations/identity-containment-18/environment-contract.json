@@ -1,0 +1,49 @@
+{
+  "version": "IC18-environment-contract-0.1",
+  "parent_commit": "5d02af080caf72d48784f16a7414d997c375704f",
+  "status": "CONDITIONAL_LOCAL_EXTENSION; NOT_EMPIRICALLY_IDENTIFIED",
+  "purpose": "Constrain environmental role without absolute-background assumptions or detector detour",
+  "source_roles": {
+    "XXV_A4_A5": "dependent balance and unresolved environmental modes",
+    "XXV_E13_E16": "identity functional with environment drive",
+    "IC16_IC17": "versioned identity state and physical-normalization gaps"
+  },
+  "resolved_identity": "x: deviations of declared geometry/history coordinates; scalar q is a restricted sector",
+  "resolved_environment": "y or u: selected response mode, not automatically thermodynamic entropy, pressure or ARK Delta S_t",
+  "reference": "joint stationary supported state; preserve linear terms if constraints/preloads require them",
+  "physical_control_map": null,
+  "absolute_environment_scale": null,
+  "energy_normalization": null,
+  "boundary_transport_rule": null,
+  "candidate_energy": "0.5*x^T*A*x - x^T*C*y + 0.5*y^T*B*y - h^T*x - j^T*y",
+  "conditions": [
+    "B positive definite",
+    "A-C*B^-1*C^T positive on admitted modes",
+    "same reference when comparing clamped and relaxed response",
+    "all reference/control quantities fixed independently of target"
+  ],
+  "added_kinetics": "q_dot=-M(Aq-gu); u_dot=-L(Bu-gq), M,L>0; not source-canonical kinetics",
+  "spatial_extension": "positive Gq,Gu gradient penalties; boundary conditions specified",
+  "response_targets": [
+    "static stiffness",
+    "spatial kernel",
+    "finite-rate response",
+    "permitted equilibrium family"
+  ],
+  "scalar_summary_test": "rank <=1 necessary locally for all considered outputs to factor through one smooth scalar; check full fibers/response conditions separately",
+  "partition_rule": "S+epsilon only when same coupling, scale, geometry and timing represented",
+  "normalization_degeneracy": "u->alpha*u with compensating B,Gu,g,L leaves identity response unchanged",
+  "not_established": [
+    "universal entropy scalar",
+    "absolute physical background",
+    "theta/tau/kappa unique recovery",
+    "gravity",
+    "universal clock rate",
+    "particle stability",
+    "empirical field coefficients"
+  ],
+  "next_gate": "physically ground one constitutive/coupling and normalization map; retain all nonidentified directions and test a distinct observable",
+  "independent_review": false,
+  "experimental_fit": false,
+  "merge_authorized": false
+}

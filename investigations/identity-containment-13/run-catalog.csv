@@ -1,0 +1,16 @@
+series,detector,acceleration_kV,ramp_V,trap_duration_ms,listed_rows,complete_pairs,energy_units,time_units,source_member
+527,SB,25,14.4,10,22717,21656,arbitrary,microseconds,Series_527.txt
+531,SB,25,28.8,10,18140,18140,arbitrary,microseconds,Series_531.txt
+537,SB,25,45.0,10,125687,125687,arbitrary,microseconds,Series_537.txt
+538,SB,25,7.2,10,279347,279347,arbitrary,microseconds,Series_538.txt
+539,SB,25,0,10,205690,205690,arbitrary,microseconds,Series_539.txt
+911,SB,25,45,20,144082,144082,arbitrary,microseconds,Series_911.txt
+923,SB,25,45,20,161010,161010,arbitrary,microseconds,Series_923.txt
+954,SB,25,45,20,149315,149315,arbitrary,microseconds,Series_954.txt
+963,SB,25,45,3,97148,97148,arbitrary,microseconds,Series_963.txt
+970,SB,25,45,30,83481,83481,arbitrary,microseconds,Series_970.txt
+974,SB,25,45,20,174581,174581,arbitrary,microseconds,Series_974.txt
+978,SB,25,45,50,108884,108884,arbitrary,microseconds,Series_978.txt
+1030,SB,25,45,50,144711,144711,arbitrary,microseconds,Series_1030.txt
+1058,SB,25,45,100,223917,223917,arbitrary,microseconds,Series_1058.txt
+1137,PIPS,30,45,10,218624,218624,arbitrary,microseconds,Series_1137.txt

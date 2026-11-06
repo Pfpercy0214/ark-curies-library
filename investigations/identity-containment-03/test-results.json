@@ -1,0 +1,219 @@
+{
+  "study": "IC-03",
+  "status": "PASS",
+  "checks_passed": 36,
+  "checks": [
+    {
+      "name": "spherical pressure and fixed-charge virtual work",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "charge reversal leaves pressure unchanged",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "charge reversal reverses electric field",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "signed electric flux recovers charge",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "uniform pressure has zero vector resultant component 0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "uniform pressure has zero vector resultant component 1",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "uniform pressure has zero vector resultant component 2",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "nonzero dilation load equals mode-weighted work",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "dilation load is positive despite zero resultant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fixed-voltage force agrees at the matched state",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "field-energy-only fixed-voltage sign is wrong",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "fixed-Q tangent includes inverse-square change",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "fixed-V spherical force has zero radial tangent",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "coordinate change preserves virtual work",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "stiffness transformation includes the preload term",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "omitting preload term changes nonlinear-coordinate stiffness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stored energy plus nonnegative dissipation balances work",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "dissipation is nonnegative",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "instantaneous stiffness holds memory configuration fixed",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "relaxed stiffness follows z=s",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "total response law retains relaxation term",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "same geometry can retain different response",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held-shape relaxation solves memory ODE",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "held-shape response is not constant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held-shape mechanical power is zero",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "explicit relaxation correction restores constant geometry rate",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "uncorrected tangent rule fails the held-geometry control",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "step data recover the three declared comparator parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no memory amplitude leaves relaxation time unidentifiable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "separate ramp response solves memory ODE",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "ramp implementation converges under refinement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen step calibration reproduces separate manufactured ramp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "different memory spectra can share initial stress",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "different memory spectra can share final stress",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "different memory spectra can share integrated relaxation",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "those shared summaries do not identify the time history",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "diagnostics": {
+    "wrong_geometry_ratio_at_one_relaxation_time": 0.6843592121163271,
+    "synthetic_parameters": [
+      2.0,
+      3.0,
+      1.5
+    ],
+    "recovered_parameters": [
+      2.0,
+      3.0,
+      1.4999999999999996
+    ],
+    "separate_ramp_response": 0.10970719317718843,
+    "ramp_absolute_errors_n16_n32_n64": [
+      1.0220360321944177e-08,
+      6.169417060553073e-10,
+      3.7894701265805963e-11
+    ],
+    "memory_spectrum_gap_at_t1": 0.07839599264259853
+  },
+  "limitations": [
+    "No experimental data or physical ARK scalar estimates.",
+    "Classical comparators, not an ARK mechanism validation.",
+    "No equality between deformation s and clock-defined theta assumed.",
+    "One-mode model and parameter identifiability are conditional.",
+    "No independent reviewer; no claim these tests run in GitHub CI."
+  ],
+  "executed_utc": "2026-11-01T04:14:33.923248+00:00",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "sympy": "1.14.0",
+  "script_sha256": "29410c23f5b8201791d1ac615a2075cf31c72a42542154614c9edae550333504"
+}

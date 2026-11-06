@@ -1,0 +1,250 @@
+{
+  "study": "IC-10",
+  "utc": "2026-11-01T11:30:30.782806+00:00",
+  "code_sha256": "d61cdd65f8d6d22574b439d2b3d74b8568f787fe022a11cd7e26182e6ac81c9c",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Symbolic and synthetic-data verification only; no actual lifetime fit, apparatus calibration, epsilon identification or independent review",
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "name": "environment_partition",
+      "status": "PASS",
+      "detail": {
+        "result": "Same additive influence can be relabeled; epsilon and unresolved baseline are not separately identified",
+        "scope": "A supplied local response model, not a measured ARK susceptibility"
+      }
+    },
+    {
+      "name": "survival_nonidentifiability",
+      "status": "PASS",
+      "detail": {
+        "rate_pairs": [
+          [
+            0.001,
+            8e-05
+          ],
+          [
+            0.00104,
+            4e-05
+          ]
+        ],
+        "max_survival_difference": 0.0,
+        "distinction": "More survival precision alone does not separate constant competing hazards"
+      }
+    },
+    {
+      "name": "detection_drift_scale",
+      "status": "PASS",
+      "detail": {
+        "actual_total_rate": 0.0011,
+        "naive_rate": 0.001113,
+        "corrected_rate": 0.0011,
+        "illustrative_878_888_rate_difference": 1.2826037882985447e-05,
+        "efficiency_ratio_over_1000_s": 0.9872558652029272,
+        "caveat": "Not evidence that any actual experiment has this efficiency error"
+      }
+    },
+    {
+      "name": "exhaustive_channel_inversion",
+      "status": "PASS",
+      "detail": {
+        "mean_counts": [
+          84517.35102770387,
+          63851.56567077416,
+          5501.057965482082
+        ],
+        "recovered_rates": [
+          0.001,
+          8.000000000000002e-05
+        ],
+        "reconstructed_initial": 200000.0,
+        "common_scale_cancels": true,
+        "relative_efficiencies_required": true,
+        "assumptions": "Constant hazards, exhaustive disjoint channels, no influx, matched exposures and response calibrations"
+      }
+    },
+    {
+      "name": "rank_and_relative_efficiency",
+      "status": "PASS",
+      "detail": {
+        "log_jacobian_singular_values": [
+          1.8443717418965184,
+          1.0246809574704898,
+          0.754106556187809
+        ],
+        "rate_inferred_with_wrong_beta_efficiency": [
+          0.0012023717929750585,
+          7.399211033692668e-05
+        ]
+      }
+    },
+    {
+      "name": "independent_ODE_and_refinement",
+      "status": "PASS",
+      "detail": {
+        "relative_errors": [
+          1.555601206200663e-07,
+          2.9660425207111986e-09,
+          3.598332114052027e-11
+        ],
+        "endpoint": [
+          93908.16780855985,
+          98233.17795503717,
+          7858.654236402975
+        ]
+      }
+    },
+    {
+      "name": "multinomial_covariance_and_calibration",
+      "status": "PASS",
+      "detail": {
+        "seed": 1001,
+        "replicates": 30000,
+        "mean_bias": [
+          -2.6758421304033317e-08,
+          -4.5676151354311165e-09
+        ],
+        "count_only_sd": [
+          3.7573889316463835e-06,
+          1.075867333572309e-06
+        ],
+        "MC_sd": [
+          3.7573960752110764e-06,
+          1.076226876034144e-06
+        ],
+        "covariance_offdiagonal": -9.8746892905465e-14,
+        "coverage_95": [
+          0.9498,
+          0.9507333333333333
+        ],
+        "extra_sd_for_0p3pct_beta_efficiency": [
+          2.1712932135207683e-06,
+          6.629654293195653e-08
+        ],
+        "caveat": "Synthetic multinomial events; no empirical confidence interval"
+      }
+    },
+    {
+      "name": "unmonitored_channel_counterexample",
+      "status": "PASS",
+      "detail": {
+        "true_rates": [
+          0.001,
+          8e-05,
+          5e-05
+        ],
+        "two_channel_apparent_rates": [
+          0.001013910686084414,
+          8.111285488675312e-05
+        ],
+        "independent_initial_inventory_deficit": 4837.246218284505,
+        "alternate_initial_inventory": 195162.7537817155,
+        "result": "Without independent initial inventory or a third mark, identical observed totals admit a wrong two-channel model"
+      }
+    },
+    {
+      "name": "population_selection_counterexample",
+      "status": "PASS",
+      "detail": {
+        "interval_rates": [
+          0.0011071664149815022,
+          0.0011027276570517185
+        ],
+        "instantaneous_derivative": -8.083619617992243e-09,
+        "result": "Time dependence of aggregate removal can arise from selection with each component rate fixed"
+      }
+    },
+    {
+      "name": "frozen_calibrated_transfer",
+      "status": "PASS",
+      "detail": {
+        "calibration_controls": [
+          0.0,
+          0.5
+        ],
+        "frozen_coefficients": [
+          0.001,
+          1.9999999999999185e-05
+        ],
+        "evaluation_control": 1.2,
+        "evaluation_rate": 0.001023999999999999,
+        "unmodeled_detection_rate": 0.001234369164300214,
+        "predicted_beta_counts": 84928.718654125,
+        "scope": "Constructed affine response; not a derived epsilon coupling, blind holdout, or actual data prediction"
+      }
+    },
+    {
+      "name": "pressure_extrapolation_limits",
+      "status": "PASS",
+      "detail": {
+        "naive_extrapolated_intercept": 0.0010299999999999999,
+        "true_reference_beta_rate": 0.001,
+        "fitted_total_slope": 6.000000000000024e-05,
+        "result": "Zero-pressure intercept can retain pressure-independent loss; scan alone does not separate beta and loss slopes"
+      }
+    },
+    {
+      "name": "epsilon_susceptibility_scale",
+      "status": "PASS",
+      "detail": {
+        "observed_slope": 2e-05,
+        "result": "Apparatus-to-epsilon normalization and rate susceptibility remain separately unidentified from rate response alone"
+      }
+    },
+    {
+      "name": "product_trap_response",
+      "status": "PASS",
+      "detail": {
+        "input_status": "Illustrative collision rate and efficiencies, not NIST values",
+        "rows": [
+          {
+            "storage_s": 0.002,
+            "average_unconverted_fraction": 0.9802640211919197,
+            "effective_efficiency": 0.893092407417172,
+            "apparent_lifetime_ratio": 1.0077344656896197,
+            "expected_signal": 0.00893092407417172
+          },
+          {
+            "storage_s": 0.01,
+            "average_unconverted_fraction": 0.9063462346100907,
+            "effective_efficiency": 0.8672211821135318,
+            "apparent_lifetime_ratio": 1.0377975291223651,
+            "expected_signal": 0.04336105910567659
+          },
+          {
+            "storage_s": 0.05,
+            "average_unconverted_fraction": 0.6321205588285577,
+            "effective_efficiency": 0.7712421955899952,
+            "apparent_lifetime_ratio": 1.1669485994752997,
+            "expected_signal": 0.1928105488974988
+          }
+        ],
+        "result": "Post-decay charge exchange can change recorded yield with constant beta production; equal ion and proton efficiencies cancel the yield shift"
+      }
+    },
+    {
+      "name": "causal_order_control",
+      "status": "PASS",
+      "detail": {
+        "corrected_beta_rates": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "requirement": "A downstream-only intervention must be independently shown not to alter upstream fields, exposure, or acceptance elsewhere"
+      }
+    },
+    {
+      "name": "invalid_inputs",
+      "status": "PASS",
+      "detail": {
+        "rejected": 5,
+        "limitations": "Background estimates must be modeled jointly at low counts; no silent clipping or treating negative corrected counts as physical"
+      }
+    }
+  ]
+}

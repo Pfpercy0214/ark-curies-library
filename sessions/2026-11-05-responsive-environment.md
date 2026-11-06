@@ -1,0 +1,15 @@
+# Session handoff — IC-18 responsive environment
+
+Local date 2026-11-05 America/Chicago; execution UTC 2026-11-06. Parent 5d02af080caf72d48784f16a7414d997c375704f. Owner authorized continuation of the structure-first work, not merge. NIST track remains paused. No archive, source repository, manifest, policy or previous-study change.
+
+[IC-18](../investigations/identity-containment-18/README.md) develops an explicit environmental response contract alongside the IC-16/17 identity description. [Owner context](../history/mechanistic-notes/2026-11-05-environment-background-and-anchors.md) preserves the three-anchor, multiple-environment and static-background hypotheses without making them established physics.
+
+The new candidate locally resolves an environment coordinate with its own energy curvature and coupling. Eliminating it changes the identity's effective stiffness; finite response time retains memory; spatial response supplies a characteristic scale. The background energy offset can cancel while background-dependent coefficients remain. Clamped versus relaxed environment and physical baseline versus arbitrary reference are distinct.
+
+Three identity constraints need not separate more environmental components or a sum-only S/epsilon partition. A scalar environmental summary must preserve the relevant response, not only an equilibrium label. Independent calibrated coupling, fast/slow response, spatial range and time response can recover candidate parameters in generated tests; a coordinate-rescaling ambiguity otherwise persists.
+
+The bounded sphere calculation prescribes a source amplitude and radius. It shows continuous collective scaling and smooth field matching, not a closed particle or impermeability. Its exterior is screened. The unscreened limit destabilizes the unrestricted local joint branch at fixed nonzero coupling; alternative constraints/couplings require separate justification. This is not a gravity derivation.
+
+First suite 12/12 passed; added constructive recovery test; final 13/13 passed and repeated identically except UTC timestamp. Included exact derivatives, block minimization, ODE/exponential/convolution comparisons, Fourier/dense check, radial matching, Green integral and finite-difference refinement. Unchanged IC-17 script matched d66e6a800dfca751980b15da7a63eb72c931a9c6 and reran 13/13; IC-01–16 not rerun. No empirical data, independent reviewer, complete local archive check or source-PDF audit. Remote content hashes and preservation CI must be checked separately.
+
+Next bounded core task: choose one source-grounded environment-to-identity coupling with explicit normalization, distinct reference/control conditions, and known degrees of freedom. Decide which environmental modes are resolved versus already encoded in retained history, to avoid double counting. Do not add arbitrary epsilon or select constants from a target discrepancy. Preserve this candidate as an alternative if its screened/relaxational structure cannot meet the relevant physical constraints. No detector, ice or new device-model detour is required.

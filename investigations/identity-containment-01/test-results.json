@@ -1,0 +1,27 @@
+{
+  "study": "IC-01",
+  "kind": "Exact symbolic and manufactured-example checks; not empirical validation",
+  "source_commit": "2db757753005e6ac66c55797890b2960bffe9307",
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "checks": [
+    "test_01_product_symmetry",
+    "test_02_two_product_bridges_rank_one",
+    "test_03_product_and_tau_rank_two",
+    "test_04_independent_theta_and_tau_restore_rank_three",
+    "test_05_two_anchors_plus_conditional_constitutive_law",
+    "test_06_tangent_stiffness_requires_an_integration_anchor",
+    "test_07_d1_rearrangement",
+    "test_08_d1_has_spatially_variable_time_constant_nullspace",
+    "test_09_manufactured_d1_field_and_baseline",
+    "test_10_resolved_unresolved_partition_is_not_identified_by_total",
+    "test_11_baseline_difference_does_not_suppress_environmental_drift",
+    "test_12_printed_xxii_inversion_product"
+  ],
+  "interpretation": "PASS means the stated algebraic conclusions were reproduced, including diagnosed non-identifiability and an incompatible printed inversion. It does not mean the source equations describe nature."
+}

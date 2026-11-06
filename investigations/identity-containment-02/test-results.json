@@ -1,0 +1,90 @@
+{
+  "study": "IC-02-A",
+  "status": "conditional derivation / constructed-example verification",
+  "source_branch_head": "6ba49695728756d7359b8551f2118da8befa6896",
+  "executed_utc": "2026-11-01T03:25:28.858723+00:00",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "sympy": "1.14.0",
+  "script_sha256": "141da89f39d6efb7e5745f0ef4f057d5fd8c821ed7931ce6afc25fae2bab694f",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "checks": [
+    "test_01_differential_recovery",
+    "test_02_scale_family_survives_differential_information",
+    "test_03_tau_offset_remains_an_independent_state_input",
+    "test_04_constructed_path_satisfies_constitutive_law",
+    "test_05_reconstruction_converges_at_second_order",
+    "test_06_clock_ratio_identity",
+    "test_07_clock_calibration_on_fixed_branch",
+    "test_08_tiny_clock_deficit_does_not_round_to_zero",
+    "test_09_clock_scale_is_not_identified_without_excitation",
+    "test_10_reject_invalid_data_and_undeclared_branches",
+    "test_11_unknown_reference_drift_can_restore_ambiguity",
+    "test_12_calibration_then_distinct_cross_observable_evaluation",
+    "test_13_wrong_memory_model_is_not_rescued_by_one_calibration",
+    "test_14_quadrature_jacobian_matches_numerical_derivatives",
+    "test_15_covariance_changes_inferred_uncertainty",
+    "test_16_clock_implicit_sensitivities",
+    "test_17_joint_field_equation_for_unknown_spatial_baseline",
+    "test_18_entropy_baseline_not_fixed_by_identity_scale_alone",
+    "test_19_unmodeled_tau_evolution_biases_relative_theta",
+    "test_20_no_clock_target_enters_response_factor"
+  ],
+  "demonstrations": {
+    "fixture_type": "manufactured dimensionless trajectory; not an experiment",
+    "calibration_t": 0.4,
+    "evaluation_t": 1.0,
+    "calibration_ratio_deficit": 0.002941862213987201,
+    "estimated_theta0": 0.2000000001414404,
+    "evaluation_deficit_prediction": 0.008018048686555932,
+    "evaluation_deficit_constructed_truth": 0.00801804870074498,
+    "evaluation_relative_error": 1.7696384357890338e-09,
+    "quadrature_convergence": [
+      {
+        "samples": 51,
+        "max_relative_H_error": 1.1641205766022011e-07
+      },
+      {
+        "samples": 101,
+        "max_relative_H_error": 2.9102372844924673e-08
+      },
+      {
+        "samples": 201,
+        "max_relative_H_error": 7.2755532709578574e-09
+      },
+      {
+        "samples": 401,
+        "max_relative_H_error": 1.8188859307599614e-09
+      },
+      {
+        "samples": 801,
+        "max_relative_H_error": 4.547210386007805e-10
+      }
+    ],
+    "deliberately_unmodeled_memory_drift": 0.04,
+    "wrong_model_evaluation_relative_error": 0.00029139801828725886,
+    "small_signal": {
+      "theta0": 1e-09,
+      "H": 1.2,
+      "stable_deficit": 2.2e-19,
+      "naive_float_deficit": 0.0,
+      "recovered_theta0": 9.999999999999945e-10
+    },
+    "uncertainty_fixture": {
+      "variance_log_H_with_covariance": 1.8364503869736398e-08,
+      "variance_log_H_diagonal_only": 1.7327898751498624e-08,
+      "note": "These are illustrative input uncertainties, not measured errors."
+    }
+  },
+  "limits": [
+    "No experimental dataset loaded or fitted.",
+    "A new joint hypothesis connects definitions from three historical versions; physical compatibility is unverified.",
+    "One designated clock shift calibrates theta0; a later clock shift is a separate constructed evaluation target.",
+    "Uses measured q and tau histories: cross-observable inference, not a forward initial-value ARK solver.",
+    "No empirical tau bridge, Lambda, or neutron lifetime is supplied.",
+    "Passing controls diagnose selected mathematical issues; they do not validate the mechanism."
+  ]
+}

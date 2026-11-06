@@ -1,0 +1,105 @@
+{
+  "study": "IC-12",
+  "utc": "2026-11-01T12:56:47.731717+00:00",
+  "python": "3.13.5",
+  "scope": "Offline fixture/software checks and elementary likelihood identities. No NIST event analysis.",
+  "input_hashes": {
+    "nist_intake.py": "6d0e42d70d1d16fc1785de992fc05f8f71a34634967146134c7325805add5247",
+    "check_ic12.py": "9103fd120c3c49c6db33733409932ff919d000b2ce7b59a5282d44f69c0bcdb4",
+    "analysis-contract.json": "28d93ca733b1fdeed46f97c7974494c210f0d08073422058df547e5738d75ff0"
+  },
+  "total": 18,
+  "passed": 18,
+  "checks": [
+    {
+      "test": "test_01_archive_hashes",
+      "status": "PASS"
+    },
+    {
+      "test": "test_02_traversal_and_absolute",
+      "status": "PASS"
+    },
+    {
+      "test": "test_03_link",
+      "status": "PASS"
+    },
+    {
+      "test": "test_04_duplicates",
+      "status": "PASS"
+    },
+    {
+      "test": "test_05_unpacked_limit",
+      "status": "PASS"
+    },
+    {
+      "test": "test_06_text_error",
+      "status": "PASS"
+    },
+    {
+      "test": "test_07_source_restrictions",
+      "status": "PASS"
+    },
+    {
+      "test": "test_08_mock_fetch_and_no_overwrite",
+      "status": "PASS"
+    },
+    {
+      "test": "test_09_mock_download_limit_cleanup",
+      "status": "PASS"
+    },
+    {
+      "test": "test_10_corrupted_crc",
+      "status": "PASS"
+    },
+    {
+      "test": "test_11_actual_contract_blocked",
+      "status": "PASS"
+    },
+    {
+      "test": "test_12_fixture_contract_only_ready_for_review",
+      "status": "PASS"
+    },
+    {
+      "test": "test_13_group_overlap",
+      "status": "PASS"
+    },
+    {
+      "test": "test_14_missing_mapping_and_hash",
+      "status": "PASS"
+    },
+    {
+      "test": "test_15_absolute_rate_requires_independent_anchors",
+      "status": "PASS"
+    },
+    {
+      "test": "test_16_poisson_multinomial_factorization",
+      "status": "PASS"
+    },
+    {
+      "test": "test_17_normalization_erases_common_scale",
+      "status": "PASS"
+    },
+    {
+      "test": "test_18_independently_fixed_background_exception",
+      "status": "PASS"
+    }
+  ],
+  "real_analysis_readiness": {
+    "status": "BLOCKED",
+    "issues": [
+      "schema_evidence unresolved",
+      "energy_mapping unresolved",
+      "timing_mapping unresolved",
+      "selection_rule unresolved",
+      "background_model unresolved",
+      "response_model unresolved",
+      "calibration_evidence unresolved",
+      "grouping_evidence unresolved",
+      "calibration_groups absent or invalid",
+      "evaluation_groups absent or invalid",
+      "no input files registered",
+      "no observed-event input declared"
+    ],
+    "qualification": "Self-declared evidence fields must be checked; this tool grants no empirical approval"
+  }
+}

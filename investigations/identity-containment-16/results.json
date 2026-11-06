@@ -1,0 +1,160 @@
+{
+  "study": "IC-16",
+  "utc": "2026-11-05T06:59:25.716927+00:00",
+  "code_sha256": "58f754f25bcacbd8369a45b4a720ab9d15b223c8324844a6fef06294f736bcb9",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Source-derived distinctions plus explicitly added candidate kinetics; generated consistency tests only. No empirical fit, full-theory validation, independent review or NIST analysis.",
+  "passed": 11,
+  "total": 11,
+  "checks": [
+    {
+      "name": "normalized_history_and_environment_path",
+      "status": "PASS",
+      "detail": {
+        "normalized_relation": "r-r0=log(q/q0), q>0",
+        "closed_path_increment": -7.136966850535482e-17,
+        "environment_dependent_increment": 0.18849555921538766,
+        "scope": "Fixed initial reference can persist; restricted log branch has no additional path memory."
+      }
+    },
+    {
+      "name": "source_unit_bridge",
+      "status": "PASS",
+      "detail": {
+        "source": "XVI sections 2.2/2.3",
+        "tau_units": "J s",
+        "kappa_units": "N/m",
+        "direct_integral_units": "N/m",
+        "conversion_dimension_needed": "length^2 time",
+        "action": "Do not silently use these as the same dimensional law. Keep normalized XVIII branch separate."
+      }
+    },
+    {
+      "name": "responsive_variation_and_partition",
+      "status": "PASS",
+      "detail": {
+        "chain_terms": "Kq, Kr, Uomega*Wq and Uomega*Wr retained",
+        "environment_partition": "Exact only when every coupling depends on the same total E=S+epsilon",
+        "scope": "Explicit polynomial check; no arbitrary nonlocal-history theorem."
+      }
+    },
+    {
+      "name": "reciprocal_tangent_dynamics",
+      "status": "PASS",
+      "detail": {
+        "mobility_determinant": "L*M",
+        "naive_energy_rate": 2,
+        "reciprocal_energy_rate": -4,
+        "candidate": "A positive quadratic dissipation choice, NOT uniquely derived from ARK or microscopic reversibility."
+      }
+    },
+    {
+      "name": "constrained_and_relaxed_derivatives",
+      "status": "PASS",
+      "detail": {
+        "frozen_history_stiffness": 3.0,
+        "relaxed_stiffness": 2.92,
+        "tangent_constrained_stiffness": 4.2,
+        "caveat": "Response coefficients for one quadratic realization, not universal ARK kappa assignments."
+      }
+    },
+    {
+      "name": "equilibrium_and_conservation_scope",
+      "status": "PASS",
+      "detail": {
+        "L_zero": "gq+b*gr=0 suffices even when gq and gr are nonzero",
+        "L_positive": "If M,L>0, stationary overdamped state requires gq=gr=0",
+        "opened_history_rate": -0.2,
+        "conservation": "Not asserted for q or r. A physical conserved quantity requires a separate flux/symmetry law."
+      }
+    },
+    {
+      "name": "linear_modal_energy_and_refinement",
+      "status": "PASS",
+      "detail": {
+        "IVP_exponential_error": 2.0586171656233887e-12,
+        "RK4_errors": [
+          4.720580259203258e-06,
+          2.829392844339723e-07,
+          1.7267567308312803e-08
+        ],
+        "eigenvalues": [
+          {
+            "real": -0.3781423218710048,
+            "imag": 2.4260870861976587
+          },
+          {
+            "real": -0.3781423218710048,
+            "imag": -2.4260870861976587
+          },
+          {
+            "real": -0.41514392768656255,
+            "imag": 0.0
+          }
+        ],
+        "reversible_energy_drift": 4.666406150377611e-15,
+        "tangent_invariant_error": 1.3877787807814457e-16,
+        "scope": "One positive quadratic mode; not proof of global nonlinear or 3D physical stability."
+      }
+    },
+    {
+      "name": "finite_rate_memory_response",
+      "status": "PASS",
+      "detail": {
+        "slow_limit": 2.92,
+        "fast_limit": 4.2,
+        "forcing_angular_rate": 1.1,
+        "complex_modulus": {
+          "real": 3.906496815286624,
+          "imag": 0.5380891719745223
+        },
+        "numerical_response_error": 4.531884589820123e-11,
+        "memory_integral_error": 1.7139067942650854e-15,
+        "interpretation": "A derived response spectrum, not an independently assigned pressure-balance omega."
+      }
+    },
+    {
+      "name": "discrete_variation_against_finite_differences",
+      "status": "PASS",
+      "detail": {
+        "direction_errors": [
+          3.4102922329601305e-08,
+          8.525487714869362e-09,
+          2.1313608202427675e-09
+        ],
+        "environment_derivative_error": 2.6588731216747874e-12,
+        "scheme": "Periodic finite-volume energy and its exact discrete gradient; not a continuum convergence study."
+      }
+    },
+    {
+      "name": "nonlinear_power_balance",
+      "status": "PASS",
+      "detail": {
+        "energy_balance_max_errors": [
+          1.0752300091954048e-11,
+          9.29285988438e-12
+        ],
+        "solution_tolerance_difference": 2.9003255526405258e-11,
+        "q_range": [
+          0.5599999999999999,
+          0.6410600384478645
+        ],
+        "lattice_sites": 24,
+        "added_assumptions": "K=1+.2q^2+.1r^2; b=.7K; declared polynomial U and W=q^2 K-E; prescribed E(t)",
+        "warning": "Generated finite lattice demonstration only. No fitted physical functions, universal ARK mapping or PDE well-posedness theorem."
+      }
+    },
+    {
+      "name": "clamping_and_fixed_parameter_source_limit",
+      "status": "PASS",
+      "detail": {
+        "fixed_history_effective_mobility": "1/(zeta+b^2/L) for L>0",
+        "source_compatibility": "In the declared fixed-parameter sector, F=D(Pi-Uq) recovers XXV E6/E16.",
+        "caveat": "Equilibrium matching does not select a universal kinetic law."
+      }
+    }
+  ]
+}

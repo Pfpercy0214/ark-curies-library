@@ -1,0 +1,15 @@
+{
+  "attempt_utc": "2026-11-01T12:56:03.786867+00:00",
+  "files": [
+    {
+      "filename": "README.txt",
+      "status": "FAILED",
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "filename": "BL2data.zip",
+      "status": "FAILED",
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ]
+}

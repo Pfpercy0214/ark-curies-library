@@ -1,0 +1,241 @@
+{
+  "study": "IC-17",
+  "utc": "2026-11-06T02:06:25.758171+00:00",
+  "source_parent": "fd5663bf5cae6f8c99b63b63fdc349ca99ee07ae",
+  "code_sha256": "968be0e06bb114ce55e49881d5399076cea189499dd85c1ff7e61a3919e0b1c5",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Conditional source compatibility and generated mathematical checks; no empirical fit, physical ARK identification, new detector analysis or independent reviewer.",
+  "passed": 13,
+  "total": 13,
+  "checks": [
+    {
+      "name": "variable_quadratic_coefficient",
+      "status": "PASS",
+      "detail": {
+        "quadratic_coefficient_tangent_relation": "Kt=KE+2*Delta*KE_q+Delta^2*KE_qq/2",
+        "restricted_pointwise_substitution": "K=1/q and flat-reference U=K*q^2/2 give U=q/2, U_qq=0",
+        "interpretation": "A conflict only if K is also claimed to be this tangent curvature in the same regime. It is not a whole-framework refutation."
+      }
+    },
+    {
+      "name": "constructive_energy_from_tangent",
+      "status": "PASS",
+      "detail": {
+        "constructive_formula": "U=U0(r,E)+T0(r,E)*Delta+integral_q0^q (q-u)Kt(u,r,E)du",
+        "numerical_integrations": [
+          {
+            "q": -0.5,
+            "energy": 0.4144250000000001,
+            "nested_integral_error": 1.1102230246251565e-16
+          },
+          {
+            "q": 0.2,
+            "energy": 0.10286666666666672,
+            "nested_integral_error": 5.551115123125783e-17
+          },
+          {
+            "q": 1.7,
+            "energy": 3.4914916666666658,
+            "nested_integral_error": 8.881784197001252e-16
+          }
+        ],
+        "conditions": "fixed r,E and fixed reference q0; reversible energy derivative, not total dissipative measured force"
+      }
+    },
+    {
+      "name": "normalized_log_branch_and_three_responses",
+      "status": "PASS",
+      "detail": {
+        "chosen_reference": "q0=1,T0=0,U0=0, dimensionless candidate",
+        "q": 2,
+        "tangent": 0.5,
+        "secant": 0.6931471805599454,
+        "energy_coefficient": 0.7725887222397811,
+        "energy": "q*log(q/q0)-q+q0",
+        "scope": "Conditional work-conjugate completion of the restricted tangent law; not a replacement of the archived quadratic expression."
+      }
+    },
+    {
+      "name": "reference_function_nonidentifiability",
+      "status": "PASS",
+      "detail": {
+        "same_geometry_force_and_tangent": "U1 and U1+3r^2+2E",
+        "different_retained_force": "difference=6r",
+        "different_environment_work": "difference in U_E=2",
+        "consequence": "A tangent surface alone leaves two reference functions of other states, not just two universal numbers."
+      }
+    },
+    {
+      "name": "reversible_integrability",
+      "status": "PASS",
+      "detail": {
+        "compatible_mixed_partials": true,
+        "incompatible_rectangle_work": 0.2,
+        "scope": "Necessary local exactness test for a smooth reversible potential in complete chosen state; projected hysteretic work need not vanish."
+      }
+    },
+    {
+      "name": "field_to_mode_energy_bridge",
+      "status": "PASS",
+      "detail": {
+        "field_inputs": {
+          "G": 2.0,
+          "a": 3.0,
+          "length": 2.0,
+          "cross_section": 1
+        },
+        "modes": [
+          {
+            "mode": 1,
+            "mode_stiffness": 7.934802200544679,
+            "energy_at_amplitude_0p12": 0.05713057584392168
+          },
+          {
+            "mode": 2,
+            "mode_stiffness": 22.739208802178712,
+            "energy_at_amplitude_0p12": 0.16372230337568675
+          },
+          {
+            "mode": 3,
+            "mode_stiffness": 47.413219804902106,
+            "energy_at_amplitude_0p12": 0.3413751825952951
+          }
+        ],
+        "offdiagonal": 1.2008006665935438e-16,
+        "two_mode_generated_recovery": [
+          3.000000000000001,
+          1.9999999999999996
+        ],
+        "third_mode_generated_prediction": 47.413219804902106,
+        "scope": "Chosen dimensionless homogeneous modes. Independently specified spatial shape is required; no domain-specific fitting or physical ARK assignment."
+      }
+    },
+    {
+      "name": "boundary_values_vs_interior_state",
+      "status": "PASS",
+      "detail": {
+        "profiles": [
+          {
+            "amplitude": 0.1,
+            "boundary_values": [
+              0.0,
+              0.0
+            ],
+            "energy": 0.0396740110027234,
+            "outward_field_flux_at_left": -0.3141592653589793
+          },
+          {
+            "amplitude": 0.2,
+            "boundary_values": [
+              0.0,
+              0.0
+            ],
+            "energy": 0.1586960440108936,
+            "outward_field_flux_at_left": -0.6283185307179586
+          }
+        ],
+        "scope": "Boundary values alone do not specify arbitrary interior profiles. This does not deny uniqueness for a well-posed boundary-value equation with sufficient data."
+      }
+    },
+    {
+      "name": "boundary_traction_mode_projection",
+      "status": "PASS",
+      "detail": {
+        "net_force": [
+          -8.027432885082675e-15,
+          -2.078198724220215e-15,
+          0.0
+        ],
+        "dimensionless_radial_coordinate_load": 271.43360527015807,
+        "virtual_work_derivative_error": 6.014261089148931e-09,
+        "scope": "Outward traction; a dimensionless radial mode yields an energy-like load. It is not automatically the scalar stress integral in XXV A.3."
+      }
+    },
+    {
+      "name": "deformation_stress_and_transport_contract",
+      "status": "PASS",
+      "detail": {
+        "advected_scalar_shape_stress": "w*I-G*grad(q) tensor grad(q)",
+        "affine_derivative_errors": [
+          1.3975793644774304e-05,
+          3.493687075931118e-06,
+          8.734054314923911e-07
+        ],
+        "density_pressure": 2.0,
+        "fixed_label_pressure": -2.0,
+        "scope": "Alternative assumed advection rules, not interchangeable physical media. A full Cauchy stress requires the actual material transport/metric/deformation coupling."
+      }
+    },
+    {
+      "name": "energy_density_and_exterior_baseline",
+      "status": "PASS",
+      "detail": {
+        "fixed_domain_field_equation": "unchanged by spatially constant density shift",
+        "variable_volume_energy_derivative_shift": "C",
+        "common_background_pressure_difference": "unchanged",
+        "scope": "Volume coupling and matching exterior reference must be declared. Does not make arbitrary energy-zero choices into new measured pressures."
+      }
+    },
+    {
+      "name": "retained_state_vs_response_coordinate",
+      "status": "PASS",
+      "detail": {
+        "coordinate_map": "(q,r) -> (q,T=3q+0.4r)",
+        "transformed_mobility": [
+          [
+            1.0,
+            3.24
+          ],
+          [
+            3.24,
+            10.5456
+          ]
+        ],
+        "trajectory_checks": [
+          {
+            "time": 0.0,
+            "transformation_error": 0.0
+          },
+          {
+            "time": 0.2,
+            "transformation_error": 2.220446049250313e-16
+          },
+          {
+            "time": 1.0,
+            "transformation_error": 3.608224830031759e-15
+          },
+          {
+            "time": 3.0,
+            "transformation_error": 2.5118795932144167e-15
+          }
+        ],
+        "naive_untransformed_mobility_error": 0.23571250011753445,
+        "global_assumption_T_equals_r_local_hessian_determinant": -1,
+        "scope": "Constant-Jacobian overdamped reduction of IC16. Inertial/state-dependent transformations require their own chain rules. Singular T_r prevents this chart."
+      }
+    },
+    {
+      "name": "complete_response_differential",
+      "status": "PASS",
+      "detail": {
+        "law": "T_dot=Kt*q_dot+T_r*r_dot+T_E*E_dot",
+        "scope": "Fixed-coordinate local reversible energy derivative; along a physical path memory/environment contribute even with q fixed."
+      }
+    },
+    {
+      "name": "units_and_absolute_energy_anchor",
+      "status": "PASS",
+      "detail": {
+        "global_angle_stiffness": "E0/theta0^2",
+        "gradient_coefficient_3D": "E0/(L0*theta0^2)",
+        "local_energy_density_curvature": "E0/(L0^3*theta0^2)",
+        "work_conjugate_load": "E0/theta0",
+        "kinetic_scale_ambiguity": "U -> lambda U, M -> M/lambda preserves overdamped trajectories but rescales forces",
+        "consequence": "Independent energy/stress and geometry anchors required; normalization is explicit, not forbidden calibration."
+      }
+    }
+  ]
+}

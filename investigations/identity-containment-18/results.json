@@ -1,0 +1,285 @@
+{
+  "study": "IC-18",
+  "utc": "2026-11-06T03:58:42.536851+00:00",
+  "code_sha256": "9dd500036e6bf1da593914004a97624d9ee8a9b745ad45c076ed792b434acfa5",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "scope": "Conditional structural extension and generated tests. No experiment, entropy calibration, gravitational derivation or independent review.",
+  "passed": 13,
+  "total": 13,
+  "checks": [
+    {
+      "name": "background_vs_arbitrary_reference",
+      "status": "PASS",
+      "detail": {
+        "reference_offset_changes_forces": false,
+        "background_curvature": "z0**2/5 + 3",
+        "example_relaxed_curvatures": [
+          2.6799999999999997,
+          2.88
+        ],
+        "scope": "Local deviations about a jointly stationary supported reference; no gravitational metric variation."
+      }
+    },
+    {
+      "name": "joint_equilibrium_and_elimination",
+      "status": "PASS",
+      "detail": {
+        "clamped_matrix": [
+          [
+            3.0,
+            0.4
+          ],
+          [
+            0.4,
+            2.0
+          ]
+        ],
+        "relaxed_matrix": [
+          [
+            2.8189189189189188,
+            0.327027027027027
+          ],
+          [
+            0.327027027027027,
+            1.8243243243243243
+          ]
+        ],
+        "equilibrium": [
+          0.0832143623872907,
+          -0.05365768570201804
+        ],
+        "full_minimizer_difference": 2.370950658026061e-13,
+        "environment_is_new_resolved_coordinate": true
+      }
+    },
+    {
+      "name": "partition_and_three_anchor_ambiguity",
+      "status": "PASS",
+      "detail": {
+        "sum_partition_invariant": true,
+        "three_anchor_map_rank": 3,
+        "unobserved_environment_direction": [
+          -1.0,
+          -1.0,
+          -1.0,
+          1.0
+        ],
+        "scope": "Sum-only coupling assumption; not proof of sufficiency of any ARK scalar set."
+      }
+    },
+    {
+      "name": "scalar_environment_sufficiency",
+      "status": "PASS",
+      "detail": {
+        "equal_totals": [
+          1.0,
+          1.0
+        ],
+        "responses": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            2.0
+          ]
+        ],
+        "rank2_requires_more_than_one_smooth_local_control": true,
+        "rank1_example": 1
+      }
+    },
+    {
+      "name": "joint_power_balance_and_solver",
+      "status": "PASS",
+      "detail": {
+        "ODE_exponential_error": 2.3160640072461547e-13,
+        "initial_energy": 0.08600000000000002,
+        "final_energy": 1.3270177775186973e-07,
+        "caveat": "Relaxational effective energy, not demonstrated microscopic total-energy dynamics."
+      }
+    },
+    {
+      "name": "memory_and_dynamic_response",
+      "status": "PASS",
+      "detail": {
+        "slow_stiffness": 2.6799999999999997,
+        "fast_stiffness": 3.0,
+        "response_angular_rate": 1.1,
+        "complex_stiffness": [
+          2.926624203821656,
+          0.13452229299363058
+        ],
+        "memory_integral_max_error": 5.131312041939395e-15,
+        "sinusoid_error": 2.0991056115526874e-12,
+        "two_environments_same_equilibrium_and_static_response_different_times": [
+          1.6666666666666667,
+          0.16666666666666666
+        ]
+      }
+    },
+    {
+      "name": "environment_normalization_ambiguity",
+      "status": "PASS",
+      "detail": {
+        "observables": [
+          2.6799999999999997,
+          2.0,
+          1.6666666666666667,
+          2.9152941176470586,
+          0.14117647058823532
+        ],
+        "rescaled_observables": [
+          2.6799999999999997,
+          2.0,
+          1.6666666666666667,
+          2.9152941176470586,
+          0.14117647058823532
+        ],
+        "unresolved": "u rescaling requires an independent environment measurement/normalization; these responses do not fix absolute entropy."
+      }
+    },
+    {
+      "name": "spatial_operator_response",
+      "status": "PASS",
+      "detail": {
+        "dense_Fourier_error": 6.938893903907228e-17,
+        "response_length": 2.0,
+        "effective_curvature_min": 2.679999999999881,
+        "corrections": [
+          {
+            "k": 0,
+            "relaxed_correction": 0.32000000000000006
+          },
+          {
+            "k": 0.5,
+            "relaxed_correction": 0.16000000000000003
+          },
+          {
+            "k": 1,
+            "relaxed_correction": 0.06400000000000002
+          },
+          {
+            "k": 2,
+            "relaxed_correction": 0.01882352941176471
+          },
+          {
+            "k": 5,
+            "relaxed_correction": 0.003168316831683169
+          }
+        ],
+        "scope": "Specified periodic discretization; not a measured medium."
+      }
+    },
+    {
+      "name": "spherical_profile_and_matching",
+      "status": "PASS",
+      "detail": {
+        "center_ratios": [
+          {
+            "R_over_ell": 0.1,
+            "center_response_fraction": 0.004678840160444467
+          },
+          {
+            "R_over_ell": 0.5,
+            "center_response_fraction": 0.09020401043104986
+          },
+          {
+            "R_over_ell": 1.0,
+            "center_response_fraction": 0.26424111765711533
+          },
+          {
+            "R_over_ell": 3.0,
+            "center_response_fraction": 0.8008517265285442
+          },
+          {
+            "R_over_ell": 5.0,
+            "center_response_fraction": 0.9595723180054871
+          }
+        ],
+        "small_source_series": "x**2/2 - x**3/3 + O(x**4)",
+        "interface": "field and normal gradient continuous; no impermeable boundary inserted",
+        "source": "uniform prescribed q0 inside sphere, zero outside; not a solved self-bound identity",
+        "far_field": "exp(-r/ell)/r; not an unscreened gravity derivation"
+      }
+    },
+    {
+      "name": "radial_refinement",
+      "status": "PASS",
+      "detail": {
+        "center_exact": 0.010569644706284615,
+        "grid_sizes": [
+          240,
+          480,
+          960
+        ],
+        "errors": [
+          1.1498036048204763e-06,
+          2.874024434135203e-07,
+          7.184758221874532e-08
+        ],
+        "boundary": "analytic distant Dirichlet value, not independent external boundary measurement"
+      }
+    },
+    {
+      "name": "joint_stability_and_massless_limit",
+      "status": "PASS",
+      "detail": {
+        "cases": [
+          {
+            "B": 2.0,
+            "determinant": 5.359999999999999,
+            "lowest_curvature": 1.5566018867943396
+          },
+          {
+            "B": 0.3,
+            "determinant": 0.2599999999999998,
+            "lowest_curvature": 0.08076451735247842
+          },
+          {
+            "B": 0.1,
+            "determinant": -0.3400000000000001,
+            "lowest_curvature": -0.10604951616791945
+          }
+        ],
+        "condition": "AB>g^2 for unconstrained uniform two-field branch",
+        "limitation": "B -> 0 at fixed finite A,g != 0 is unstable in this candidate. Conserved/forbidden modes or alternative couplings require a different analysis."
+      }
+    },
+    {
+      "name": "assembly_and_response_equivalence",
+      "status": "PASS",
+      "detail": {
+        "same_zero_equilibrium_different_stiffness": [
+          2.6799999999999997,
+          2.84
+        ],
+        "induced_interaction_cross_term": -0.08695652173913043,
+        "caution": "Assembly effects require a specified source map and spatial arrangement; not proportionality to mass or an exclusion volume."
+      }
+    },
+    {
+      "name": "conditional_environment_recovery",
+      "status": "PASS",
+      "detail": {
+        "independent_supplied_anchors": {
+          "clamped_A": 3.0,
+          "calibrated_g": 0.8,
+          "relaxed_response": 2.6799999999999997,
+          "response_length": 2.0,
+          "response_time": 1.6666666666666667
+        },
+        "inferred_parameters": [
+          1.9999999999999987,
+          7.999999999999995,
+          0.3000000000000002
+        ],
+        "additional_generated_spatial_response": 4.130522292993631,
+        "scope": "Generated reconstruction plus unused-mode consistency check. Requires independent coupling/energy calibration; not measured entropy or an absolute background."
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "IC19-pressure-work-0.1",
+  "parent_commit": "61d2c129fb6d6e4032cf98748e54b45cd3f17c00",
+  "status": "CONDITIONAL_SOURCE_LAW_COMPATIBILITY; NOT_PHYSICALLY_SELECTED",
+  "purpose": "Supply one dimensioned environmental work channel; detector track remains paused",
+  "source_statements": {
+    "Paper_I": "E=(1/2)k^c(Delta theta^c)^2",
+    "XXV_A4": "P_int proportional to theta^c^2 kappa^c",
+    "XXV_E13": "source-like -Pi(Delta S_t)*theta^c"
+  },
+  "added_assumptions": [
+    "specified reversible fixed-temperature mechanical pressure-work sector",
+    "fixed retained state and composition for one-coordinate compatibility test",
+    "same positive q-independent k in the paired relations, with independent E_* and P_* scales",
+    "physical or independently justified work-volume map; not automatically excluded geometric volume",
+    "q positive, admissible volume and angle chart; no extrapolation through singular references"
+  ],
+  "work_channel": "J_i=-p*V_,i/E_*",
+  "coupling_map": null,
+  "energy_normalization": null,
+  "pressure_scale": null,
+  "entropy_entry_map": null,
+  "alternatives": {
+    "quadratic_energy": "V=Vref-(E_*/P_*)log(q/qref) for zero energy-angle reference",
+    "affine_volume": "F_id=Lambda*P_* k q^3/3+reference"
+  },
+  "finite_environment": "H_env=p H_V+(K_env/V_env) grad V outer grad V; constrained complementary volume, not independent-relaxation Schur model",
+  "conditional_prediction": "dx*/dp=-H^-1 grad V with known stable Hessian and calibrated volume map",
+  "not_inferred": [
+    "absolute entropy or epsilon",
+    "equivalence of mechanical and causal pressure",
+    "clock-volume mapping",
+    "superfluidity",
+    "particle or gravity mechanism",
+    "constitutive law from one state",
+    "empirical parameter values"
+  ],
+  "next_gate": "independent physical deformation/work-volume and normalization evidence, or an explicit alternative causal-pressure coupling",
+  "independent_review": false,
+  "experimental_fit": false,
+  "merge_authorized": false
+}

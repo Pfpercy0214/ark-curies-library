@@ -1,0 +1,224 @@
+{
+  "study": "IC-06",
+  "status": "PASS",
+  "executed_utc": "2026-11-01T07:47:19.184573+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "versions": {
+    "sympy": "1.14.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "script_sha256": "8bc454ba588e6201b8c6ed04d84ba440c332965197dfb1b97eb017ecf3ed23b3",
+  "checks_passed": 20,
+  "checks_total": 20,
+  "scope": "Conditional symbolic and manufactured-data verification. No empirical fit; no independent second reviewer; tests designed with derivation visible.",
+  "checks": [
+    {
+      "name": "01_fixed_coefficient_first_variation",
+      "status": "PASS",
+      "detail": {
+        "boundary_conjugate": "K times outward normal derivative, not pressure"
+      }
+    },
+    {
+      "name": "02_state_dependent_gradient_coefficient_extra_term",
+      "status": "PASS",
+      "detail": {
+        "negative_control": "omitting partial_K/partial_q * |grad q|^2 / 2 fails"
+      }
+    },
+    {
+      "name": "03_first_variation_numeric_energy_difference",
+      "status": "PASS",
+      "detail": {
+        "epsilon": [
+          0.02,
+          0.01,
+          0.005
+        ],
+        "absolute_errors": [
+          0.00014685916357870532,
+          3.671479089462082e-05,
+          9.178697722989071e-06
+        ]
+      }
+    },
+    {
+      "name": "04_single_minimum_nonlinear_counterexample",
+      "status": "PASS",
+      "detail": {
+        "counterexample": "U=q^2/2+q^4/4 is nonlinear, strictly convex, one minimum"
+      }
+    },
+    {
+      "name": "05_double_well_kink_satisfies_equilibrium",
+      "status": "PASS",
+      "detail": {
+        "boundary_conditions": "q(-infinity)=-v, q(+infinity)=v; zero drive"
+      }
+    },
+    {
+      "name": "06_interface_energy_symbolic_and_quadrature",
+      "status": "PASS",
+      "detail": {
+        "analytic": 0.14780166891254423,
+        "quadrature": 0.14780166891254426,
+        "absolute_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "07_kink_linear_stability_factorization",
+      "status": "PASS",
+      "detail": {
+        "scope": "nonnegative planar second variation; translation zero mode; no closed-bubble stability claim"
+      }
+    },
+    {
+      "name": "08_kink_finite_difference_residual_refinement",
+      "status": "PASS",
+      "detail": {
+        "grid_sizes": [
+          129,
+          257,
+          513
+        ],
+        "max_residuals": [
+          0.0005010944834400732,
+          0.00012731641296445662,
+          3.1867425009907135e-05
+        ]
+      }
+    },
+    {
+      "name": "09_wave_dispersion_and_width_rate_relation",
+      "status": "PASS",
+      "detail": {
+        "ell": 2.8867513459481287,
+        "propagation_characteristic": 0.6324555320336759,
+        "zero_wavenumber_angular_rate": 0.4381780460041329,
+        "Omega0_ell_over_2u": 1.0
+      }
+    },
+    {
+      "name": "10_same_static_boundary_different_inertia_rates",
+      "status": "PASS",
+      "detail": {
+        "chi_multiplier": 4,
+        "rate_and_characteristic_speed_multiplier": 0.5,
+        "unchanged": "equilibrium wall, width, interface energy"
+      }
+    },
+    {
+      "name": "11_periodic_mode_spatial_refinement",
+      "status": "PASS",
+      "detail": {
+        "grid_sizes": [
+          32,
+          64,
+          128,
+          256
+        ],
+        "angular_rate_errors": [
+          0.02660204753165929,
+          0.006674037426494861,
+          0.0016699817802112715,
+          0.0004175875041039223
+        ]
+      }
+    },
+    {
+      "name": "12_mode_time_integration_vs_closed_solution",
+      "status": "PASS",
+      "detail": {
+        "max_amplitude_error": 2.918632002746335e-11,
+        "data": "manufactured, not physical observations"
+      }
+    },
+    {
+      "name": "13_damping_energy_and_overdamped_limit",
+      "status": "PASS",
+      "detail": {
+        "slow_mode_limit": "-(K k^2+B)/gamma",
+        "diffusion_coefficient": "K/gamma",
+        "caution": "diffusion approximation is not a finite-front-speed proof"
+      }
+    },
+    {
+      "name": "14_environmental_tilt_stationary_branches",
+      "status": "PASS",
+      "detail": {
+        "critical_drive": 0.07390083445627212,
+        "branches": [
+          {
+            "factor": 0.5,
+            "real_stationary_points": 3,
+            "local_minima": 2
+          },
+          {
+            "factor": 2.0,
+            "real_stationary_points": 1,
+            "local_minima": 1
+          }
+        ],
+        "unequal_well_energy_gap": 0.029416106615768767
+      }
+    },
+    {
+      "name": "15_closed_bubble_fixed_pressure_negative_control",
+      "status": "PASS",
+      "detail": {
+        "critical_radius": "2 sigma / delta_p",
+        "second_derivative": "-8 pi sigma < 0",
+        "scope": "thin wall, fixed surface tension and reservoir pressure; not a no-go for all identities"
+      }
+    },
+    {
+      "name": "16_memory_relaxed_and_frozen_hessians",
+      "status": "PASS",
+      "detail": {
+        "static_minimizer": "z=b q leaves the same wall",
+        "frozen_curvature": "2 a v^2+h b^2",
+        "relaxed_curvature": "2 a v^2"
+      }
+    },
+    {
+      "name": "17_memory_and_drive_energy_budget",
+      "status": "PASS",
+      "detail": {
+        "budget": "dE0/dt=boundary power+integral(J q_t-gamma q_t^2-M U_z^2)",
+        "requirements": "constant K, chi; frozen material parameters; gamma,M nonnegative"
+      }
+    },
+    {
+      "name": "18_memory_loss_frequency_response",
+      "status": "PASS",
+      "detail": {
+        "time_convention": "exp(-i Omega t)",
+        "outcome": "low/high frequency limits differ; imaginary part is dissipative with this convention"
+      }
+    },
+    {
+      "name": "19_memory_energy_numerical_budget",
+      "status": "PASS",
+      "detail": {
+        "max_budget_error": 6.506670202632847e-13,
+        "total_dissipation": 0.04216068154037657
+      }
+    },
+    {
+      "name": "20_one_mode_is_not_universal_clock_scaling",
+      "status": "PASS",
+      "detail": {
+        "common_factor_control": [
+          0.5,
+          0.5
+        ],
+        "differential_counterexample": [
+          0.5,
+          0.7071067811865475
+        ],
+        "scope": "manufactured two-mode example, not atomic clocks"
+      }
+    }
+  ]
+}

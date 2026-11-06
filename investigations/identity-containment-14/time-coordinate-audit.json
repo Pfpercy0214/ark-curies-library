@@ -1,0 +1,160 @@
+[
+  {
+    "member": "Series_1030.txt",
+    "rows": 144711,
+    "minimum": 0.0,
+    "maximum": 2047.0,
+    "integer_time_rows": 144711,
+    "fractional_time_rows": 0,
+    "negative_time_rows": 0,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_1058.txt",
+    "rows": 223917,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 22151,
+    "fractional_time_rows": 201766,
+    "negative_time_rows": 3426,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_1137.txt",
+    "rows": 218624,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 21598,
+    "fractional_time_rows": 197026,
+    "negative_time_rows": 10487,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_527.txt",
+    "rows": 22717,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 2213,
+    "fractional_time_rows": 20504,
+    "negative_time_rows": 1482,
+    "missing_energy": 1061,
+    "complete_time_range": [
+      -53.6,
+      151.1
+    ],
+    "missing_time_range": [
+      -47.7,
+      151.1
+    ]
+  },
+  {
+    "member": "Series_531.txt",
+    "rows": 18140,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 1779,
+    "fractional_time_rows": 16361,
+    "negative_time_rows": 1094,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_537.txt",
+    "rows": 125687,
+    "minimum": 0.0,
+    "maximum": 2047.0,
+    "integer_time_rows": 125687,
+    "fractional_time_rows": 0,
+    "negative_time_rows": 0,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_538.txt",
+    "rows": 279347,
+    "minimum": 0.0,
+    "maximum": 2047.0,
+    "integer_time_rows": 279347,
+    "fractional_time_rows": 0,
+    "negative_time_rows": 0,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_539.txt",
+    "rows": 205690,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 20465,
+    "fractional_time_rows": 185225,
+    "negative_time_rows": 14984,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_911.txt",
+    "rows": 144082,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 14293,
+    "fractional_time_rows": 129789,
+    "negative_time_rows": 5004,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_923.txt",
+    "rows": 161010,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 15948,
+    "fractional_time_rows": 145062,
+    "negative_time_rows": 7305,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_954.txt",
+    "rows": 149315,
+    "minimum": 0.0,
+    "maximum": 2047.0,
+    "integer_time_rows": 149315,
+    "fractional_time_rows": 0,
+    "negative_time_rows": 0,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_963.txt",
+    "rows": 97148,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 9416,
+    "fractional_time_rows": 87732,
+    "negative_time_rows": 5090,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_970.txt",
+    "rows": 83481,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 8315,
+    "fractional_time_rows": 75166,
+    "negative_time_rows": 1135,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_974.txt",
+    "rows": 174581,
+    "minimum": -53.6,
+    "maximum": 151.1,
+    "integer_time_rows": 17144,
+    "fractional_time_rows": 157437,
+    "negative_time_rows": 2954,
+    "missing_energy": 0
+  },
+  {
+    "member": "Series_978.txt",
+    "rows": 108884,
+    "minimum": 0.0,
+    "maximum": 2047.0,
+    "integer_time_rows": 108884,
+    "fractional_time_rows": 0,
+    "negative_time_rows": 0,
+    "missing_energy": 0
+  }
+]
