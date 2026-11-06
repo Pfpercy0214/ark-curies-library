@@ -1,0 +1,11 @@
+# Owner context — independent anchors and a possibly implicit background
+
+Recorded 2026-11-05 America/Chicago; execution UTC 2026-11-06. This is a paraphrase of the recent conversation, not a dated claim about earlier transcripts or evidence for the physics.
+
+The owner proposes that three independent identity constraints could remove otherwise adjustable internal freedoms before inferring the balancing environmental contribution. Different environmental routes may support a similar configuration. Pressure-induced ice was offered as an intuition for this, not a request for a separate ice investigation; the literal claim of solidification at any temperature was qualified in discussion.
+
+The owner then proposed deriving environmental conditions independently, including pressure, temperature and a possible background contribution, so that identity can be constrained from that direction as well. Their latest qualification was tentative: the static background may be particularly relevant to the smallest configurations, implicit in many larger-scale measurements, and evident through the disturbance produced by a sufficiently large or organized collection of matter. They explicitly said the idea was difficult to formulate.
+
+Working interpretation to test, not substitute for their intent: distinguish a reference offset, a physical background that determines response coefficients, and a spatial perturbation produced by a configuration. The interaction must not be equated automatically to excluded bulk volume; prior owner clarifications allow permeable boundaries and microscopic displacement. Do not invent a sharp size threshold, or assume all local responses share a universal rate, without deriving the mechanism.
+
+[IC-18](../../investigations/identity-containment-18/README.md) tests one conditional local coupling that preserves these distinctions. Its extra environmental coordinate, restoring coefficient, gradient term and relaxation law are new candidate structure, not archived ARK definitions. Its response is screened and its absolute environment normalization remains unresolved. Those limits are findings, not reasons to erase the hypothesis or relabel the example as validated physics.

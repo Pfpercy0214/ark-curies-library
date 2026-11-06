@@ -16,6 +16,10 @@ Papers I–XXV are archived on main through PR #1 at `2db757753005e6ac66c5579789
 
 [IC-17](../investigations/identity-containment-17/README.md) connects a declared spatial field energy to whole-configuration stiffness, distinguishes energy/secant/tangent responses, and specifies the state-coordinate and deformation maps needed for a boundary-stress interpretation. Thirteen conditional consistency groups pass; unchanged IC-16 rerun passes 11/11. Physical constitutive functions and normalization remain unselected; no empirical validation or detector work. [Handoff](../sessions/2026-11-05-energy-stress-map.md).
 
+## Responsive environment and scale — 2026-11-05
+
+[IC-18](../investigations/identity-containment-18/README.md) separates a reference offset from a physical background, derives conditional environment feedback and finite-rate/spatial response, and tests which environmental combinations remain identifiable. Its [environment contract](../investigations/identity-containment-18/environment-contract.json) keeps physical normalization and coupling open. Thirteen generated/symbolic groups pass; unchanged IC-17 rerun passes 13/13. No entropy calibration, gravity derivation, empirical fit or independent review. Detector work remains paused. [Owner context](../history/mechanistic-notes/2026-11-05-environment-background-and-anchors.md); [handoff](../sessions/2026-11-05-responsive-environment.md).
+
 ## Domains
 
 - [Nuclear physics](domains/nuclear.md)
