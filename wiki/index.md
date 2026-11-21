@@ -2,6 +2,10 @@
 
 This is the **AI-maintained compiled layer**. The source shelf is under `raw/`; do not edit it.
 
+## Introductory mechanistic synthesis — 2026-11-21
+
+- [Medium, identity, and reciprocal equilibrium](introductions/medium-identity-and-reciprocal-equilibrium.md) — **working interpretation**, not a validated substrat derivation. Re-examines persistent identity, permeable boundaries, external response, historical "memory" and "entropy" terminology, bidirectional heat/chemical exchange, and links to IC-09 and IC-16–19. Prepared as an independent draft review; archived papers are unchanged.
+
 ## Domains
 
 - [Nuclear physics](domains/nuclear.md)
