@@ -35,3 +35,7 @@ No invented execution, browsing, calculations, citations, source access, human a
 ## 8. Privacy and external publishing
 
 Treat unreviewed drafts and internal research as private. The person publishing the repository is responsible for ensuring sensitive correspondence, personal details, access tokens and unpublished work are not included. Follow legal access and copyright limits when documenting external articles; save original annotations and limited excerpts, not entire copyrighted articles without permission.
+
+## 9. Copyright scope and historical licenses
+
+Use [COPYRIGHT.md](COPYRIGHT.md) and [LICENSE](LICENSE) when reviewing reproduction, permission, or attribution. Source papers retain the licenses governing their original releases (including CC BY-NC 4.0 where applicable); a previous root CC0 notice is preserved under `history/licensing/` and any valid existing CC0 permissions are not revoked. New copyrightable Library material may carry a rights-reserved notice. Do not rewrite historical author or license claims or imply that this repository owns the rights to third-party works. Public research reading, study, links and lawful citation are welcome.
