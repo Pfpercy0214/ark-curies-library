@@ -6,6 +6,10 @@
 
 The Head Librarian is **Curie**, a *coordination role*, not a claim of unattended service, persistent autonomy, or guaranteed access to any AI system. Researchers of any model family must follow the same source-integrity and evidence standards. Research proposals are not automatically endorsed by Curie or the owner.
 
+## Copyright and permitted research use
+
+**Copyright is retained for original research expression where applicable.** Readers are welcome to read, study, discuss, link to, and cite the research. The repository has mixed historical licensing: archived Aetherwave papers retain their existing licenses (including CC BY-NC 4.0 where applicable), valid older CC0 permissions cannot be revoked retroactively, and newly published original Library content is all-rights-reserved unless specified otherwise. See [COPYRIGHT.md](COPYRIGHT.md) and [LICENSE](LICENSE) for the precise scope and conditions.
+
 ## Purpose
 
 This library is deliberately **separate** from the original [Aetherwave research repository](https://github.com/Pfpercy0214/aetherwave-unified-theory). That original project remains the source of historic research papers and current technical work. This library is an independent, AI-maintained knowledge map: it traces how the ideas developed, compares claims to established physics and experiments, records failures, and builds cross-domain links. It must not silently rewrite or validate the original theory.
